@@ -186,7 +186,10 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="2.1" data-path="gm---siteraw-material.html"><a href="gm---siteraw-material.html#load-packages-data-1"><i class="fa fa-check"></i><b>2.1</b> Load packages + data</a></li>
 <li class="chapter" data-level="2.2" data-path="gm---siteraw-material.html"><a href="gm---siteraw-material.html#generalised-procrustes-analysis-2"><i class="fa fa-check"></i><b>2.2</b> Generalised Procrustes Analysis</a></li>
-<li class="chapter" data-level="2.3" data-path="gm---siteraw-material.html"><a href="gm---siteraw-material.html#principal-components-analysis-1"><i class="fa fa-check"></i><b>2.3</b> Principal Components Analysis</a></li>
+<li class="chapter" data-level="2.3" data-path="gm---siteraw-material.html"><a href="gm---siteraw-material.html#principal-components-analysis-1"><i class="fa fa-check"></i><b>2.3</b> Principal Components Analysis</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="gm---siteraw-material.html"><a href="gm---siteraw-material.html#minimamaxima-of-pc12-with-warp-grids"><i class="fa fa-check"></i><b>2.3.1</b> Minima/maxima of PC1/2 with warp grids</a></li>
+</ul></li>
 <li class="chapter" data-level="2.4" data-path="gm---siteraw-material.html"><a href="gm---siteraw-material.html#procrustes-anova-1"><i class="fa fa-check"></i><b>2.4</b> Procrustes ANOVA</a></li>
 <li class="chapter" data-level="2.5" data-path="gm---siteraw-material.html"><a href="gm---siteraw-material.html#morphological-disparity-1"><i class="fa fa-check"></i><b>2.5</b> Morphological Disparity</a></li>
 </ul></li>
@@ -194,7 +197,10 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="3.1" data-path="gm---size-class.html"><a href="gm---size-class.html#load-packages-data-2"><i class="fa fa-check"></i><b>3.1</b> Load packages + data</a></li>
 <li class="chapter" data-level="3.2" data-path="gm---size-class.html"><a href="gm---size-class.html#generalised-procrustes-analysis-3"><i class="fa fa-check"></i><b>3.2</b> Generalised Procrustes Analysis</a></li>
-<li class="chapter" data-level="3.3" data-path="gm---size-class.html"><a href="gm---size-class.html#principal-components-analysis-2"><i class="fa fa-check"></i><b>3.3</b> Principal Components Analysis</a></li>
+<li class="chapter" data-level="3.3" data-path="gm---size-class.html"><a href="gm---size-class.html#principal-components-analysis-2"><i class="fa fa-check"></i><b>3.3</b> Principal Components Analysis</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="gm---size-class.html"><a href="gm---size-class.html#minimamaxima-of-pc12-with-warp-grids-1"><i class="fa fa-check"></i><b>3.3.1</b> Minima/maxima of PC1/2 with warp grids</a></li>
+</ul></li>
 <li class="chapter" data-level="3.4" data-path="gm---size-class.html"><a href="gm---size-class.html#procrustes-anova-2"><i class="fa fa-check"></i><b>3.4</b> Procrustes ANOVA</a></li>
 <li class="chapter" data-level="3.5" data-path="gm---size-class.html"><a href="gm---size-class.html#morphological-disparity-2"><i class="fa fa-check"></i><b>3.5</b> Morphological Disparity</a></li>
 </ul></li>
@@ -239,7 +245,7 @@ Figure 0.1: Geological map illustrating the location of the Millsap Cache and Jo
 </div>
 <div id="analysis-overview" class="section level2 hasAnchor" number="0.1">
 <h2><span class="header-section-number">0.1</span> Analysis overview<a href="index.html#analysis-overview" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure <a href="index.html#fig:figlm">0.2</a>). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and one placed at the furthest extent of the area that includes the heaviest amount of retouch; all were applied using the <code>StereoMorph</code> package <span class="citation">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure <a href="index.html#fig:figlm">0.2</a>: b, c, d, and e), while others (Figure <a href="index.html#fig:figlm">0.2</a>: f) include one retouched edge at top right and another at bottom left.</p>
+<p>Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure <a href="index.html#fig:figlm">0.2</a>). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and one placed at the furthest extent of the edge including the heaviest amount of retouch. Landmarks and semilandmarks were applied using the <code>StereoMorph</code> package <span class="citation">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure <a href="index.html#fig:figlm">0.2</a>: b, c, d, and e), while others (Figure <a href="index.html#fig:figlm">0.2</a>: f) include one retouched edge at top right and another at bottom left.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="index.html#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;./images/ellipticalbifaces.jpg&#39;</span>)</span></code></pre></div>
 <div class="figure"><span style="display:block;" id="fig:figlm"></span>
 <img src="images/ellipticalbifaces.jpg" alt="Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the approach developed and advanced by Miller [-@RN11459], Smallwood [-@RN8310], and Miller and Smallwood [-@RN11460]." width="2100" />
@@ -247,20 +253,27 @@ Figure 0.1: Geological map illustrating the location of the Millsap Cache and Jo
 Figure 0.2: Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the approach developed and advanced by Miller <span class="citation">(<a href="#ref-RN11459" role="doc-biblioref">2007</a>)</span>, Smallwood <span class="citation">(<a href="#ref-RN8310" role="doc-biblioref">2010</a>)</span>, and Miller and Smallwood <span class="citation">(<a href="#ref-RN11460" role="doc-biblioref">2012</a>)</span>.
 </p>
 </div>
-<p>To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by Miller <span class="citation">(<a href="#ref-RN11459" role="doc-biblioref">2007</a>)</span>, and later advanced and refined by Smallwood <span class="citation">(<a href="#ref-RN8310" role="doc-biblioref">2010</a>)</span>, then Miller and Smallwood <span class="citation">(<a href="#ref-RN11460" role="doc-biblioref">2012</a>)</span>. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length (not linear/includes curvature). The number of flake scars was subsequently divided by the length of the worked edge, with the heaviest worked area identified by the greater value.</p>
-<p>The pattern that emerged suggested that the longest reworked edge on the elliptical bifaces was always more heavily retouched. This finding was used to incorporate the images of elliptical bifaces from the Millsap Cache <span class="citation">(<a href="#ref-RN11461" role="doc-biblioref">Millsap and Dickson 1968</a>)</span>, where the longest reworked edges were oriented to the top right prior to landmarking.</p>
+<p>To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by Miller <span class="citation">(<a href="#ref-RN11459" role="doc-biblioref">2007</a>)</span>, and later advanced and refined by Smallwood <span class="citation">(<a href="#ref-RN8310" role="doc-biblioref">2010</a>)</span>, then Miller and Smallwood <span class="citation">(<a href="#ref-RN11460" role="doc-biblioref">2012</a>)</span>. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length (inclusive of curvature - not linear). The number of flake scars was subsequently divided by the length of the worked edge, with the heaviest worked area identified by the greater value.</p>
+<p>The pattern that emerged suggested that the longest reworked edge on the elliptical bifaces was always more heavily retouched. This finding was used to incorporate the images of elliptical bifaces from the Millsap Cache <span class="citation">(<a href="#ref-RN11461" role="doc-biblioref">Millsap and Dickson 1968</a>)</span>, where the longest reworked edges were oriented at top right prior to landmarking.</p>
 <div id="generalised-procrustes-analysis" class="section level3 hasAnchor" number="0.1.1">
 <h3><span class="header-section-number">0.1.1</span> Generalised Procrustes Analysis<a href="index.html#generalised-procrustes-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Landmark data were subsequently aligned to a global coordinate system <span class="citation">(<a href="#ref-RN11622" role="doc-biblioref">Kendall 1981</a>, <a href="#ref-RN11623" role="doc-biblioref">1984</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>, achieved through generalized Procrustes superimposition <span class="citation">(<a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span> performed in R 4.2.1 <span class="citation">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> using the <code>geomorph</code> library v. 4.0.4 <span class="citation">(<a href="#ref-RN11530" role="doc-biblioref">Adams et al. 2017</a>; <a href="#ref-RN1774" role="doc-biblioref">Adams and Otarola-Castillo 2013</a>; <a href="#ref-RN9565" role="doc-biblioref">Baken et al. 2021</a>)</span>. Procrustes superimposition translates, scales, and rotates the coordinate data to allow for comparisons among objects <span class="citation">(<a href="#ref-RN11564" role="doc-biblioref">Gower 1975</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span>. The <code>geomorph</code> package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space <span class="citation">(<a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="index.html#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;./images/gpa.png&#39;</span>)</span></code></pre></div>
+<div class="figure"><span style="display:block;" id="fig:figgpa"></span>
+<img src="images/gpa.png" alt="Results of generalised Procrustes analysis for elliptical bifaces from the Millsap Cache and Jowell Farm. Mean consensus configuration shown in black; individual bifaces in gray." width="100%" />
+<p class="caption">
+Figure 0.3: Results of generalised Procrustes analysis for elliptical bifaces from the Millsap Cache and Jowell Farm. Mean consensus configuration shown in black; individual bifaces in gray.
+</p>
+</div>
 </div>
 <div id="principal-components-analysis" class="section level3 hasAnchor" number="0.1.2">
 <h3><span class="header-section-number">0.1.2</span> Principal Components Analysis<a href="index.html#principal-components-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Principal components analysis <span class="citation">(<a href="#ref-RN1746" role="doc-biblioref">Jolliffe 2002</a>)</span> was used to visualise shape variation among the elliptical bifaces. The shape changes described by each principal axis are commonly visualized using thin-plate spline warping of a reference image or 3D mesh <span class="citation">(<a href="#ref-RN1731" role="doc-biblioref">Klingenberg 2013</a>; <a href="#ref-RN479" role="doc-biblioref">Sherratt et al. 2014</a>)</span>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="index.html#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;./images/pca.png&#39;</span>)</span></code></pre></div>
-<div class="figure"><span style="display:block;" id="fig:figjowellpca"></span>
-<img src="images/pca.png" alt="PCA of shape variables for elliptical bifaces." width="2100" />
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="index.html#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;./images/pca.png&#39;</span>)</span></code></pre></div>
+<div class="figure"><span style="display:block;" id="fig:figpca"></span>
+<img src="images/pca.png" alt="PCA summarizing shape variation in elliptical bifaces." width="100%" />
 <p class="caption">
-Figure 0.3: PCA of shape variables for elliptical bifaces.
+Figure 0.4: PCA summarizing shape variation in elliptical bifaces.
 </p>
 </div>
 </div>
@@ -301,10 +314,10 @@ Figure 0.3: PCA of shape variables for elliptical bifaces.
 </div>
 <div id="colophon" class="section level2 hasAnchor" number="0.6">
 <h2><span class="header-section-number">0.6</span> Colophon<a href="index.html#colophon" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This version of the analysis was generated on 2022-08-05 13:12:47 using the following computational environment and dependencies:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="index.html#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what R packages and versions were used?</span></span>
-<span id="cb4-2"><a href="index.html#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;devtools&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
-<pre><code>## - Session info -----------------------------------------------------------------------
+<p>This version of the analysis was generated on 2022-08-05 14:41:51 using the following computational environment and dependencies:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="index.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what R packages and versions were used?</span></span>
+<span id="cb5-2"><a href="index.html#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;devtools&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
+<pre><code>## ─ Session info ─────────────────────────────────────────────────────────────────────────────────
 ##  setting  value
 ##  version  R version 4.2.1 (2022-06-23 ucrt)
 ##  os       Windows 10 x64 (build 19044)
@@ -312,13 +325,13 @@ Figure 0.3: PCA of shape variables for elliptical bifaces.
 ##  ui       RStudio
 ##  language (EN)
 ##  collate  English_United States.utf8
-##  ctype    C
+##  ctype    English_United States.utf8
 ##  tz       America/Chicago
 ##  date     2022-08-05
 ##  rstudio  2022.07.1+554 Spotted Wakerobin (desktop)
 ##  pandoc   2.18 @ C:/Program Files/RStudio/bin/quarto/bin/tools/ (via rmarkdown)
 ## 
-## - Packages ---------------------------------------------------------------------------
+## ─ Packages ─────────────────────────────────────────────────────────────────────────────────────
 ##  package       * version date (UTC) lib source
 ##  ape             5.6-2   2022-03-02 [1] CRAN (R 4.2.0)
 ##  assertthat      0.2.1   2019-03-21 [1] CRAN (R 4.2.0)
@@ -434,13 +447,13 @@ Figure 0.3: PCA of shape variables for elliptical bifaces.
 ##  [1] C:/Users/seldenjrz/AppData/Local/R/win-library/4.2
 ##  [2] C:/Program Files/R/R-4.2.1/library
 ## 
-## --------------------------------------------------------------------------------------</code></pre>
+## ────────────────────────────────────────────────────────────────────────────────────────────────</code></pre>
 <p>Current Git commit details are:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="index.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># where can I find this commit? </span></span>
-<span id="cb6-2"><a href="index.html#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;git2r&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">&amp;</span> git2r<span class="sc">::</span><span class="fu">in_repository</span>(<span class="at">path =</span> <span class="st">&quot;.&quot;</span>)) git2r<span class="sc">::</span><span class="fu">repository</span>(here<span class="sc">::</span><span class="fu">here</span>())  </span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="index.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># where can I find this commit? </span></span>
+<span id="cb7-2"><a href="index.html#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;git2r&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">&amp;</span> git2r<span class="sc">::</span><span class="fu">in_repository</span>(<span class="at">path =</span> <span class="st">&quot;.&quot;</span>)) git2r<span class="sc">::</span><span class="fu">repository</span>(here<span class="sc">::</span><span class="fu">here</span>())  </span></code></pre></div>
 <pre><code>## Local:    main E:/github/elliptical.bifaces
 ## Remote:   main @ origin (https://github.com/seldenlab/elliptical.bifaces)
-## Head:     [4493f65] 2022-08-05: &lt;edit index&gt;</code></pre>
+## Head:     [b267b59] 2022-08-05: &lt;edit index&gt;</code></pre>
 
 </div>
 </div>
