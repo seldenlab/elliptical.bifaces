@@ -26,7 +26,7 @@ knitr::include_graphics('./images/map.png')
 
 Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure \@ref(fig:figlm)). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and one placed at the furthest extent of the area that includes the heaviest amount of retouch; all were applied using the `StereoMorph` package [@RN8973]. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure \@ref(fig:figlm): b, c, d, and e), while others (Figure \@ref(fig:figlm): f) include one retouched edge at top right and another at bottom left. 
 
-```{r figlm, fig.cap="Selected elliptical bifaces from the Jowell Farm site, highlighting the most heavily retouched area identified using a modified version of the approach developed and advanced by Miller [-@RN11459], Smallwood [-@RN8310], and Miller and Smallwood [-@RN11460]."}
+```{r figlm, fig.cap="Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the approach developed and advanced by Miller [-@RN11459], Smallwood [-@RN8310], and Miller and Smallwood [-@RN11460]."}
 
 knitr::include_graphics('./images/ellipticalbifaces.jpg')
 ```
@@ -43,7 +43,7 @@ Landmark data were subsequently aligned to a global coordinate system [@RN11622;
 
 Principal components analysis [@RN1746] was used to visualise shape variation among the elliptical bifaces. The shape changes described by each principal axis are commonly visualized using thin-plate spline warping of a reference image or 3D mesh [@RN1731;@RN479].
 
-```{r figjowellpca, fig.cap="PCA of shape variables for elogated ovate bifaces."}
+```{r figjowellpca, fig.cap="PCA of shape variables for elliptical bifaces."}
 knitr::include_graphics('./images/pca.png')
 ```
 
@@ -76,9 +76,9 @@ Components of this analytical work flow were developed and funded by a Preservat
 
 ## Data management
 
-The analysis code associated with this project can be accessed through this document, is available in the GitHub repository [https://github.com/seldenlab/elliptical.bifaces](https://github.com/seldenlab/elliptical.bifaces), and digitally curated on the Open Science Framework [DOI 10.17605/OSF.IO/PH25W](https://osf.io/ph25w/). The reproducible nature of this enterprise provides a means for others to critically assess and evaluate the various analytical components [@RN20915;@RN20916;@RN20917], which is a necessary requirement for the production of reliable knowledge.
+The analysis code associated with this project can be accessed through this document, is available in the GitHub repository ([https://github.com/seldenlab/elliptical.bifaces](https://github.com/seldenlab/elliptical.bifaces)), and digitally curated on the Open Science Framework ([DOI 10.17605/OSF.IO/PH25W](https://osf.io/ph25w/)). The reproducible nature of this enterprise provides a means for others to critically assess and evaluate the various analytical components [@RN20915;@RN20916;@RN20917], which is a necessary requirement for the production of reliable knowledge.
 
-Reproducibility projects in [psychology](https://osf.io/ezcuj/) and [cancer biology](https://www.cos.io/rpcb) are impacting current research practices across all domains. Examples of reproducible research are becoming more abundant in archaeology [@RN20804;@RN21009;@RN11783;@RN21001;@RN9364], and the next generation of archaeologists are learning those tools and methods needed to reproduce and/or replicate research results [@RN21007]. Reproducible and replicable research work flows are often employed at the highest levels of humanities-based inquiries to mitigate concern or doubt regarding proper execution, and is of particular import should the results have---explicitly or implicitly---a major impact on scientific progress [@RN21008].
+Reproducibility projects in [psychology](https://osf.io/ezcuj/) and [cancer biology](https://www.cos.io/rpcb) are impacting current research practices across all domains. Examples of reproducible research are becoming more abundant in archaeology [@RN20804;@RN21009;@RN11783;@RN21001;@RN9364;@RN11264], and the next generation of archaeologists are learning those tools and methods needed to reproduce and/or replicate research results [@RN21007]. Reproducible and replicable research work flows are often employed at the highest levels of humanities-based inquiries to mitigate concern or doubt regarding proper execution, and is of particular import should the results have---explicitly or implicitly---a major impact on scientific progress [@RN21008].
 
 ## Colophon
 
