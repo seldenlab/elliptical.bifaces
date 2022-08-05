@@ -1,6 +1,6 @@
 # elliptical.bifaces
 
-## Divergent morphology of elliptical bifaces from sites in the American Southeast articulates with raw material differ
+## Divergent morphology of elliptical bifaces from sites in the American Southeast articulates with raw material differences
 
 ### Abstract:
 
