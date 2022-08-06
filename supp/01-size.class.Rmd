@@ -44,6 +44,8 @@ qdata$csz <- Y.gpa$Csize
 
 ## Assign size class
 
+Centroid size---the square root of the sum of squared distances of all landmarks from the centroid---is the measure of size used in landmark geometric morphometrics [@RN11462]. The mean centroid size was identified for elliptical bifaces from each site. All bifaces with centroid sizes larger than the mean were assigned to the `large class`; those with centroid sizes below the mean were assigned to the `small class`.
+
 ```{r setwd.szclass ld define variables 3, echo=TRUE, eval = FALSE}
 #select vars
 pre.data <- qdata %>% 

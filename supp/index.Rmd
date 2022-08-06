@@ -57,7 +57,7 @@ To assess whether shape and size differed by `raw material` and `size class`, Pr
 
 ### Morphological disparity
 
-An analysis of morphological disparity was used [@RN11107;@RN7041;@RN5694] to identify potential differences in morphological diversity between size classes.
+An analysis of morphological disparity was used to identify potential differences in morphological diversity between size classes [@RN11107;@RN7041;@RN5694].
 
 ## Primary findings
 

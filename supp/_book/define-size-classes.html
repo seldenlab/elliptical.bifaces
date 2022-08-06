@@ -266,6 +266,7 @@ div.csl-indent {
 </div>
 <div id="assign-size-class" class="section level2 hasAnchor" number="1.3">
 <h2><span class="header-section-number">1.3</span> Assign size class<a href="define-size-classes.html#assign-size-class" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Centroid size—the square root of the sum of squared distances of all landmarks from the centroid—is the measure of size used in landmark geometric morphometrics <span class="citation">(<a href="#ref-RN11462" role="doc-biblioref">Manthey and Ousley 2020</a>)</span>. The mean centroid size was identified for elliptical bifaces from each site. All bifaces with centroid sizes larger than the mean were assigned to the <code>large class</code>; those with centroid sizes below the mean were assigned to the <code>small class</code>.</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="define-size-classes.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#select vars</span></span>
 <span id="cb12-2"><a href="define-size-classes.html#cb12-2" aria-hidden="true" tabindex="-1"></a>pre.data <span class="ot">&lt;-</span> qdata <span class="sc">%&gt;%</span> </span>
 <span id="cb12-3"><a href="define-size-classes.html#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(site<span class="sc">:</span>csz)</span>
@@ -331,6 +332,9 @@ Kendall, David G. 1981. <span>“<span class="nocase">The Statistics of Shape</s
 </div>
 <div id="ref-RN11623" class="csl-entry">
 ———. 1984. <span>“<span class="nocase">Shape Manifolds, Procrustean Metrics, and Complex Projective Spaces</span>.”</span> <em>Bulletin of the London Mathematical Society</em> 16 (2): 81–121. <a href="https://doi.org/10.1112/blms/16.2.81">https://doi.org/10.1112/blms/16.2.81</a>.
+</div>
+<div id="ref-RN11462" class="csl-entry">
+Manthey, Laura, and Stephen D. Ousley. 2020. <span>“Geometric Morphometrics.”</span> Book Section. In <em>Statistics and Probability in Forensic Anthropology</em>, edited by Zuzana Obertova, Alistair Stewart, and Cristina Cattaneo, 289–98. Academic Press. https://doi.org/<a href="https://doi.org/10.1016/B978-0-12-815764-0.00023-X">https://doi.org/10.1016/B978-0-12-815764-0.00023-X</a>.
 </div>
 <div id="ref-R" class="csl-entry">
 R Core Development Team,. 2022. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="http://www.R-project.org/">http://www.R-project.org/</a>.
