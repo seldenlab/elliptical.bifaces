@@ -1,6 +1,6 @@
 # GM - Size Class
 
-Two `size classes` (large/small) were used to examine whether the morphology of the elliptical bifaces from the Millsap Cache and Jowell Farm remain morphologically stable, or express morphological variation. Variability in elliptical biface morphology potentially provides evidence associated with differential resharpening trajectories.
+Two `size classes` (large/small) were used to assess whether the morphology of elliptical bifaces from Millsap Cache and Jowell Farm remain morphologically stable through reduction. Variability in elliptical biface morphology through reduction provides evidence associated with differential resharpening trajectories.
 
 This analysis follows recent analyses of Perdiz arrow points ([Selden and Dockall, in review](https://github.com/seldenlab/perdiz3/blob/main/ms/perdiz3/perdiz3.pdf)) and Gahagan biface morphology across the southern Caddo area and central Texas [@RN11783;@RN21001;@RN11264], where Perdiz arrow points and Gahagan bifaces have been found to differ in shape across the same geography as Caddo bottles [@RN11801;@RN11782;@RN11716;@RN8312]. This analysis also follows another geometric morphometric analysis in which Perdiz arrow points from the ancestral Caddo area were found to differ as a function of _time_, _raw material_, and _burial context_ [@RN9551].
 
