@@ -28,7 +28,7 @@ knitr::include_graphics('./images/map.png')
 
 ## Analysis overview
 
-Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure \@ref(fig:figlm)). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the edge that includes the heaviest amount of retouch. Landmarks and semilandmarks were applied using the `StereoMorph` package [@RN8973]. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure \@ref(fig:figlm): b, c, d, and e), while others (Figure \@ref(fig:figlm): f) include one retouched edge at top right and another at bottom left.
+Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure \@ref(fig:figlm)). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the edge with the heaviest amount of retouch. Landmarks and semilandmarks were applied using the `StereoMorph` package [@RN8973]. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure \@ref(fig:figlm): b, c, d, and e), while others (Figure \@ref(fig:figlm): f) include one retouched edge at top right and another at bottom left, similar to alternatively beveled bifaces.
 
 ```{r figlm, fig.cap="Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the flaking index developed and advanced by Miller [-@RN11459], Smallwood [-@RN8310], and Miller and Smallwood [-@RN11460]."}
 
@@ -67,9 +67,9 @@ An analysis of morphological disparity was used to identify potential difference
 
   -   Bifaces _do not differ_ in shape, but **differ significantly** in size by raw material/biogeography.
   -   Allometry (shape change with size) was not significant.
-  -   Bifaces in the _large size class_ recovered from the Millsap Cache and Jowell Farm do not differ in shape or size. This suggests consistent morphology in bifaces from the _large size class_, in support of production-based standardization.
-  -   Bifaces in the _small size class_ recovered from the Millsap Cache and Jowell Farm **differ significantly** in size. Thus, while shape remains consistent, size differs, suggesting---at minimum---locally divergent approaches to retouch and/or resharpening.
-  -   Morphological disparity in the shape of the _small size class_ is **significantly greater** at Jowell Farm, providing evidence for a more standardized approach to resharpening and/or retouch at Millsap Cache. This finding also provides support for the hypothesis that greater shape diversity is associated with retouch and/or resharpening for elliptical bifaces, rather than production/manufacture.
+  -   Bifaces in the _large size class_ recovered from Millsap Cache and Jowell Farm do not differ in shape or size, suggesting consistent morphology in bifaces from the _large size class_, supporting arguments for production-based standardization.
+  -   Bifaces in the _small size class_ recovered from Millsap Cache and Jowell Farm **differ significantly** in size. Thus, while shape remains consistent, size differs, suggesting---at minimum---locally divergent approaches to retouch.
+  -   Morphological disparity in the shape of the _small size class_ is **significantly greater** at Jowell Farm, providing evidence for a more standardized approach to local retouch at Millsap Cache. This finding also provides support for the hypothesis that greater shape diversity is associated with retouch efforts, rather than production.
 
 ### Summary
 
