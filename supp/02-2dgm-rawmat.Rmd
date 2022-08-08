@@ -97,7 +97,7 @@ fit.size <- procD.lm(shape ~ size,
                      print.progress = FALSE, 
                      iter = 9999)
 
-# allometry
+# shape change with size?
 anova(fit.size)
 ```
 

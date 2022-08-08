@@ -29,14 +29,10 @@ Landmark data were aligned to a global coordinate system [@RN11622;@RN11623;@RN1
 # gpa ----
 Y.gpa <- gpagen(shapesGM, print.progress = FALSE)
 
-# plot
-plot(Y.gpa)
-
 # geomorph data frame ----
 gdf <- geomorph.data.frame(shape = Y.gpa$coords, 
                            size = Y.gpa$Csize,
                            site = qdata$site)
-
 
 # add centroid size to qdata
 qdata$csz <- Y.gpa$Csize
