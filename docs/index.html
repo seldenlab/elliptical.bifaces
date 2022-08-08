@@ -237,7 +237,7 @@ div.csl-indent {
 <blockquote>
 <p>Reproducibility—the ability to recompute results—and replicability—the chances other experimenters will achieve a consistent result—are two foundational characteristics of successful scientific research <span class="citation">(<a href="#ref-RN20918" role="doc-biblioref">Leek and Peng 2015</a>)</span>.</p>
 </blockquote>
-<p>Elliptical bifaces from Millsap Cache and Jowell Farm (41AN13) comprise two of the largest samples of this ill-understood lithic artefact from the ancestral Caddo area. Elliptical bifaces from Jowell Farm (n = 11) were manufactured using Edwards chert, and are thought to have been acquired by the Caddo through trade or exchange with central Texas groups. Bifaces from Millsap Cache (n = 19) were reportedly manufactured from Kay County flint, providing for an empirical test of whether biface morphology differs as a function of raw material. The sample of elliptical bifaces from each site was also divided into two size classes; one reflective of production (large), and the other associated with retouch (small). Size classes were used to assess whether modifications by Caddo knappers may have yielded similar—convergent—biface shape in the small class. They were also used to test the hypothesis that greater morphological variation would be apparent in the small class due to idiosyncratic responses related to local retouch practices. Results demonstrate that elliptical biface shape does not differ by raw material, but size does. This suggests a shared, and consistent, mental template that was maintained independent of biface size. The subsequent analysis of elliptical biface morphology by size class demonstrated that size does not differ by raw material in the large class, but in the small class, it does. This finding supports the argument that elliptical biface morphology diverges through local reduction practices. As expected, greater shape diversity occurs in the small class, where Jowell Farm bifaces were found to be more morphologically diverse than those from Millsap Cache. Distinct local reduction practices are advanced as the driver of extant morphological differences found in elliptical bifaces from the ancestral Caddo area of the American Southeast.</p>
+<p>Elliptical bifaces from Millsap Cache and Jowell Farm (41AN13) comprise two of the largest samples of this ill-understood lithic artefact from the ancestral Caddo area. Elliptical bifaces from Jowell Farm (n = 11) were manufactured using Edwards chert, and are thought to have been acquired by the Caddo through trade or exchange with central Texas groups. Bifaces from Millsap Cache (n = 19) were reportedly manufactured from Kay County flint, providing for an empirical test of whether biface morphology differs as a function of raw material. The sample of elliptical bifaces from each site was also divided into two size classes; one conceptually reflective of production (large), and the other with local reduction practices (small). Size classes were used to assess whether modifications by Caddo knappers may have yielded similar—convergent—biface shape in the small class. Size classes were also used to test the hypothesis that greater morphological variation would be apparent in the small class due to idiosyncratic responses related to local retouch practices. Results demonstrate that elliptical biface shape does not differ by raw material, but size does. This suggests a shared, and consistent, mental template that was maintained independent of biface size. The subsequent analysis of elliptical biface morphology by size class demonstrated that size does not differ by raw material in the large class, but in the small class, it does. This finding supports the argument that elliptical biface morphology diverges through local reduction practices. As expected, greater shape diversity occurs in the small class, where Jowell Farm bifaces were found to be more morphologically diverse than those from Millsap Cache. Distinct local reduction practices are advanced as the driver of extant morphological differences found in elliptical bifaces from the ancestral Caddo area of the American Southeast.</p>
 <div id="keywords" class="section level3 unnumbered hasAnchor">
 <h3>Keywords<a href="index.html#keywords" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>American Southeast, Caddo, Jowell biface, archaeology, archaeoinformatics, museum studies, digital humanities, geometric morphometrics, STEM, STEAM</p>
@@ -251,7 +251,7 @@ Figure 0.1: Geological map illustrating the location of the Millsap Cache and Jo
 </div>
 <div id="analysis-overview" class="section level2 hasAnchor" number="0.1">
 <h2><span class="header-section-number">0.1</span> Analysis overview<a href="index.html#analysis-overview" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure <a href="index.html#fig:figlm">0.2</a>). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the edge with the heaviest amount of retouch. Landmarks and semilandmarks were applied using the <code>StereoMorph</code> package <span class="citation">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure <a href="index.html#fig:figlm">0.2</a>: b, c, d, and e), while others (Figure <a href="index.html#fig:figlm">0.2</a>: f) include one retouched edge at top right and another at bottom left, similar to alternately beveled bifaces.</p>
+<p>Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure <a href="index.html#fig:figlm">0.2</a>). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch. Landmarks and semilandmarks were applied in R 4.2.1 <span class="citation">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> using the <code>StereoMorph</code> library v. 1.6.7 <span class="citation">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure <a href="index.html#fig:figlm">0.2</a>: b, c, d, and e), while others (Figure <a href="index.html#fig:figlm">0.2</a>: f) include one retouched edge at top right and another at bottom left, similar to alternately beveled bifaces.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="index.html#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;./images/ellipticalbifaces.jpg&#39;</span>)</span></code></pre></div>
 <div class="figure"><span style="display:block;" id="fig:figlm"></span>
 <img src="images/ellipticalbifaces.jpg" alt="Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the flaking index developed and advanced by Miller [-@RN11459], Smallwood [-@RN8310], and Miller and Smallwood [-@RN11460]." width="2100" />
@@ -321,10 +321,10 @@ Figure 0.4: PCA summarizing shape variation in elliptical bifaces.
 </div>
 <div id="colophon" class="section level2 hasAnchor" number="0.6">
 <h2><span class="header-section-number">0.6</span> Colophon<a href="index.html#colophon" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This version of the analysis was generated on 2022-08-08 04:47:07 using the following computational environment and dependencies:</p>
+<p>This version of the analysis was generated on 2022-08-08 05:25:41 using the following computational environment and dependencies:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="index.html#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what R packages and versions were used?</span></span>
 <span id="cb5-2"><a href="index.html#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;devtools&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
-<pre><code>## ─ Session info ─────────────────────────────────────────────────────────────
+<pre><code>## ─ Session info ────────────────────────────────────────────────────────────
 ##  setting  value
 ##  version  R version 4.2.1 (2022-06-23 ucrt)
 ##  os       Windows 10 x64 (build 19044)
@@ -338,7 +338,7 @@ Figure 0.4: PCA summarizing shape variation in elliptical bifaces.
 ##  rstudio  2022.02.3+492 Prairie Trillium (desktop)
 ##  pandoc   2.17.1.1 @ C:/Program Files/RStudio/bin/quarto/bin/ (via rmarkdown)
 ## 
-## ─ Packages ─────────────────────────────────────────────────────────────────
+## ─ Packages ────────────────────────────────────────────────────────────────
 ##  package       * version date (UTC) lib source
 ##  ape             5.6-2   2022-03-02 [1] CRAN (R 4.2.0)
 ##  assertthat      0.2.1   2019-03-21 [1] CRAN (R 4.2.0)
@@ -454,13 +454,13 @@ Figure 0.4: PCA summarizing shape variation in elliptical bifaces.
 ##  [1] C:/Users/seldenjrz/AppData/Local/R/win-library/4.2
 ##  [2] C:/Program Files/R/R-4.2.1/library
 ## 
-## ────────────────────────────────────────────────────────────────────────────</code></pre>
+## ───────────────────────────────────────────────────────────────────────────</code></pre>
 <p>Current Git commit details are:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="index.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># where can I find this commit? </span></span>
 <span id="cb7-2"><a href="index.html#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;git2r&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">&amp;</span> git2r<span class="sc">::</span><span class="fu">in_repository</span>(<span class="at">path =</span> <span class="st">&quot;.&quot;</span>)) git2r<span class="sc">::</span><span class="fu">repository</span>(here<span class="sc">::</span><span class="fu">here</span>())  </span></code></pre></div>
 <pre><code>## Local:    main D:/github/elliptical.bifaces
 ## Remote:   main @ origin (https://github.com/seldenlab/elliptical.bifaces)
-## Head:     [e2a902a] 2022-08-08: &lt;edit index&gt;</code></pre>
+## Head:     [63c732d] 2022-08-08: &lt;edit index&gt;</code></pre>
 
 </div>
 </div>
