@@ -248,7 +248,7 @@ div.csl-indent {
 </div>
 <div id="generalised-procrustes-analysis-2" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Generalised Procrustes Analysis<a href="gm---siteraw-material.html#generalised-procrustes-analysis-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Landmark data were aligned to a global coordinate system <span class="citation">(<a href="#ref-RN11622" role="doc-biblioref">Kendall 1981</a>, <a href="#ref-RN11623" role="doc-biblioref">1984</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>, achieved through generalized Procrustes superimposition <span class="citation">(<a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span> performed in R 4.1.3 <span class="citation">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> using the <code>geomorph</code> library v. 4.0.3 <span class="citation">(<a href="#ref-RN11530" role="doc-biblioref">Adams et al. 2017</a>; <a href="#ref-RN1774" role="doc-biblioref">Adams and Otarola-Castillo 2013</a>; <a href="#ref-RN9565" role="doc-biblioref">Baken et al. 2021</a>)</span>. Procrustes superimposition translates, scales, and rotates the coordinate data to allow for comparisons among objects <span class="citation">(<a href="#ref-RN11564" role="doc-biblioref">Gower 1975</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span>. The <code>geomorph</code> package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space <span class="citation">(<a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>.</p>
+<p>Landmark data were aligned to a global coordinate system <span class="citation">(<a href="#ref-RN11622" role="doc-biblioref">Kendall 1981</a>, <a href="#ref-RN11623" role="doc-biblioref">1984</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>, achieved through generalized Procrustes superimposition <span class="citation">(<a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span> performed in R 4.1.3 <span class="citation">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> using the <code>geomorph</code> library v. 4.0.4 <span class="citation">(<a href="#ref-RN11530" role="doc-biblioref">Adams et al. 2017</a>; <a href="#ref-RN1774" role="doc-biblioref">Adams and Otarola-Castillo 2013</a>; <a href="#ref-RN9565" role="doc-biblioref">Baken et al. 2021</a>)</span>. Procrustes superimposition translates, scales, and rotates the coordinate data to allow for comparisons among objects <span class="citation">(<a href="#ref-RN11564" role="doc-biblioref">Gower 1975</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span>. The <code>geomorph</code> package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space <span class="citation">(<a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>.</p>
 <div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="gm---siteraw-material.html#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># gpa ----</span></span>
 <span id="cb14-2"><a href="gm---siteraw-material.html#cb14-2" aria-hidden="true" tabindex="-1"></a>Y.gpa <span class="ot">&lt;-</span> <span class="fu">gpagen</span>(shapesGM, <span class="at">print.progress =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb14-3"><a href="gm---siteraw-material.html#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -274,46 +274,26 @@ div.csl-indent {
 ## Number of vectors 29 
 ## 
 ## Importance of Components:
-##                              Comp1        Comp2        Comp3
-## Eigenvalues            0.007937426 0.0004428972 0.0003168109
-## Proportion of Variance 0.897778529 0.0500947764 0.0358335384
-## Cumulative Proportion  0.897778529 0.9478733056 0.9837068440
-##                              Comp4        Comp5        Comp6
-## Eigenvalues            0.000068305 2.609697e-05 1.412387e-05
-## Proportion of Variance 0.007725774 2.951751e-03 1.597508e-03
-## Cumulative Proportion  0.991432619 9.943844e-01 9.959819e-01
-##                               Comp7        Comp8        Comp9
-## Eigenvalues            1.070065e-05 5.974135e-06 5.511185e-06
-## Proportion of Variance 1.210319e-03 6.757166e-04 6.233537e-04
-## Cumulative Proportion  9.971922e-01 9.978679e-01 9.984913e-01
-##                              Comp10       Comp11       Comp12
-## Eigenvalues            3.520416e-06 2.843079e-06 1.882903e-06
-## Proportion of Variance 3.981838e-04 3.215721e-04 2.129696e-04
-## Cumulative Proportion  9.988895e-01 9.992110e-01 9.994240e-01
-##                              Comp13       Comp14       Comp15
-## Eigenvalues            1.338169e-06 1.008447e-06 8.719528e-07
-## Proportion of Variance 1.513563e-04 1.140624e-04 9.862399e-05
-## Cumulative Proportion  9.995753e-01 9.996894e-01 9.997880e-01
-##                              Comp16       Comp17       Comp18
-## Eigenvalues            5.221444e-07 3.798391e-07 3.058797e-07
-## Proportion of Variance 5.905820e-05 4.296247e-05 3.459714e-05
-## Cumulative Proportion  9.998471e-01 9.998901e-01 9.999247e-01
-##                              Comp19       Comp20       Comp21
-## Eigenvalues            1.881087e-07 1.054837e-07 1.000897e-07
-## Proportion of Variance 2.127642e-05 1.193095e-05 1.132084e-05
-## Cumulative Proportion  9.999459e-01 9.999579e-01 9.999692e-01
-##                              Comp22       Comp23       Comp24
-## Eigenvalues            8.436762e-08 5.669035e-08 4.791035e-08
-## Proportion of Variance 9.542570e-06 6.412077e-06 5.418997e-06
-## Cumulative Proportion  9.999787e-01 9.999851e-01 9.999906e-01
-##                              Comp25       Comp26       Comp27
-## Eigenvalues            2.911181e-08 2.405157e-08 1.247071e-08
-## Proportion of Variance 3.292750e-06 2.720401e-06 1.410525e-06
-## Cumulative Proportion  9.999938e-01 9.999966e-01 9.999980e-01
-##                              Comp28       Comp29
-## Eigenvalues            1.033102e-08 7.543288e-09
-## Proportion of Variance 1.168511e-06 8.531988e-07
-## Cumulative Proportion  9.999991e-01 1.000000e+00</code></pre>
+##                              Comp1        Comp2        Comp3       Comp4        Comp5        Comp6
+## Eigenvalues            0.007937426 0.0004428972 0.0003168109 0.000068305 2.609697e-05 1.412387e-05
+## Proportion of Variance 0.897778529 0.0500947764 0.0358335384 0.007725774 2.951751e-03 1.597508e-03
+## Cumulative Proportion  0.897778529 0.9478733056 0.9837068440 0.991432619 9.943844e-01 9.959819e-01
+##                               Comp7        Comp8        Comp9       Comp10       Comp11       Comp12
+## Eigenvalues            1.070065e-05 5.974135e-06 5.511185e-06 3.520416e-06 2.843079e-06 1.882903e-06
+## Proportion of Variance 1.210319e-03 6.757166e-04 6.233537e-04 3.981838e-04 3.215721e-04 2.129696e-04
+## Cumulative Proportion  9.971922e-01 9.978679e-01 9.984913e-01 9.988895e-01 9.992110e-01 9.994240e-01
+##                              Comp13       Comp14       Comp15       Comp16       Comp17       Comp18
+## Eigenvalues            1.338169e-06 1.008447e-06 8.719528e-07 5.221444e-07 3.798391e-07 3.058797e-07
+## Proportion of Variance 1.513563e-04 1.140624e-04 9.862399e-05 5.905820e-05 4.296247e-05 3.459714e-05
+## Cumulative Proportion  9.995753e-01 9.996894e-01 9.997880e-01 9.998471e-01 9.998901e-01 9.999247e-01
+##                              Comp19       Comp20       Comp21       Comp22       Comp23       Comp24
+## Eigenvalues            1.881087e-07 1.054837e-07 1.000897e-07 8.436762e-08 5.669035e-08 4.791035e-08
+## Proportion of Variance 2.127642e-05 1.193095e-05 1.132084e-05 9.542570e-06 6.412077e-06 5.418997e-06
+## Cumulative Proportion  9.999459e-01 9.999579e-01 9.999692e-01 9.999787e-01 9.999851e-01 9.999906e-01
+##                              Comp25       Comp26       Comp27       Comp28       Comp29
+## Eigenvalues            2.911181e-08 2.405157e-08 1.247071e-08 1.033102e-08 7.543288e-09
+## Proportion of Variance 3.292750e-06 2.720401e-06 1.410525e-06 1.168511e-06 8.531988e-07
+## Cumulative Proportion  9.999938e-01 9.999966e-01 9.999980e-01 9.999991e-01 1.000000e+00</code></pre>
 <div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="gm---siteraw-material.html#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># set plot parameters</span></span>
 <span id="cb17-2"><a href="gm---siteraw-material.html#cb17-2" aria-hidden="true" tabindex="-1"></a>pch.gps <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">2</span>)[<span class="fu">as.factor</span>(qdata<span class="sc">$</span>site)]</span>
 <span id="cb17-3"><a href="gm---siteraw-material.html#cb17-3" aria-hidden="true" tabindex="-1"></a>col.gps <span class="ot">&lt;-</span> <span class="fu">wes_palette</span>(<span class="st">&quot;Moonrise2&quot;</span>)[<span class="fu">as.factor</span>(qdata<span class="sc">$</span>site)]</span>
