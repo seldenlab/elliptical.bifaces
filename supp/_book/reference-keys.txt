@@ -2,6 +2,7 @@ fig:figmap
 fig:figlm
 fig:figgpa
 fig:figpca
+fig:figillust
 analysis-overview
 generalised-procrustes-analysis
 principal-components-analysis
