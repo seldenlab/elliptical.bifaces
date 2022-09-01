@@ -8,7 +8,9 @@ Elliptical bifaces from Millsap Cache and Jowell Farm (41AN13) comprise two of t
 
 ### Keywords
 
-American Southeast, Caddo, archaeology, anthroinformatics, archaeoinformatics, museum studies, digital humanities, geometric morphometrics, STEM, STEAM, Jowell knife, Jowell knives, lithics, parallel-oblique flaking
+American Southeast, Caddo, archaeology, anthroinformatics, archaeoinformatics, museum studies, digital humanities, geometric morphometrics, STEM, STEAM, Jowell knife, Jowell knives, lithics, oblique parallel flaking
 
 ![](supp/images/map.png)
 ![](supp/images/ellipticalbifaces.png)
+![](supp/images/elliptical.illustration.png)
+
