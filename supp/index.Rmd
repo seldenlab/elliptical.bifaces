@@ -19,7 +19,7 @@ Elliptical bifaces from Millsap Cache and Jowell Farm (41AN13) comprise two of t
 
 ### Keywords {-}
 
-American Southeast, Caddo, archaeology, anthroinformatics, archaeoinformatics, museum studies, digital humanities, geometric morphometrics, STEM, STEAM, Jowell knife, Jowell knives, lithics, parallel-oblique flaking
+American Southeast, Caddo, archaeology, anthroinformatics, archaeoinformatics, museum studies, digital humanities, geometric morphometrics, STEM, STEAM, Jowell knife, Jowell knives, lithics, oblique parallel flaking
 
 ```{r figmap, fig.cap="Geological map illustrating the location of the Millsap Cache and Jowell Farm, and the level three ecoregions of the Arkansas Valley (blue), Ouachita Mountains (yellow), and South Central Plains (orange) in the ancestral Caddo area (white) of the American Southeast."}
 
@@ -65,16 +65,16 @@ An analysis of morphological disparity was used to identify potential difference
 
 ## Primary findings
 
-```{r figillust, fig.cap="Illustrated elliptical bifaces from the ancestral Caddo area highlighting parallel-oblique flaking used in production."}
-
-knitr::include_graphics('./images/elliptical.illustration.png')
-```
-
   -   Bifaces _do not differ_ in shape, but **differ significantly** in size by raw material.
   -   Allometry (shape change with size) was not significant.
   -   Bifaces in the _large class_ recovered from Millsap Cache and Jowell Farm do not differ in shape or size, suggesting consistent morphology in bifaces from the _large class_, supporting arguments for production-based standardization.
   -   Bifaces in the _small class_ recovered from Millsap Cache and Jowell Farm **differ significantly** in size. Thus, while shape remains consistent, size differs, suggesting---at minimum---locally divergent approaches to retouch.
   -   Morphological disparity in the shape of the _small class_ is **significantly greater** at Jowell Farm, providing evidence for a more standardized approach to local retouch at Millsap Cache. This finding also provides support for the hypothesis that greater shape diversity is associated with retouch efforts, rather than production.
+  
+```{r figillust, fig.cap="Illustrated elliptical bifaces from the ancestral Caddo area highlighting oblique parallel flaking used in production."}
+
+knitr::include_graphics('./images/elliptical.illustration.png')
+```
 
 ### Summary
 
