@@ -21,7 +21,7 @@ Elliptical bifaces are regularly found at Mississipian sites throughout the Amer
 
 American Southeast, Caddo, archaeology, anthroinformatics, archaeoinformatics, museum studies, digital humanities, geometric morphometrics, STEM, STEAM, Jowell knife, Jowell knives, lithics, oblique parallel flaking
 
-```{r figmap, fig.cap="Geological map illustrating the location of the Millsap Cache and Jowell Farm, and the level three ecoregions of the Arkansas Valley (blue), Ouachita Mountains (yellow), and South Central Plains (orange) in the ancestral Caddo area (white) of the American Southeast."}
+```{r figmap, fig.cap="Location of Millsap Cache, Jowell Farm, and other sites mentioned in the manuscript. Elliptical bifaces have been found in every major river basin in the ancestral Caddo area (white)."}
 
 knitr::include_graphics('./images/map.png')
 ```
