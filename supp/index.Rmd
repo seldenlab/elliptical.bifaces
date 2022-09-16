@@ -21,7 +21,7 @@ Elliptical bifaces are regularly found at Mississipian sites throughout the Amer
 
 American Southeast, Caddo, archaeology, anthroinformatics, archaeoinformatics, museum studies, digital humanities, geometric morphometrics, STEM, STEAM, ovoid biface, Jowell knife, Jowell knives, lithics, oblique parallel flaking
 
-```{r figmap, fig.cap="Geological map illustrating the location of the Millsap Cache and Jowell Farm, and the level three ecoregions of the Arkansas Valley (blue), Ouachita Mountains (yellow), and South Central Plains (orange) in the ancestral Caddo area (white) of the American Southeast."}
+```{r figmap, fig.cap="Location of Millsap Cache, Jowell Farm, and other sites mentioned in the manuscript. Elliptical bifaces have been found in every major river basin in the ancestral Caddo area (white)."}
 
 knitr::include_graphics('./images/map.png')
 ```
@@ -86,7 +86,7 @@ Our thanks to the Caddo Nation of Oklahoma, the Caddo Nation Tribal Council, Tri
 
 ## Funding
 
-Components of this analytical work flow were developed and funded by a Preservation Technology and Training grant (P14AP00138) to RZS from the National Center for Preservation Technology and Training (NCPTT), and additional grants to RZS from the Caddo Nation of Oklahoma, National Forests and Grasslands in Texas (15-PA-11081300-033) and the United States Forest Service (20-PA-11081300-074). Funding to analyse the bifaces from Millsap Cache and Jowell Farm was made possible by a Research Support Fund Grant from the Texas Archeological Society. Additional support for this project was provided by the Heritage Research Center at Stephen F. Austin State University.
+Components of this analytical work flow were developed and funded by a Preservation Technology and Training grant (P14AP00138) to RZS from the National Center for Preservation Technology and Training (NCPTT), and additional grants to RZS from the Caddo Nation of Oklahoma, National Forests and Grasslands in Texas (15-PA-11081300-033) and the United States Forest Service (20-PA-11081300-074). Funding to analyse the bifaces from Millsap Cache and Jowell Farm was made possible by support from the Heritage Research Center at Stephen F. Austin State University. A Research Support Fund Grant from the Texas Archeological Society provided the tool needed to illustrate the bifaces.
 
 ## Data management
 
