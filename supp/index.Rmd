@@ -37,8 +37,6 @@ knitr::include_graphics('./images/ellipticalbifaces.png')
 
 To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by Miller [-@RN11459], and later advanced and refined by Smallwood [-@RN8310], then Miller and Smallwood [-@RN11460]. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length (inclusive of curvature - this is not a linear metric). The number of flake scars was then divided by the length of the worked edge, with the heaviest worked edge identified by the greater value.
 
-The longest reworked edge on the elliptical bifaces was almost always more heavily retouched. This finding was used to incorporate the images of elliptical bifaces from Millsap Cache [@RN11461], where the longest reworked edge was oriented at top right prior to landmarking.
-
 The same landmark/semilandmark configuration was used for both analyses, and the landmarking protocol employs three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch (see Figure \@ref(fig:figlm)). Equidistant semilandmarks were placed between each landmark, and all landmarks and semilandmarks were applied using R [@R] and the `StereoMorph` package [@RN9091]. 
 
 ### Generalised Procrustes Analysis
