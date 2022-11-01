@@ -1,7 +1,7 @@
 ---
 title: "Size matters: Divergent morphology in elliptical bifaces from sites in the American Southeast articulates with distinct local reduction practices"
 author:
-    - Robert Z. Selden, Jr.^[Heritage Research Center, Stephen F. Austin State University; Department of Biology, Stephen F. Austin State University; Texas Archeological Research Laboratory, The University of Texas at Austin; and Cultural Heritage Department, Jean Monnet University, zselden@sfasu.edu] and John E. Dockall^[Stantec, Inc.]
+    - Robert Z. Selden, Jr.^[Heritage Research Center, Stephen F. Austin State University; Department of Biology, Stephen F. Austin State University; Texas Archeological Research Laboratory, The University of Texas at Austin; and Cultural Heritage Department, Jean Monnet University, zselden@sfasu.edu]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
