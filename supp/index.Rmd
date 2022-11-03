@@ -49,7 +49,7 @@ knitr::include_graphics('./images/gpa.png')
 
 ### Principal Components Analysis
 
-Principal components analysis [@RN1746] was used to visualise shape variation among the elliptical bifaces, and the scatterplot represents the dispersion of shapes in tangent space [@RN8633;@RN5616;@RN11143;@RN7550]. Those shape changes described by each principal axis are commonly visualized using thin-plate spline warping of a reference image [@RN1731;@RN479].
+Principal components analysis [@RN1746] was used to visualise shape variation among the elliptical bifaces, and the scatterplot represents the dispersion of shapes in tangent space [@RN8633;@RN5616;@RN11143;@RN7550]. Shape ranges described by each principal axis are commonly visualized using thin-plate spline warping of a reference image [@RN1731;@RN479].
 
 ```{r figpca, out.width = "100%", dpi = 300, fig.cap="PCA summarizing shape variation in elliptical bifaces."}
 knitr::include_graphics('./images/pca.png')
@@ -57,7 +57,7 @@ knitr::include_graphics('./images/pca.png')
 
 ### Procrustes ANOVA
 
-To assess whether `shape` changes with `size` (allometry), and whether shape and size differed by `raw material` and `size class`, Procrustes ANOVAs [@RN1749] were run that enlist effect-sizes (zscores) computed as standard deviates of the generated sampling distributions [@RN1756]. A residual randomization permutation procedure (RRPP; n = 10,000 permutations) was used for all Procrustes ANOVAs [@RN1655;@RN11775], which has higher statistical power and a greater ability to identify patterns in the data should they be present [@RN1719].
+To assess whether `shape` differs by `size` (allometry), and whether shape and size differed by `raw material` and `size class`, Procrustes ANOVAs [@RN1749] were run that enlist effect-sizes (zscores) computed as standard deviates of the generated sampling distributions [@RN1756]. A residual randomization permutation procedure (RRPP; n = 10,000 permutations) was used for all Procrustes ANOVAs [@RN1655;@RN11775], which has higher statistical power and a greater ability to identify patterns in the data should they be present [@RN1719].
 
 ### Morphological disparity
 
@@ -78,7 +78,9 @@ knitr::include_graphics('./images/elliptical.illustration.png')
 
 ### Summary
 
-The shape of elliptical bifaces does not differ significantly in either size class; however, size does. Results of the Procrustes ANOVAs support the hypothesis for divergent morphology. The analysis of morphological disparity yielded support for the interpretation that greater morphological diversity is associated with local retouch, while providing additional support for morphological consistency related to production. 
+The pattern that emerges is one of differential retouch intensity, where the isometric reduction strategies of one group (Millsap Cache) may correlate with differing retouch practices that articulate with locally abundant raw material (Kay County flint). This stands in contrast to the comparatively minimal retouch intensity of another group (Jowell Farm) where local raw material was of an insufficient size, yielding a situation where it was necessary to import raw material from an extralocal source (Edwards chert) in central Texas. 
+ 
+Further, the comparison of morphological diversity by size class demonstrated that elliptical biface shapes in the small size class at Jowell Farm occupy a significantly greater range of morphospace than those from Millsap Cache. This pattern suggests that the comparatively minimal retouch intensity associated with Caddo knappers at Jowell Farm may have been more targeted---potentially due to a lack of abundant local raw material of sufficient size---resulting in a broader range of biface shapes in the small size class. Conversely, these results also suggest that Caddo knappers at Millsap Cache employed a more standardized (specialized?) approach to reduction.
 
 ## Acknowledgments
 
