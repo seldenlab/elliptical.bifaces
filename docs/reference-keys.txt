@@ -10,10 +10,6 @@ procrustes-anova
 morphological-disparity
 primary-findings
 summary
-acknowledgments
-funding
-data-management
-colophon
 define-size-classes
 load-packages-data
 generalised-procrustes-analysis-1
