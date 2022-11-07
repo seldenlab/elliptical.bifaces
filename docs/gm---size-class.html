@@ -23,7 +23,7 @@
 <meta name="author" content="Robert Z. Selden, Jr." />
 
 
-<meta name="date" content="2022-11-05" />
+<meta name="date" content="2022-11-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -229,7 +229,7 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="gm---size-class" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">Chapter 3</span> GM - Size Class<a href="gm---size-class.html#gm---size-class" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Two <code>size classes</code> (large/small) were used to assess whether the morphology of elliptical bifaces from Millsap Cache and Jowell Farm remains morphologically stable through reduction</p>
+<p>Two <code>size classes</code> (large/small) were used to assess whether the morphology of elliptical bifaces from Millsap Cache and Jowell Farm remains morphologically stable/consistent through reduction.</p>
 <p>This analysis follows recent analyses of Perdiz arrow points (<a href="https://github.com/seldenlab/perdiz3/blob/main/ms/perdiz3/perdiz3.pdf">Selden and Dockall, in review</a>) and Gahagan biface morphology across the southern Caddo area and central Texas <span class="citation">(<a href="#ref-RN11783" role="doc-biblioref">Selden Jr., Dockall, and Shafer 2018</a>; <a href="#ref-RN21001" role="doc-biblioref">Selden Jr., Dockall, and Dubied 2020</a>; <a href="#ref-RN11264" role="doc-biblioref">Selden 2022</a>)</span>, where Perdiz arrow points and Gahagan bifaces have been found to differ in shape across the same geography as Caddo bottles <span class="citation">(<a href="#ref-RN11801" role="doc-biblioref">Selden Jr. 2018a</a>, <a href="#ref-RN11782" role="doc-biblioref">2018b</a>, <a href="#ref-RN11716" role="doc-biblioref">2019</a>, <a href="#ref-RN8312" role="doc-biblioref">2021</a>)</span>. This analysis also follows another geometric morphometric analysis in which Perdiz arrow points from the ancestral Caddo area were found to differ as a function of <em>time</em>, <em>raw material</em>, and <em>burial context</em> <span class="citation">(<a href="#ref-RN9551" role="doc-biblioref">Selden Jr et al. 2021b</a>)</span>.</p>
 <div id="load-packages-data-2" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Load packages + data<a href="gm---size-class.html#load-packages-data-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -277,18 +277,26 @@ div.csl-indent {
 ## Number of vectors 29 
 ## 
 ## Importance of Components:
-##                              Comp1        Comp2        Comp3       Comp4        Comp5        Comp6        Comp7        Comp8        Comp9
-## Eigenvalues            0.007937426 0.0004428972 0.0003168109 0.000068305 2.609697e-05 1.412387e-05 1.070065e-05 5.974135e-06 5.511185e-06
-## Proportion of Variance 0.897778529 0.0500947764 0.0358335384 0.007725774 2.951751e-03 1.597508e-03 1.210319e-03 6.757166e-04 6.233537e-04
-## Cumulative Proportion  0.897778529 0.9478733056 0.9837068440 0.991432619 9.943844e-01 9.959819e-01 9.971922e-01 9.978679e-01 9.984913e-01
-##                              Comp10       Comp11       Comp12       Comp13       Comp14       Comp15       Comp16       Comp17
-## Eigenvalues            3.520416e-06 2.843079e-06 1.882903e-06 1.338169e-06 1.008447e-06 8.719528e-07 5.221444e-07 3.798391e-07
-## Proportion of Variance 3.981838e-04 3.215721e-04 2.129696e-04 1.513563e-04 1.140624e-04 9.862399e-05 5.905820e-05 4.296247e-05
-## Cumulative Proportion  9.988895e-01 9.992110e-01 9.994240e-01 9.995753e-01 9.996894e-01 9.997880e-01 9.998471e-01 9.998901e-01
-##                              Comp18       Comp19       Comp20       Comp21       Comp22       Comp23       Comp24       Comp25
-## Eigenvalues            3.058797e-07 1.881087e-07 1.054837e-07 1.000897e-07 8.436762e-08 5.669035e-08 4.791035e-08 2.911181e-08
-## Proportion of Variance 3.459714e-05 2.127642e-05 1.193095e-05 1.132084e-05 9.542570e-06 6.412077e-06 5.418997e-06 3.292750e-06
-## Cumulative Proportion  9.999247e-01 9.999459e-01 9.999579e-01 9.999692e-01 9.999787e-01 9.999851e-01 9.999906e-01 9.999938e-01
+##                              Comp1        Comp2        Comp3       Comp4        Comp5
+## Eigenvalues            0.007937426 0.0004428972 0.0003168109 0.000068305 2.609697e-05
+## Proportion of Variance 0.897778529 0.0500947764 0.0358335384 0.007725774 2.951751e-03
+## Cumulative Proportion  0.897778529 0.9478733056 0.9837068440 0.991432619 9.943844e-01
+##                               Comp6        Comp7        Comp8        Comp9       Comp10
+## Eigenvalues            1.412387e-05 1.070065e-05 5.974135e-06 5.511185e-06 3.520416e-06
+## Proportion of Variance 1.597508e-03 1.210319e-03 6.757166e-04 6.233537e-04 3.981838e-04
+## Cumulative Proportion  9.959819e-01 9.971922e-01 9.978679e-01 9.984913e-01 9.988895e-01
+##                              Comp11       Comp12       Comp13       Comp14       Comp15
+## Eigenvalues            2.843079e-06 1.882903e-06 1.338169e-06 1.008447e-06 8.719528e-07
+## Proportion of Variance 3.215721e-04 2.129696e-04 1.513563e-04 1.140624e-04 9.862399e-05
+## Cumulative Proportion  9.992110e-01 9.994240e-01 9.995753e-01 9.996894e-01 9.997880e-01
+##                              Comp16       Comp17       Comp18       Comp19       Comp20
+## Eigenvalues            5.221444e-07 3.798391e-07 3.058797e-07 1.881087e-07 1.054837e-07
+## Proportion of Variance 5.905820e-05 4.296247e-05 3.459714e-05 2.127642e-05 1.193095e-05
+## Cumulative Proportion  9.998471e-01 9.998901e-01 9.999247e-01 9.999459e-01 9.999579e-01
+##                              Comp21       Comp22       Comp23       Comp24       Comp25
+## Eigenvalues            1.000897e-07 8.436762e-08 5.669035e-08 4.791035e-08 2.911181e-08
+## Proportion of Variance 1.132084e-05 9.542570e-06 6.412077e-06 5.418997e-06 3.292750e-06
+## Cumulative Proportion  9.999692e-01 9.999787e-01 9.999851e-01 9.999906e-01 9.999938e-01
 ##                              Comp26       Comp27       Comp28       Comp29
 ## Eigenvalues            2.405157e-08 1.247071e-08 1.033102e-08 7.543288e-09
 ## Proportion of Variance 2.720401e-06 1.410525e-06 1.168511e-06 8.531988e-07
@@ -417,7 +425,8 @@ div.csl-indent {
 <span id="cb56-8"><a href="gm---size-class.html#cb56-8" aria-hidden="true" tabindex="-1"></a>                  <span class="at">iter =</span> <span class="dv">9999</span>)</span></code></pre></div>
 <pre><code>## 
 ## Call:
-## morphol.disparity(f1 = shape ~ merged, groups = qdata$merged,      iter = 9999, data = gdf, print.progress = FALSE) 
+## morphol.disparity(f1 = shape ~ merged, groups = qdata$merged,  
+##     iter = 9999, data = gdf, print.progress = FALSE) 
 ## 
 ## 
 ## 
@@ -452,7 +461,8 @@ div.csl-indent {
 <span id="cb58-7"><a href="gm---size-class.html#cb58-7" aria-hidden="true" tabindex="-1"></a>                  <span class="at">iter =</span> <span class="dv">9999</span>)</span></code></pre></div>
 <pre><code>## 
 ## Call:
-## morphol.disparity(f1 = size ~ merged, groups = qdata$merged,      iter = 9999, data = gdf, print.progress = FALSE) 
+## morphol.disparity(f1 = size ~ merged, groups = qdata$merged,  
+##     iter = 9999, data = gdf, print.progress = FALSE) 
 ## 
 ## 
 ## 
