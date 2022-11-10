@@ -55,15 +55,15 @@ Elliptical bifaces from the Millsap Cache and Jowell Farm were used to examine w
 
 \begin{figure}\centering
 \includegraphics[width=\linewidth]{figs/ellipticalbifaces.png}
-\caption{Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area at top right identified using a modified version of the flaking index developed and advanced by \citet{RN11099}, \citet{RN9242}, and \citet{RN11098}.}
+\caption{Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area at top right identified using a modified version of the flaking index developed by \citet{RN11099}.}
 \label{fig:elliptical}
 \end{figure}
 
-To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by \citet{RN11099}, and later advanced and refined by \citet{RN9242}, then \citet{RN11098}. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length inclusive of curvature, which was calculated using ImageJ \citep{RN11146,RN11147,RN11148}. The number of flake scars was then divided by the length of the worked edge, with the most heavily worked edge identified by the greater value.
+To identify which edge was most heavily retouched, we employed a modified approach to the flaking index developed by \citet{RN11099}. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length inclusive of curvature, which was calculated using ImageJ \citep{RN11146,RN11147,RN11148}. The number of flake scars was subsequently divided by the length of the worked edge, with the most heavily worked edge identified by the greater value.
 
 ## Geometric morphometrics
 
-The same landmark/semilandmark configuration was used for both analyses, and the landmarking protocol employs three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch (see Figure \@ref(fig:elliptical)). Equidistant semilandmarks were placed between each landmark, and all landmarks and semilandmarks were applied using R \citep{R} and the `StereoMorph` package \citep{RN9091}. 
+The same landmark/semilandmark configuration was used for both analyses, and the landmarking protocol employs three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch (see Figure \ref{fig:elliptical}). Equidistant semilandmarks were placed between each landmark, and all landmarks and semilandmarks were applied using R \citep{R} and the `StereoMorph` package \citep{RN9091}. 
 
 ### Generalised Procrustes Analysis
 
@@ -101,13 +101,15 @@ An analysis of morphological disparity was used to identify potential difference
 
 The comparison of morphological disparity by size class demonstrated that elliptical biface shapes in the small size class at Jowell Farm occupy a significantly greater range of morphospace than those from Millsap Cache. This pattern suggests that the comparatively minimal retouch intensity associated with Caddo knappers at Jowell Farm may have been more targeted---potentially due to a lack of abundant local raw material of sufficient quality and size---resulting in a broader range of biface shapes in the small size class. Conversely, these results also suggest that Caddo knappers at Millsap Cache employed a more standardized (specialized?) approach to reduction.
 
-# Discussion and conclusion
+# Discussion
 
 \begin{figure}\centering
 \includegraphics[width=\linewidth]{figs/elliptical.illustration.png}
 \caption{Illustrated elliptical bifaces from a, an unknown location; b, Jowell Farm; and c, Belcher Mound highlighting oblique parallel flaking used in production. The specimen from Belcher Mound is a potential preform exhibiting oblique parallel removals consistent with elliptical bifaces from other sites in the region.}
 \label{fig:illustration}
 \end{figure}
+
+# Conclusion
 
 # Acknowledgement(s) {-}
 

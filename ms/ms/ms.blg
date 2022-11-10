@@ -9,45 +9,45 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in RN7434
 Warning--can't use both author and editor fields in RN7502
 Warning--can't use both author and editor fields in RN11622
-You've used 52 entries,
+You've used 50 entries,
             3285 wiz_defined-function locations,
-            1074 strings with 17852 characters,
-and the built_in function-call counts, 29833 in all, are:
-= -- 2441
-> -- 1132
+            1058 strings with 17376 characters,
+and the built_in function-call counts, 28568 in all, are:
+= -- 2338
+> -- 1093
 < -- 1
-+ -- 499
-- -- 322
-* -- 2251
-:= -- 4553
-add.period$ -- 252
-call.type$ -- 52
-change.case$ -- 333
-chr.to.int$ -- 53
-cite$ -- 55
-duplicate$ -- 2312
-empty$ -- 2460
-format.name$ -- 385
-if$ -- 6122
++ -- 484
+- -- 311
+* -- 2162
+:= -- 4369
+add.period$ -- 242
+call.type$ -- 50
+change.case$ -- 320
+chr.to.int$ -- 51
+cite$ -- 53
+duplicate$ -- 2208
+empty$ -- 2347
+format.name$ -- 371
+if$ -- 5854
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 480
-newline$ -- 163
-num.names$ -- 158
-pop$ -- 943
+missing$ -- 460
+newline$ -- 157
+num.names$ -- 151
+pop$ -- 902
 preamble$ -- 1
-purify$ -- 324
+purify$ -- 313
 quote$ -- 0
-skip$ -- 844
+skip$ -- 804
 stack$ -- 0
-substring$ -- 1391
-swap$ -- 1188
+substring$ -- 1321
+swap$ -- 1132
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 296
+type$ -- 284
 warning$ -- 3
-while$ -- 204
+while$ -- 194
 width$ -- 0
-write$ -- 612
+write$ -- 589
 (There were 4 warnings)
