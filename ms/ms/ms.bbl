@@ -1,0 +1,302 @@
+\begin{thebibliography}{52}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\normalfont{#1}}
+\providecommand{\urlprefix}{}
+
+\bibitem[Abramoff, Magalhaes, and Ram(2004)]{RN11146}
+Abramoff, M.~D., P.~J. Magalhaes, and S.~J. Ram. 2004. ``Image Processing with
+  ImageJ.'' \emph{Biophotonics International} 11 (7): 36--42.
+
+\bibitem[Adams and Collyer(2015)]{RN1655}
+Adams, Dean~C., and Michael~L. Collyer. 2015. ``{Permutation Tests for
+  Phylogenetic Comparative Analyses of High-Dimensional Shape Data: What you
+  Shuffle Matters}.'' \emph{Evolution} 69 (3): 823--9.
+  \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/25641367}.
+
+\bibitem[Adams et~al.(2017)]{RN11530}
+Adams, Dean~C., Michael~L. Collyer, Antigoni Kaliontzopoulou, and Emma
+  Sherratt. 2017. ``{Package geomorph: Geometric Morphometric Analyses of
+  Landmark Data. R package version 3.0.5}.''
+  \urlprefix\url{http://geomorphr.github.io/geomorph/}.
+
+\bibitem[Adams and Otárola-Castillo(2013)]{RN1774}
+Adams, Dean~C., and Erik Otárola-Castillo. 2013. ``geomorph: An R Package for
+  the Collection and Analysis of Geometric Morphometric Shape Data.''
+  \emph{Methods in Ecology and Evolution} 4 (4): 393--399.
+  \urlprefix\url{https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12035
+  https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.12035?download=true}.
+
+\bibitem[Adams, Rohlf, and Slice(2013)]{RN8633}
+Adams, Dean~C., F.~James Rohlf, and Dennis~E. Slice. 2013. ``A Field Comes of
+  Age: Geometric Morphometrics in the 21st Century.'' \emph{Hystrix} 24 (1):
+  7--14.
+  \urlprefix\url{http://www.italian-journal-of-mammalogy.it/pdf-77238-13391?filename=A
+  field comes of age_.pdf}.
+
+\bibitem[Anderson and Ter~Braak(2003)]{RN1719}
+Anderson, Marti~J., and Cajo J.~F. Ter~Braak. 2003. ``Permutation Tests for
+  Multi-Factoral Analysis of Variance.'' \emph{Journal of Statistical
+  Computation and Simulation} 73 (2): 85--113.
+  \urlprefix\url{https://www.tandfonline.com/doi/abs/10.1080/00949650215733}.
+
+\bibitem[Baken et~al.(2021)]{RN8605}
+Baken, Erica~K., Michael~L. Collyer, Antigoni Kaliontzopoulou, and Dean~C.
+  Adams. 2021. ``geomorph v4.0 and gmShiny: Enhanced analytics and a new
+  graphical interface for a comprehensive morphometric experience.''
+  \emph{Methods in Ecology and Evolution} 12 (12): 2355--2363.
+  \urlprefix\url{https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.13723?download=true}.
+
+\bibitem[Bookstein(1986)]{RN11138}
+Bookstein, Fred~L. 1986. ``Size and Shape Spaces for Landmark Data in Two
+  Dimensions.'' \emph{Statistical Science} 1 (2): 181--242.
+  \urlprefix\url{https://projecteuclid.org/journals/statistical-science/volume-1/issue-2/Size-and-Shape-Spaces-for-Landmark-Data-in-Two-Dimensions/10.1214/ss/1177013696.pdf}.
+
+\bibitem[Bookstein(1991)]{RN5616}
+Bookstein, Fred~L. 1991. \emph{Morphometric Tools for Landmark Data: Geometry
+  and Biology}. Cambridge: Cambridge University Press.
+
+\bibitem[Bookstein et~al.(1999)]{RN8477}
+Bookstein, Fred~L., Katrin Schäfer, Hermann Prossinger, Horst Seidler, Martin
+  Fieder, Chris Stringer, Gerhard~W. Weber, et~al. 1999. ``Comparing frontal
+  cranial profiles in archaic and modern Homo by morphometric analysis.''
+  \emph{The Anatomical Record} 257 (6): 217--224.
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/10620751
+  https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/%28SICI%291097-0185%2819991215%29257%3A6%3C217%3A%3AAID-AR7%3E3.0.CO%3B2-W?download=true}.
+
+\bibitem[Chapman(1990)]{RN11139}
+Chapman, R.~E. 1990. ``Conventional Procrustes Approaches.'' In
+  \emph{Proceedings of the Michigan Morphometrics Workshop},  edited by
+  F.~James Rohlf and Fred~L. Bookstein, 251--269. Ann Arbor: Special
+  Publication Number 2, The University of Michigan Museum of Zoology.
+
+\bibitem[Collyer and Adams(2018)]{RN11775}
+Collyer, Michael~L., and Dean~C. Adams. 2018. ``{RRPP: An R Package for Fitting
+  Linear Models to High-Dimensional Data using Residual Randomization}.''
+  \emph{Methods in Ecology and Evolution} 9 (7): 1772--1779.
+  \urlprefix\url{https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.13029}.
+
+\bibitem[Collyer and Adams(2020)]{RN11107}
+Collyer, Michael~L., and Dean~C. Adams. 2020. ``Phylogenetically aligned
+  component analysis.'' \emph{Methods in Ecology and Evolution} 12 (2):
+  359--372.
+  \urlprefix\url{https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13515}.
+
+\bibitem[Collyer, Sekora, and Adams(2015)]{RN1756}
+Collyer, Michael~L., David~J. Sekora, and Dean~C. Adams. 2015. ``{A Method for
+  Analysis of Phenotypic Change for Phenotypes Described by High-Dimensional
+  Data}.'' \emph{Heredity} 115 (4): 357--65.
+  \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/25204302}.
+
+\bibitem[Dryden and Mardia(1993)]{RN11141}
+Dryden, I.~L., and K.~V. Mardia. 1993. ``Multivariate Shape Analysis.''
+  \emph{Sankhya: The Indian Journal of Statistics, Series A} Special Volume 55,
+  Series A, Pt. 3: 460--480.
+  \urlprefix\url{https://www.jstor.org/stable/25050954}.
+
+\bibitem[Dryden and Mardia(1998)]{RN11140}
+Dryden, I.~L., and K.~V. Mardia. 1998. \emph{Statistical Shape Analysis}.
+  Chichester: Wiley.
+
+\bibitem[Foote(1993)]{RN7041}
+Foote, Mike. 1993. ``Contributions of individual taxa to overall morphological
+  disparity.'' \emph{Paleobiology} 19 (4): 403--419.
+  \urlprefix\url{https://www.cambridge.org/core/journals/paleobiology/article/abs/contributions-of-individual-taxa-to-overall-morphological-disparity/11005B00744CDA2EF64580982004B861}.
+
+\bibitem[Gandrud(2014)]{RN7427}
+Gandrud, Christopher. 2014. \emph{Reproducible Research with R and RStudio}.
+  The R Series. London: CRC Press.
+
+\bibitem[Goodall(1991)]{RN1749}
+Goodall, Colin. 1991. ``Procrustes Methods in the Statistical Analysis of
+  Shape.'' \emph{Journal of the Royal Statistical Society: Series B
+  (Methodological)} 53 (2): 285--321.
+  \urlprefix\url{https://rss.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.2517-6161.1991.tb01825.x?download=true}.
+
+\bibitem[Gower(1975)]{RN11564}
+Gower, J.~C. 1975. ``Generalized Procrustes Analysis.'' \emph{Psychometrika} 40
+  (1): 33--51.
+  \urlprefix\url{https://link.springer.com/article/10.1007%2FBF02291478}.
+
+\bibitem[Gray and Marwick(2019)]{RN7434}
+Gray, Charles~T., and Ben Marwick. 2019. ``Truth, Proof, and Reproducibility:
+  There’s No Counter-Attack for the Codeless.'' In \emph{Statistics and Data
+  Science}, Communications in Computer and Information Science, book section
+  Chapter 8, 111--129.
+  \urlprefix\url{https://link.springer.com/chapter/10.1007/978-981-15-1960-4_8}.
+
+\bibitem[Gunz, Mitteroecker, and Bookstein(2005)]{RN7502}
+Gunz, P., P.~Mitteroecker, and F.~L. Bookstein. 2005. \emph{Semilandmarks in
+  Three Dimensions}, 73--98. New York: Plenum Publishers.
+
+\bibitem[Ivanovaitė et~al.(2019)]{RN7818}
+Ivanovaitė, Livija, Kamil Serwatka, Christian~Steven Hoggard, Florian Sauer,
+  and Felix Riede. 2019. ``All these Fantastic Cultures? Research History and
+  Regionalization in the Late Palaeolithic Tanged Point Cultures of Eastern
+  Europe.'' \emph{European Journal of Archaeology} 23 (2): 162--185.
+  \urlprefix\url{https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD2C87385176F87360F8B85A2718CEDF/S1461957119000597a.pdf/div-class-title-all-these-fantastic-cultures-research-history-and-regionalization-in-the-late-palaeolithic-tanged-point-cultures-of-eastern-europe-div.pdf}.
+
+\bibitem[Jolliffe(2002)]{RN1746}
+Jolliffe, Ian~T. 2002. \emph{Principal Component Analysis}. New York: Springer.
+
+\bibitem[Kendall(1981)]{RN11622}
+Kendall, David~G. 1981. \emph{{The Statistics of Shape}}, 75--80. New York:
+  Wiley.
+
+\bibitem[Kendall(1984)]{RN11623}
+Kendall, David~G. 1984. ``Shape Manifolds, Procrustean Metrics, and Complex
+  Projective Spaces.'' \emph{Bulletin of the London Mathematical Society} 16
+  (2): 81--121.
+  \urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1112/blms/16.2.81/abstract
+  https://londmathsoc.onlinelibrary.wiley.com/doi/abs/10.1112/blms/16.2.81}.
+
+\bibitem[Kent and Mardia(2001)]{RN11142}
+Kent, J.~T., and K.~V. Mardia. 2001. ``Shape, Procrustes Tangent Projections
+  and Bilateral Symmetry.'' \emph{Biometrika} 88 (2): 469--485.
+  \urlprefix\url{https://academic.oup.com/biomet/article-abstract/88/2/469/264951?redirectedFrom=fulltext}.
+
+\bibitem[Klingenberg(2013)]{RN1731}
+Klingenberg, Christian~Peter. 2013. ``{Visualizations in Geometric
+  Morphometrics: How to Read and How to Make Graphs Showing Shape Changes}.''
+  \emph{Hystrix} 24 (1): 15--24.  \urlprefix\url{<Go to
+  ISI>://WOS:000330926000003}.
+
+\bibitem[Marwick(2016)]{RN9022}
+Marwick, Ben. 2016. ``Computational Reproducibility in Archaeological Research:
+  Basic Principles and a Case Study of Their Implementation.'' \emph{Journal of
+  Archaeological Method and Theory} 24 (2): 424--450.
+  \urlprefix\url{https://link.springer.com/article/10.1007/s10816-015-9272-9}.
+
+\bibitem[Marwick et~al.(2019)]{RN10579}
+Marwick, Ben, Li-Ying Wang, Ryan Robinson, and Hope Loiselle. 2019. ``How to
+  Use Replication Assignments for Teaching Integrity in Empirical
+  Archaeology.'' \emph{Advances in Archaeological Practice} 8 (1): 78--86.
+  \urlprefix\url{https://www.cambridge.org/core/journals/advances-in-archaeological-practice/article/abs/how-to-use-replication-assignments-for-teaching-integrity-in-empirical-archaeology/6E6599B332D1BE46ADA8EEC0C7A3DF0B}.
+
+\bibitem[Miller(2007)]{RN11099}
+Miller, D.~Shane. 2007. ``Site Formation Processes in an Upland Paleoindian
+  Site: The 2005 – 2007 Topper Firebreak Excavations.'' Thesis, The
+  University of Tennessee.
+
+\bibitem[Miller and Smallwood(2012)]{RN11098}
+Miller, D.~Shane, and Ashley~M. Smallwood. 2012. ``Beyond Stages: Modeling
+  Clovis Biface Production at the Topper Site (38AL23), South Carolina.'' In
+  \emph{Lithic Analysis: Problems, Solutions, and Interpretations},  edited by
+  Philip~J. Carr and Andrew~P. Bradbury, 28--41. Tuscaloosa: University of
+  Alabama Press.
+
+\bibitem[Millsap and Dickson(1968)]{RN11461}
+Millsap, Mike, and Don~R. Dickson. 1968. ``The Millsap Cache.'' \emph{Bulletin
+  of the Oklahoma Anthropological Society} 16: 159--160.
+
+\bibitem[O'Higgins and Jones(1998)]{RN11143}
+O'Higgins, Paul, and Nicholas Jones. 1998. ``Facial growth in Cercocebus
+  torquatus: an application of three-dimensional geometric morphometric
+  techniques to the study of morphological variation.'' \emph{J Anat} 193 ( Pt
+  2) (2): 251--72.
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/9827641}.
+
+\bibitem[Olsen and Westneat(2015)]{RN9091}
+Olsen, Aaron~M., and Mark~W. Westneat. 2015. ``StereoMorph: an R package for
+  the collection of 3D landmarks and curves using a stereo camera set‐up.''
+  \emph{Methods in Ecology and Evolution} 6 (3): 351--356.
+  \urlprefix\url{https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/2041-210X.12326?download=true}.
+
+\bibitem[Peels and Bouter(2018)]{RN10580}
+Peels, R., and L.~Bouter. 2018. ``Humanities need a replication drive too.''
+  \emph{Nature} 558 (7710): 372.
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/29921855}.
+
+\bibitem[Peng(2011)]{RN7435}
+Peng, Roger~D. 2011. ``Reproducible Research in Computational Science.''
+  \emph{Science} 334 (6060): 1226--7.
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/22144613}.
+
+\bibitem[{R Core Development Team,}(2022)]{R}
+{R Core Development Team,}. 2022. \emph{R: A Language and Environment for
+  Statistical Computing}. Vienna, Austria: R Foundation for Statistical
+  Computing.  \urlprefix\url{http://www.R-project.org/}.
+
+\bibitem[Rasband(1997)]{RN11147}
+Rasband, W.~S. 1997. \emph{ImageJ}. Report. National Institutes of Health.
+
+\bibitem[Rohlf(1999)]{RN1646}
+Rohlf, F.~James. 1999. ``Shape Statistics: Procrustes Superimpositions and
+  Tangent Spaces.'' \emph{Journal of Classification} 16 (2): 197--223.
+  \urlprefix\url{https://link.springer.com/article/10.1007%2Fs003579900054}.
+
+\bibitem[Rohlf and Marcus(1993)]{RN7550}
+Rohlf, F.~James, and Leslie~F. Marcus. 1993. ``A Revolution in Morphometrics.''
+  \emph{Trends in Ecology \& Evolution} 8 (4): 129--132. James Rohlf, F Marcus,
+  L F eng England Trends Ecol Evol. 1993 Apr;8(4):129-32. doi:
+  10.1016/0169-5347(93)90024-J.,
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/21236128
+  https://www.sciencedirect.com/science/article/abs/pii/016953479390024J?via%3Dihub}.
+
+\bibitem[Rohlf and Slice(1990)]{RN478}
+Rohlf, F.~James, and Dennis~E. Slice. 1990. ``Extensions of the Procrustes
+  Method for the Optimal Superimposition of Landmarks.'' \emph{Systematic
+  Zoology} 39 (1): 40--59.
+  \urlprefix\url{https://academic.oup.com/sysbio/article-abstract/39/1/40/1629843?redirectedFrom=fulltext}.
+
+\bibitem[Schneider, Rasband, and Eliceiri(2012)]{RN11148}
+Schneider, C.~A., W.~S. Rasband, and K.~W. Eliceiri. 2012. ``NIH Image to
+  ImageJ: 25 years of image analysis.'' \emph{Nat Methods} 9 (7): 671--5.
+  \urlprefix\url{https://www.ncbi.nlm.nih.gov/pubmed/22930834
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5554542/pdf/nihms876304.pdf}.
+
+\bibitem[Selden(2022)]{RN11097}
+Selden, Robert~Z. 2022. ``Morphologically Similar, but Regionally Distinct:
+  Perdiz Arrow Points from Caddo Burial Contexts in the American Southeast.''
+  \emph{Lithic Technology} (in press).
+  \urlprefix\url{https://doi.org/10.1080/01977261.2022.2095492}.
+
+\bibitem[Selden~Jr et~al.(2021)]{RN8510}
+Selden~Jr, Robert~Z., John~E. Dockall, C.~Britt Bousman, and Timothy~K.
+  Perttula. 2021. ``Shape as a function of time + raw material + burial
+  context? An exploratory analysis of Perdiz arrow points from the ancestral
+  Caddo area of the American Southeast.'' \emph{Journal of Archaeological
+  Science: Reports} 37: 102916.
+  \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S2352409X21001280}.
+
+\bibitem[Selden~Jr., Dockall, and Dubied(2020)]{RN10576}
+Selden~Jr., Robert~Z., John~E. Dockall, and Morgane Dubied. 2020. ``A
+  quantitative assessment of intraspecific morphological variation in Gahagan
+  bifaces from the southern Caddo area and central Texas.'' \emph{Southeastern
+  Archaeology} 39 (2): 125--145.
+  \urlprefix\url{https://www.tandfonline.com/doi/full/10.1080/0734578X.2020.1744416}.
+
+\bibitem[Selden~Jr., Dockall, and Shafer(2018)]{RN10578}
+Selden~Jr., Robert~Z., John~E. Dockall, and Harry~J. Shafer. 2018. ``Lithic
+  Morphological Organisation: Gahagan Bifaces from the Southern Caddo Area.''
+  \emph{Digital Applications in Archaeology and Cultural Heritage} 10: e00080.
+  \urlprefix\url{https://www.sciencedirect.com/science/article/abs/pii/S2212054818300183}.
+
+\bibitem[Sherratt et~al.(2014)]{RN479}
+Sherratt, Emma, David~J. Gower, Christian~Peter Klingenberg, and Mark
+  Wilkinson. 2014. ``{Evolution of Cranial Shape in Caecilians (Amphibia:
+  Gymnophiona)}.'' \emph{Evolutionary Biology} 41 (4): 528--545.
+  \urlprefix\url{<Go to ISI>://WOS:000344862900003}.
+
+\bibitem[Slice(2001)]{RN11563}
+Slice, Dennis~E. 2001. ``Landmark Coordinates Aligned by Procrustes Analysis Do
+  Not Lie in Kendall's Shape Space.'' \emph{Systematic Biology} 50 (1):
+  141--149.
+  \urlprefix\url{https://watermark.silverchair.com/50-1-141.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAl8wggJbBgkqhkiG9w0BBwagggJMMIICSAIBADCCAkEGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMlB0fVgiefh-HF62cAgEQgIICEnUbMvaoDwmiJK_89D_lKVNuSELdEJkJgTKGs1grlJd9L2bOdwUHTMYme7hWxHuSUUmHw6ZDLzeK4Nib6yAmKynbU_x0fu1jxrrusB0QAEh8Gee_BtOb4fdR1I7xXWAEJuEw9VbvQZ6HHsNG9Vn6pX4QFpaOnn7tIluFloY2tUUhi83C-U-ki3KYUVyATkUR-6QUHtFeVvjIJCNf3nswIwuukJhB5KckcPsVsqxdAhu-h6MlYJM2RoSJBWLejrcjVz5pJl84OyPVKPITGOZTcILHALEBUlZ_Q1BvOEgwr-9_GG6RlgON6jEVKcarSyp4RHF47gAe4yG5dXn0PD5XOoYgKDmptd7pL_3vxpvG4XuD5AuQ6ofe36-4DxazTvabVhg7IGMUFSHoED76Rmn9QuxEY9NQ_hMgtp7bhoJufrfP9XxwUmJQ0uyRVq8JdM6sKz7PLHvGQGHXaA5LXS8tFY6Glwdjr5KUH2ORMTHjrxFslmI_gLGDKoDs2T6BfVa9zx2uzdKfk-Fv3zXheRDdiTG3_RjPArJMQMM0VTDxUxk7PB7i4dPtwbfSpkl5ha1FJ-Go8Tiyq4_k6rseRVsxM3L8SWnikWsEIljGM-tuNZZXkX34YlIjOHrxQ3tRVQch8_CzN9MH0pEjJN4UaCMqvsyCCujb1LeRkd2ngOedS-qZGpd4Zy06pMkohgmrbY3tF69P}.
+
+\bibitem[Smallwood(2010)]{RN9242}
+Smallwood, Ashley~M. 2010. ``Clovis Biface Technology at the Topper Site, South
+  Carolina: Evidence for Variation and Technological Flexibility.''
+  \emph{Journal of Archaeological Science} 37 (10): 2413--2425.
+
+\bibitem[Thompson(1917)]{RN7522}
+Thompson, D'Arcy~W. 1917. \emph{On Growth and Form}. Cambridge: Cambridge
+  University Press.
+
+\bibitem[Zelditch et~al.(2004)]{RN5694}
+Zelditch, Miriam~Leah, Donald~L. Swiderski, H.~David Sheets, and William~L.
+  Fink. 2004. \emph{Geometric Morphometrics for Biologists : A Primer}.
+  Burlington: Elsevier Science.
+  \urlprefix\url{http://ebookcentral.proquest.com/lib/tamucs/detail.action?docID=298308}.
+
+\end{thebibliography}
