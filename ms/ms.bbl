@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{54}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\normalfont{#1}}
@@ -136,6 +136,11 @@ Ivanovaitė, Livija, Kamil Serwatka, Christian~Steven Hoggard, Florian Sauer,
   Europe.'' \emph{European Journal of Archaeology} 23 (2): 162--185.
   \urlprefix\url{https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AD2C87385176F87360F8B85A2718CEDF/S1461957119000597a.pdf/div-class-title-all-these-fantastic-cultures-research-history-and-regionalization-in-the-late-palaeolithic-tanged-point-cultures-of-eastern-europe-div.pdf}.
 
+\bibitem[Johnson and Brookes(1989)]{RN11178}
+Johnson, Jay~K., and Samuel~O. Brookes. 1989. ``Benton Points, Turkey Tails,
+  and Cache Blades: Middle Archaic Exchange in the Midsouth.''
+  \emph{Southeastern Archaeology} 8 (2): 134--145.
+
 \bibitem[Jolliffe(2002)]{RN1746}
 Jolliffe, Ian~T. 2002. \emph{Principal Component Analysis}. New York: Springer.
 
@@ -161,6 +166,11 @@ Klingenberg, Christian~Peter. 2013. ``{Visualizations in Geometric
   \emph{Hystrix} 24 (1): 15--24.  \urlprefix\url{<Go to
   ISI>://WOS:000330926000003}.
 
+\bibitem[Knight~Jr.(2011)]{RN11177}
+Knight~Jr., Vernon~J. 2011. ``North America: Eastern Woodlands.'' In \emph{The
+  Oxford Handbook of the Archaeology of Ritual and Religion},  edited by
+  Timothy Insoll, 623--638. New York: Oxford University Press.
+
 \bibitem[Marwick(2016)]{RN9022}
 Marwick, Ben. 2016. ``Computational Reproducibility in Archaeological Research:
   Basic Principles and a Case Study of Their Implementation.'' \emph{Journal of
@@ -172,6 +182,11 @@ Marwick, Ben, Li-Ying Wang, Ryan Robinson, and Hope Loiselle. 2019. ``How to
   Use Replication Assignments for Teaching Integrity in Empirical
   Archaeology.'' \emph{Advances in Archaeological Practice} 8 (1): 78--86.
   \urlprefix\url{https://www.cambridge.org/core/journals/advances-in-archaeological-practice/article/abs/how-to-use-replication-assignments-for-teaching-integrity-in-empirical-archaeology/6E6599B332D1BE46ADA8EEC0C7A3DF0B}.
+
+\bibitem[McNutt(2008)]{RN11179}
+McNutt, Charles~H. 2008. ``The Benton Phenomenon and Middle Archaic Chronology
+  in Adjacent Portions of Tennessee, Mississippi, and Alabama.''
+  \emph{Southeastern Archaeology} 27 (1): 45--60.
 
 \bibitem[Miller(2007)]{RN11099}
 Miller, D.~Shane. 2007. ``Site Formation Processes in an Upland Paleoindian
@@ -280,6 +295,10 @@ Slice, Dennis~E. 2001. ``Landmark Coordinates Aligned by Procrustes Analysis Do
 \bibitem[Thompson(1917)]{RN7522}
 Thompson, D'Arcy~W. 1917. \emph{On Growth and Form}. Cambridge: Cambridge
   University Press.
+
+\bibitem[Walthall(1980)]{RN11180}
+Walthall, John~A. 1980. \emph{Prehistoric Indians of the Southeast: Archaeology
+  Alabama and the Middle South}. Tuscaloosa: University of Alabama Press.
 
 \bibitem[Zelditch et~al.(2004)]{RN5694}
 Zelditch, Miriam~Leah, Donald~L. Swiderski, H.~David Sheets, and William~L.
