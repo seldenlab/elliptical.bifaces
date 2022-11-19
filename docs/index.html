@@ -23,7 +23,7 @@
 <meta name="author" content="Robert Z. Selden, Jr." />
 
 
-<meta name="date" content="2022-11-10" />
+<meta name="date" content="2022-11-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -92,7 +92,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -105,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -230,7 +230,7 @@ div.csl-indent {
 <div id="header">
 <h1 class="title">Size matters: Divergent morphology in elliptical bifaces from sites in the American Southeast articulates with distinct local reduction practices</h1>
 <p class="author"><em>Robert Z. Selden, Jr.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></em></p>
-<p class="date"><em>2022-11-10</em></p>
+<p class="date"><em>2022-11-19</em></p>
 </div>
 <div id="preface" class="section level1 unnumbered hasAnchor">
 <h1>Preface<a href="index.html#preface" class="anchor-section" aria-label="Anchor link to header"></a></h1>
@@ -251,16 +251,16 @@ Figure 0.1: Location of Millsap Cache, Jowell Farm, and other Caddo sites mentio
 </div>
 <div id="analysis-overview" class="section level2 hasAnchor" number="0.1">
 <h2><span class="header-section-number">0.1</span> Analysis overview<a href="index.html#analysis-overview" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure <a href="index.html#fig:figlm">0.2</a>). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch. Landmarks and semilandmarks were applied in R 4.2.1 <span class="citation">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> using the <code>StereoMorph</code> library v. 1.6.7 <span class="citation">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015a</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure <a href="index.html#fig:figlm">0.2</a>: b, c, d, and e), while others (Figure <a href="index.html#fig:figlm">0.2</a>: f) include one retouched edge at top right and another at bottom left, similar to alternately beveled bifaces.</p>
+<p>Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right (Figure <a href="index.html#fig:figlm">0.2</a>). The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch. Landmarks and semilandmarks were applied in R 4.2.1 <span class="citation">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> using the <code>StereoMorph</code> library v. 1.6.7 <span class="citation">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge (Figure <a href="index.html#fig:figlm">0.2</a>: b, c, d, and e), while others (Figure <a href="index.html#fig:figlm">0.2</a>: f) include one retouched edge at top right and another at bottom left, similar to alternately beveled bifaces.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="index.html#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">&#39;./images/ellipticalbifaces.png&#39;</span>)</span></code></pre></div>
 <div class="figure"><span style="display:block;" id="fig:figlm"></span>
-<img src="images/ellipticalbifaces.png" alt="Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the flaking index developed and advanced by Miller [-@RN11459], Smallwood [-@RN8310], and Miller and Smallwood [-@RN11460]." width="2100" />
+<img src="images/ellipticalbifaces.png" alt="Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the flaking index developed and advanced by Miller [-@RN11459]." width="2100" />
 <p class="caption">
-Figure 0.2: Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the flaking index developed and advanced by Miller <span class="citation">(<a href="#ref-RN11459" role="doc-biblioref">2007</a>)</span>, Smallwood <span class="citation">(<a href="#ref-RN8310" role="doc-biblioref">2010</a>)</span>, and Miller and Smallwood <span class="citation">(<a href="#ref-RN11460" role="doc-biblioref">2012</a>)</span>.
+Figure 0.2: Selected elliptical bifaces from the Jowell Farm site highlighting the most heavily retouched area identified using a modified version of the flaking index developed and advanced by Miller <span class="citation">(<a href="#ref-RN11459" role="doc-biblioref">2007</a>)</span>.
 </p>
 </div>
-<p>To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by Miller <span class="citation">(<a href="#ref-RN11459" role="doc-biblioref">2007</a>)</span>, and later advanced and refined by Smallwood <span class="citation">(<a href="#ref-RN8310" role="doc-biblioref">2010</a>)</span>, then Miller and Smallwood <span class="citation">(<a href="#ref-RN11460" role="doc-biblioref">2012</a>)</span>. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length (inclusive of curvature - this is not a linear metric). The number of flake scars was then divided by the length of the worked edge, with the heaviest worked edge identified by the greater value.</p>
-<p>The same landmark/semilandmark configuration was used for both analyses, and the landmarking protocol employs three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch (see Figure <a href="index.html#fig:figlm">0.2</a>). Equidistant semilandmarks were placed between each landmark, and all landmarks and semilandmarks were applied using R <span class="citation">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> and the <code>StereoMorph</code> package <span class="citation">(<a href="#ref-RN9091" role="doc-biblioref">Olsen and Westneat 2015b</a>)</span>.</p>
+<p>To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by Miller <span class="citation">(<a href="#ref-RN11459" role="doc-biblioref">2007</a>)</span>. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length (inclusive of curvature - this is not a linear metric). The number of flake scars was then divided by the length of the worked edge, with the heaviest worked edge identified by the greater value.</p>
+<p>The same landmark/semilandmark configuration was used for both analyses, and the landmarking protocol employs three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch (see Figure <a href="index.html#fig:figlm">0.2</a>).</p>
 <div id="generalised-procrustes-analysis" class="section level3 hasAnchor" number="0.1.1">
 <h3><span class="header-section-number">0.1.1</span> Generalised Procrustes Analysis<a href="index.html#generalised-procrustes-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Landmark data were aligned to a global coordinate system <span class="citation">(<a href="#ref-RN8477" role="doc-biblioref">Bookstein et al. 1999</a>; <a href="#ref-RN7502" role="doc-biblioref">Gunz, Mitteroecker, and Bookstein 2005</a>; <a href="#ref-RN11622" role="doc-biblioref">Kendall 1981</a>, <a href="#ref-RN11623" role="doc-biblioref">1984</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>, achieved through generalised Procrustes superimposition <span class="citation">(<a href="#ref-RN11138" role="doc-biblioref">Bookstein 1986</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>; <a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>)</span> in R using the <code>geomorph</code> and <code>RRPP</code> packages <span class="citation">(<a href="#ref-RN1655" role="doc-biblioref">Adams and Collyer 2015</a>; <a href="#ref-RN11775" role="doc-biblioref">Collyer and Adams 2018</a>; <a href="#ref-RN11530" role="doc-biblioref">Adams et al. 2017</a>; <a href="#ref-RN1774" role="doc-biblioref">Adams and Otarola-Castillo 2013</a>; <a href="#ref-RN9565" role="doc-biblioref">Baken et al. 2021</a>)</span>. Procrustes superimposition translates and rotates the coordinate data to allow for comparisons among objects, while also scaling each biface using unit-centroid size—the square root of the sum of squared distances from each landmark to the specimen’s centroid <span class="citation">(<a href="#ref-RN11139" role="doc-biblioref">Chapman 1990</a>; <a href="#ref-RN11140" role="doc-biblioref">Dryden and Mardia 1998</a>; <a href="#ref-RN11564" role="doc-biblioref">Gower 1975</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span>. The <code>geomorph</code> package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space <span class="citation">(<a href="#ref-RN11141" role="doc-biblioref">Dryden and Mardia 1993</a>; <a href="#ref-RN11142" role="doc-biblioref">Kent and Mardia 2001</a>; <a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>.</p>
@@ -329,10 +329,10 @@ Figure 0.5: Illustrated elliptical bifaces from a, an unknown location; b, Jowel
 </div>
 <div id="colophon" class="section level2 unnumbered hasAnchor">
 <h2>Colophon<a href="index.html#colophon" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This version of the analysis was generated on 2022-11-10 05:36:17 using the following computational environment and dependencies:</p>
+<p>This version of the analysis was generated on 2022-11-19 07:01:57 using the following computational environment and dependencies:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="index.html#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what R packages and versions were used?</span></span>
 <span id="cb6-2"><a href="index.html#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;devtools&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
-<pre><code>## ─ Session info ───────────────────────────────────────────────────────────────────────────
+<pre><code>## ─ Session info ──────────────────────────────────
 ##  setting  value
 ##  version  R version 4.2.2 (2022-10-31 ucrt)
 ##  os       Windows 10 x64 (build 19045)
@@ -342,11 +342,11 @@ Figure 0.5: Illustrated elliptical bifaces from a, an unknown location; b, Jowel
 ##  collate  English_United States.utf8
 ##  ctype    English_United States.utf8
 ##  tz       America/Chicago
-##  date     2022-11-10
-##  rstudio  2022.07.1+554 Spotted Wakerobin (desktop)
-##  pandoc   2.18 @ C:/Program Files/RStudio/bin/quarto/bin/tools/ (via rmarkdown)
+##  date     2022-11-19
+##  rstudio  2022.07.2+576 Spotted Wakerobin (desktop)
+##  pandoc   2.19.2 @ C:/Program Files/RStudio/bin/quarto/bin/tools/ (via rmarkdown)
 ## 
-## ─ Packages ───────────────────────────────────────────────────────────────────────────────
+## ─ Packages ──────────────────────────────────────
 ##  package     * version date (UTC) lib source
 ##  bookdown      0.30    2022-11-09 [1] CRAN (R 4.2.2)
 ##  bslib         0.4.1   2022-11-02 [1] CRAN (R 4.2.2)
@@ -369,7 +369,7 @@ Figure 0.5: Illustrated elliptical bifaces from a, an unknown location; b, Jowel
 ##  httpuv        1.6.6   2022-09-08 [1] CRAN (R 4.2.2)
 ##  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.2.2)
 ##  jsonlite      1.8.3   2022-10-21 [1] CRAN (R 4.2.2)
-##  knitr         1.40    2022-08-24 [1] CRAN (R 4.2.2)
+##  knitr         1.41    2022-11-18 [1] CRAN (R 4.2.2)
 ##  later         1.3.0   2021-08-18 [1] CRAN (R 4.2.2)
 ##  lifecycle     1.0.3   2022-10-07 [1] CRAN (R 4.2.2)
 ##  magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.2.2)
@@ -377,7 +377,7 @@ Figure 0.5: Illustrated elliptical bifaces from a, an unknown location; b, Jowel
 ##  mime          0.12    2021-09-28 [1] CRAN (R 4.2.0)
 ##  miniUI        0.1.1.1 2018-05-18 [1] CRAN (R 4.2.2)
 ##  pkgbuild      1.3.1   2021-12-20 [1] CRAN (R 4.2.2)
-##  pkgload       1.3.1   2022-10-28 [1] CRAN (R 4.2.2)
+##  pkgload       1.3.2   2022-11-16 [1] CRAN (R 4.2.2)
 ##  png           0.1-7   2013-12-03 [1] CRAN (R 4.2.0)
 ##  prettyunits   1.1.1   2020-01-24 [1] CRAN (R 4.2.2)
 ##  processx      3.8.0   2022-10-26 [1] CRAN (R 4.2.2)
@@ -392,7 +392,6 @@ Figure 0.5: Illustrated elliptical bifaces from a, an unknown location; b, Jowel
 ##  rmarkdown     2.18    2022-11-09 [1] CRAN (R 4.2.2)
 ##  rprojroot     2.0.3   2022-04-02 [1] CRAN (R 4.2.2)
 ##  rstudioapi    0.14    2022-08-22 [1] CRAN (R 4.2.2)
-##  rticles       0.24    2022-08-25 [1] CRAN (R 4.2.2)
 ##  sass          0.4.2   2022-07-16 [1] CRAN (R 4.2.2)
 ##  sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.2.2)
 ##  shiny         1.7.3   2022-10-25 [1] CRAN (R 4.2.2)
@@ -407,13 +406,13 @@ Figure 0.5: Illustrated elliptical bifaces from a, an unknown location; b, Jowel
 ##  [1] C:/Users/seldenjrz/AppData/Local/R/win-library/4.2
 ##  [2] C:/Program Files/R/R-4.2.2/library
 ## 
-## ──────────────────────────────────────────────────────────────────────────────────────────</code></pre>
+## ─────────────────────────────────────────────────</code></pre>
 <p>Current Git commit details are:</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="index.html#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># where can I find this commit? </span></span>
 <span id="cb8-2"><a href="index.html#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">&quot;git2r&quot;</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">&amp;</span> git2r<span class="sc">::</span><span class="fu">in_repository</span>(<span class="at">path =</span> <span class="st">&quot;.&quot;</span>)) git2r<span class="sc">::</span><span class="fu">repository</span>(here<span class="sc">::</span><span class="fu">here</span>())  </span></code></pre></div>
 <pre><code>## Local:    main D:/github/elliptical.bifaces
 ## Remote:   main @ origin (https://github.com/seldenlab/elliptical.bifaces)
-## Head:     [9eb9e13] 2022-11-10: &lt;edit ms&gt;</code></pre>
+## Head:     [f55e202] 2022-11-11: &lt;edit ms&gt;</code></pre>
 
 </div>
 </div>
@@ -512,17 +511,11 @@ Marwick, Ben, Li-Ying Wang, Ryan Robinson, and Hope Loiselle. 2019. <span>“How
 <div id="ref-RN11459" class="csl-entry">
 Miller, D. Shane. 2007. <span>“Site Formation Processes in an Upland Paleoindian Site: The 2005 – 2007 Topper Firebreak Excavations.”</span> Thesis.
 </div>
-<div id="ref-RN11460" class="csl-entry">
-Miller, D. Shane, and Ashley M. Smallwood. 2012. <span>“Beyond Stages: Modeling Clovis Biface Production at the Topper Site (38al23), South Carolina.”</span> Book Section. In <em>Lithic Analysis: Problems, Solutions, and Interpretations</em>, edited by Philip J. Carr and Andrew P. Bradbury, 28–41. Tuscaloosa: University of Alabama Press.
-</div>
 <div id="ref-RN11143" class="csl-entry">
 O’Higgins, Paul, and Nicholas Jones. 1998. <span>“Facial Growth in Cercocbus Torquatus: An Application of Three-Dimensional Geometric Morphometric Techniques to the Study of Morphological Variation.”</span> Journal Article. <em>The Journal of Anatomy</em> 193 (2): 251–72.
 </div>
-<div id="ref-RN9091" class="csl-entry">
-Olsen, Aaron M., and Mark W. Westneat. 2015b. <span>“StereoMorph: An r Package for the Collection of 3d Landmarks and Curves Using a Stereo Camera Set‐up.”</span> Journal Article. <em>Methods in Ecology and Evolution</em> 6 (3): 351–56. <a href="https://doi.org/10.1111/2041-210x.12326">https://doi.org/10.1111/2041-210x.12326</a>.
-</div>
 <div id="ref-RN8973" class="csl-entry">
-———. 2015a. <span>“StereoMorph: An r Package for the Collection of 3d Landmarks and Curves Using a Stereo Camera Set‐up.”</span> Journal Article. <em>Methods in Ecology and Evolution</em> 6 (3): 351–56. <a href="https://doi.org/10.1111/2041-210x.12326">https://doi.org/10.1111/2041-210x.12326</a>.
+Olsen, Aaron M., and Mark W. Westneat. 2015. <span>“StereoMorph: An r Package for the Collection of 3D Landmarks and Curves Using a Stereo Camera Set‐up.”</span> Journal Article. <em>Methods in Ecology and Evolution</em> 6 (3): 351–56. <a href="https://doi.org/10.1111/2041-210x.12326">https://doi.org/10.1111/2041-210x.12326</a>.
 </div>
 <div id="ref-RN21008" class="csl-entry">
 Peels, Rik, and Lex Bouter. 2018. <span>“Humanities Need a Replication Drive Too.”</span> <em>Nature</em> 558 (7710): 372. <a href="https://doi.org/10.1038/d41586-018-05454-w">https://doi.org/10.1038/d41586-018-05454-w</a>.
@@ -559,9 +552,6 @@ Sherratt, Emma, David J. Gower, Christian Peter Klingenberg, and Mark Wilkinson.
 </div>
 <div id="ref-RN11563" class="csl-entry">
 Slice, Dennis E. 2001. <span>“<span class="nocase">Landmark Coordinates Aligned by Procrustes Analysis Do Not Lie in Kendall’s Shape Space</span>.”</span> <em>Systematic Biology</em> 50 (1): 141–49. <a href="https://doi.org/10.1080/10635150119110">https://doi.org/10.1080/10635150119110</a>.
-</div>
-<div id="ref-RN8310" class="csl-entry">
-Smallwood, Ashley M. 2010. <span>“Clovis Biface Technology at the Topper Site, South Carolina: Evidence for Variation and Technological Flexibility.”</span> Journal Article. <em>Journal of Archaeological Science</em> 37 (10): 2413–25. <a href="https://doi.org/10.1016/j.jas.2010.05.002">https://doi.org/10.1016/j.jas.2010.05.002</a>.
 </div>
 <div id="ref-RN7522" class="csl-entry">
 Thompson, D’Arcy W. 1917. <em>On Growth and Form</em>. Book. Cambridge: Cambridge University Press.

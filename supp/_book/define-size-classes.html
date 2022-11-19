@@ -23,7 +23,7 @@
 <meta name="author" content="Robert Z. Selden, Jr." />
 
 
-<meta name="date" content="2022-11-10" />
+<meta name="date" content="2022-11-19" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -92,7 +92,7 @@ code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -105,7 +105,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -233,21 +233,20 @@ div.csl-indent {
 <h2><span class="header-section-number">1.1</span> Load packages + data<a href="define-size-classes.html#load-packages-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="define-size-classes.html#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load required analysis packages</span></span>
 <span id="cb10-2"><a href="define-size-classes.html#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div>
-<pre><code>## here() starts at D:/github/elliptical.bifaces</code></pre>
+<pre><code>## here() starts at D:/github/elliptical.bifaces/supp</code></pre>
 <div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="define-size-classes.html#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(StereoMorph)</span>
 <span id="cb12-2"><a href="define-size-classes.html#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(geomorph)</span></code></pre></div>
 <pre><code>## Loading required package: RRPP</code></pre>
 <pre><code>## Loading required package: rgl</code></pre>
 <pre><code>## Loading required package: Matrix</code></pre>
 <div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="define-size-classes.html#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
-<pre><code>## ── Attaching packages
-## ───────────────────────────────────────────────────
+<pre><code>## ── Attaching packages ──────────
 ## tidyverse 1.3.2 ──</code></pre>
 <pre><code>## ✔ ggplot2 3.4.0      ✔ purrr   0.3.5 
 ## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
 ## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
 ## ✔ readr   2.1.3      ✔ forcats 0.5.2 
-## ── Conflicts ────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ── Conflicts ───────────── tidyverse_conflicts() ──
 ## ✖ tidyr::expand() masks Matrix::expand()
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
