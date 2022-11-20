@@ -37,8 +37,6 @@ knitr::include_graphics('./images/ellipticalbifaces.png')
 
 To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by Miller [-@RN11459]. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length (inclusive of curvature - this is not a linear metric). The number of flake scars was then divided by the length of the worked edge, with the heaviest worked edge identified by the greater value.
 
-The same landmark/semilandmark configuration was used for both analyses, and the landmarking protocol employs three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch (see Figure \@ref(fig:figlm)).
-
 ### Generalised Procrustes Analysis
 
 Landmark data were aligned to a global coordinate system [@RN8477;@RN7502;@RN11622;@RN11623;@RN11563], achieved through generalised Procrustes superimposition [@RN11138;@RN478;@RN1646] in R using the `geomorph` and `RRPP` packages [@RN1655;@RN11775;@RN11530;@RN1774;@RN9565]. Procrustes superimposition translates and rotates the coordinate data to allow for comparisons among objects, while also scaling each biface using unit-centroid size---the square root of the sum of squared distances from each landmark to the specimen’s centroid [@RN11139;@RN11140;@RN11564;@RN478]. The `geomorph` package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space [@RN11141;@RN11142;@RN1646;@RN11563].
