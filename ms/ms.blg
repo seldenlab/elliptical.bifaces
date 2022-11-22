@@ -6,48 +6,50 @@ Database file #1: interactcadsample.bib
 Warning--entry type for "RN11530" isn't style-file defined
 --line 485 of file interactcadsample.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing school in RN11182
 Warning--missing publisher in RN7434
 Warning--can't use both author and editor fields in RN7502
 Warning--can't use both author and editor fields in RN11622
-You've used 54 entries,
+Warning--missing school in RN8143
+You've used 64 entries,
             3285 wiz_defined-function locations,
-            1086 strings with 18002 characters,
-and the built_in function-call counts, 30687 in all, are:
-= -- 2511
-> -- 1148
+            1148 strings with 19436 characters,
+and the built_in function-call counts, 35875 in all, are:
+= -- 2930
+> -- 1334
 < -- 1
-+ -- 508
-- -- 327
-* -- 2302
-:= -- 4694
-add.period$ -- 260
-call.type$ -- 54
-change.case$ -- 343
-chr.to.int$ -- 55
-cite$ -- 57
-duplicate$ -- 2385
-empty$ -- 2543
-format.name$ -- 389
-if$ -- 6298
++ -- 591
+- -- 380
+* -- 2669
+:= -- 5515
+add.period$ -- 300
+call.type$ -- 64
+change.case$ -- 402
+chr.to.int$ -- 65
+cite$ -- 69
+duplicate$ -- 2796
+empty$ -- 2964
+format.name$ -- 450
+if$ -- 7335
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 495
-newline$ -- 169
-num.names$ -- 164
-pop$ -- 971
+missing$ -- 582
+newline$ -- 199
+num.names$ -- 194
+pop$ -- 1152
 preamble$ -- 1
-purify$ -- 334
+purify$ -- 393
 quote$ -- 0
-skip$ -- 871
+skip$ -- 1013
 stack$ -- 0
-substring$ -- 1432
-swap$ -- 1219
+substring$ -- 1694
+swap$ -- 1418
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 306
-warning$ -- 3
-while$ -- 211
+type$ -- 366
+warning$ -- 5
+while$ -- 249
 width$ -- 0
-write$ -- 633
-(There were 4 warnings)
+write$ -- 741
+(There were 6 warnings)
