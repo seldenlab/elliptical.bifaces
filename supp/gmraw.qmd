@@ -3,9 +3,9 @@ title: "GM: Raw Material"
 bibliography: [book.bib]
 ---
 
-Elliptical bifaces from the Millsap Cache and Jowell Farm were used to examine whether their morphology remains stable, or expresses morphological variability by site/raw material. Variability in elliptical biface morphology provides evidence associated with differences in morphology as a function of geography/raw material.
+Bifaces from Millsap Cache and Jowell Farm were used to assess morphological stability/variability in elliptical bifaces by site/raw material. Variability in elliptical biface morphology would provide evidence of local differences in morphology as a function of geography/raw material.
 
-This analysis follows recent analyses of Perdiz arrow points ([Selden and Dockall, in review](https://github.com/seldenlab/perdiz3/blob/main/ms/perdiz3/perdiz3.pdf)) and Gahagan biface morphology across the southern Caddo area and central Texas [@RN11783; @RN21001; @RN11264], where Perdiz arrow points and Gahagan bifaces have been found to differ in shape across the same geography as Caddo bottles [@RN11801; @RN11782; @RN11716; @RN8312]. This analysis also follows another geometric morphometric analysis in which Perdiz arrow points from the ancestral Caddo area were found to differ as a function of *time*, *raw material*, and *burial context* [@RN9551].
+This analysis follows recent formal analyses of Perdiz arrow points [@RN9551;@RN11264] as well as another that is in press ([Selden and Dockall, in press](https://github.com/seldenlab/perdiz3/blob/main/ms/perdiz3.pdf)), and Gahagan biface morphology across the southern Caddo area and central Texas [@RN11783; @RN21001; @RN11264], where Perdiz arrow points and Gahagan bifaces have been found to differ in shape across the same geography as Caddo bottles [@RN11801; @RN11782; @RN11716; @RN8312]. This analysis also follows another geometric morphometric analysis in which Perdiz arrow points from the ancestral Caddo area were found to differ as a function of *time*, *raw material*, and *burial context* [@RN9551].
 
 ## Load packages + data
 

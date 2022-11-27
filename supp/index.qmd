@@ -21,9 +21,9 @@ link-citations: yes
 github-repo: seldenlab/elliptical.bifaces
 ---
 
-# Preface {-}
-
 >This process of comparison, of recognising in one form a definite permutation or _deformation_ of another, apart altogether from a precise and adequate understanding of the original "type" or standard of comparison, lies within the immediate province of mathematics, and finds its solution in the elementary use of a certain method of the mathematician [@RN7522].
+
+# Basis of inquiry 
 
 Elliptical bifaces are prevalent at Mississipian sites throughout the American Southeast. Those from Millsap Cache and Jowell Farm comprise two of the largest samples of this ill-understood stone tool from the ancestral Caddo area. Bifaces from Millsap Cache were reportedly produced using Kay County flint, while those from Jowell Farm were manufactured using Edwards chert, providing for an empirical test of morphological differences as a function of raw material. The sample of elliptical bifaces was divided into two size classes; one conceptually reflective of production (large), and the other with local reduction practices (small). Size classes were used to assess whether modifications by Caddo knappers may have yielded similar---convergent---biface shapes in the small class. Size classes were also used to test the hypothesis that greater morphological variation would be apparent in the small class due to idiosyncratic responses related to local retouch practices. Results demonstrate that elliptical biface shape does not differ by raw material, but size does, suggesting that a shared and morphologically-consistent mental template was maintained independent of biface size. The subsequent analysis of elliptical biface morphology by size class demonstrated that size does not differ by raw material in the large class, but in the small class, it does. This finding supports the argument that elliptical biface morphology diverges through local reduction practices. As expected, greater shape diversity occurs in the small class, where Jowell Farm bifaces were found to be more morphologically diverse than those from Millsap Cache. Distinct local reduction practices are advanced as the driver of extant morphological differences found in elliptical bifaces. 
 
@@ -84,7 +84,7 @@ An analysis of morphological disparity was used to identify potential difference
 knitr::include_graphics('./images/elliptical.illustration.png')
 ```
 
-### Summary
+## Summary
 
 The pattern that emerges is one of differential retouch _intensity_, where retouch strategies of Caddo knappers from Millsap Cache articulate with a reduction practice thought to be associated with locally abundant raw material (Kay County flint). This stands in contrast to the comparatively minimal retouch intensity of another group (Jowell Farm) where local raw materials were of poor quality and insufficient size, yielding a situation where it was necessary to import raw material from an extralocal source (Edwards chert).
 
