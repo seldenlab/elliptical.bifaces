@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>elliptical.bifaces - Define Size classes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">elliptical.bifaces</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./sizeclass.html" aria-current="page">Define Size classes</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./gmraw.html">Untitled</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./gmszclass.html">Untitled</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#load-packages-data" id="toc-load-packages-data" class="nav-link active" data-scroll-target="#load-packages-data">Load packages + data</a></li>
+  <li><a href="#generalised-procrustes-analysis" id="toc-generalised-procrustes-analysis" class="nav-link" data-scroll-target="#generalised-procrustes-analysis">Generalised Procrustes Analysis</a></li>
+  <li><a href="#assign-size-class" id="toc-assign-size-class" class="nav-link" data-scroll-target="#assign-size-class">Assign size class</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Define Size classes</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="load-packages-data" class="level2">
+<h2 class="anchored" data-anchor-id="load-packages-data">Load packages + data</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load required analysis packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>here() starts at D:/github/elliptical.bifaces/supp</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(StereoMorph)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(geomorph)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: RRPP</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: rgl</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: Matrix</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching packages
+───────────────────────────────────────
+tidyverse 1.3.2 ──</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>✔ ggplot2 3.4.0      ✔ purrr   0.3.5 
+✔ tibble  3.1.8      ✔ dplyr   1.0.10
+✔ tidyr   1.2.1      ✔ stringr 1.4.1 
+✔ readr   2.1.3      ✔ forcats 0.5.2 
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ tidyr::expand() masks Matrix::expand()
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+✖ tidyr::pack()   masks Matrix::pack()
+✖ tidyr::unpack() masks Matrix::unpack()</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(wesanderson)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co"># read data and define number of sLMs ----</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>shapes <span class="ot">&lt;-</span> <span class="fu">readShapes</span>(<span class="st">"shapes"</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>shapesGM <span class="ot">&lt;-</span> <span class="fu">readland.shapes</span>(shapes, <span class="at">nCurvePts =</span> <span class="fu">c</span>(<span class="dv">15</span>, <span class="dv">20</span>, <span class="dv">35</span>))</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># read qualitative data</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>qdata <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"qdata.csv"</span>, </span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>                  <span class="at">header =</span> <span class="cn">TRUE</span>, </span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>                  <span class="at">row.names =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="generalised-procrustes-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="generalised-procrustes-analysis">Generalised Procrustes Analysis</h2>
+<p>Landmark data were aligned to a global coordinate system <span class="citation" data-cites="RN8477 RN7502 RN11622 RN11623 RN11563">(<a href="#ref-RN8477" role="doc-biblioref">Bookstein et al. 1999</a>; <a href="#ref-RN7502" role="doc-biblioref">Gunz, Mitteroecker, and Bookstein 2005</a>; <a href="#ref-RN11622" role="doc-biblioref">Kendall 1981</a>, <a href="#ref-RN11623" role="doc-biblioref">1984</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>, achieved through generalised Procrustes superimposition <span class="citation" data-cites="RN11138 RN478 RN1646">(<a href="#ref-RN11138" role="doc-biblioref">Bookstein 1986</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>; <a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>)</span> in R using the <code>geomorph</code> and <code>RRPP</code> packages <span class="citation" data-cites="RN1655 RN11775 RN11530 RN1774 RN9565">(<a href="#ref-RN1655" role="doc-biblioref">Adams and Collyer 2015</a>; <a href="#ref-RN11775" role="doc-biblioref">Collyer and Adams 2018</a>; <a href="#ref-RN11530" role="doc-biblioref">Adams et al. 2017</a>; <a href="#ref-RN1774" role="doc-biblioref">Adams and Otarola-Castillo 2013</a>; <a href="#ref-RN9565" role="doc-biblioref">Baken et al. 2021</a>)</span>. Procrustes superimposition translates and rotates the coordinate data to allow for comparisons among objects, while also scaling each biface using unit-centroid size—the square root of the sum of squared distances from each landmark to the specimen’s centroid <span class="citation" data-cites="RN11139 RN11140 RN11564 RN478">(<a href="#ref-RN11139" role="doc-biblioref">Chapman 1990</a>; <a href="#ref-RN11140" role="doc-biblioref">Dryden and Mardia 1998</a>; <a href="#ref-RN11564" role="doc-biblioref">Gower 1975</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span>. The <code>geomorph</code> package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space <span class="citation" data-cites="RN11141 RN11142 RN1646 RN11563">(<a href="#ref-RN11141" role="doc-biblioref">Dryden and Mardia 1993</a>; <a href="#ref-RN11142" role="doc-biblioref">Kent and Mardia 2001</a>; <a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># gpa ----</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>Y.gpa <span class="ot">&lt;-</span> <span class="fu">gpagen</span>(shapesGM, <span class="at">print.progress =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># geomorph data frame ----</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>gdf <span class="ot">&lt;-</span> <span class="fu">geomorph.data.frame</span>(<span class="at">shape =</span> Y.gpa<span class="sc">$</span>coords, </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>                           <span class="at">size =</span> Y.gpa<span class="sc">$</span>Csize,</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>                           <span class="at">site =</span> qdata<span class="sc">$</span>site)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="co"># add centroid size to qdata</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>qdata<span class="sc">$</span>csz <span class="ot">&lt;-</span> Y.gpa<span class="sc">$</span>Csize</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="assign-size-class" class="level2">
+<h2 class="anchored" data-anchor-id="assign-size-class">Assign size class</h2>
+<p>Centroid size—the square root of the sum of squared distances of all landmarks from the centroid—is the measure of size used in landmark geometric morphometrics <span class="citation" data-cites="RN11462">(<a href="#ref-RN11462" role="doc-biblioref">Manthey and Ousley 2020</a>)</span>. The mean centroid size was identified for elliptical bifaces from each site. All bifaces with centroid sizes larger than the mean were assigned to the <code>large class</code>; those with centroid sizes below the mean were assigned to the <code>small class</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#select vars</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>pre.data <span class="ot">&lt;-</span> qdata <span class="sc">%&gt;%</span> </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(site<span class="sc">:</span>csz)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co"># millsap subset----</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>millsap <span class="ot">&lt;-</span> <span class="fu">filter</span>(pre.data,</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>                  site <span class="sc">==</span> <span class="st">"Millsap Cache"</span>)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a><span class="co"># calculate mean centroid size</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>mean.csz <span class="ot">&lt;-</span> <span class="fu">mean</span>(millsap<span class="sc">$</span>csz)</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="co"># assign L/S varieties based on mean centroid size</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>lcheck2 <span class="ot">&lt;-</span> millsap<span class="sc">$</span>csz <span class="sc">&gt;=</span> mean.csz</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>lcheck3 <span class="ot">&lt;-</span> millsap<span class="sc">$</span>csz <span class="sc">&gt;=</span> <span class="dv">0</span> <span class="sc">&amp;</span> millsap<span class="sc">$</span>csz <span class="sc">&lt;</span> mean.csz</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>millsap<span class="sc">$</span>size <span class="ot">&lt;-</span> <span class="st">""</span></span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>millsap<span class="sc">$</span>size <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(lcheck2, <span class="st">"L"</span>, millsap<span class="sc">$</span>size)</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>millsap<span class="sc">$</span>size <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(lcheck3, <span class="st">"S"</span>, millsap<span class="sc">$</span>size)</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="co"># an13 subset----</span></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>an13 <span class="ot">&lt;-</span> <span class="fu">subset</span>(pre.data,</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>               site <span class="sc">==</span> <span class="st">"Jowell Farm"</span>)</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="co"># calculate the mean length</span></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>mean.csz <span class="ot">&lt;-</span> <span class="fu">mean</span>(an13<span class="sc">$</span>csz)</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a><span class="co"># assign L/S varieties based on mean length</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>lcheck2 <span class="ot">&lt;-</span> an13<span class="sc">$</span>csz <span class="sc">&gt;=</span> mean.csz</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>lcheck3 <span class="ot">&lt;-</span> an13<span class="sc">$</span>csz <span class="sc">&gt;=</span> <span class="dv">0</span> <span class="sc">&amp;</span> an13<span class="sc">$</span>csz <span class="sc">&lt;</span> mean.csz</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>an13<span class="sc">$</span>size <span class="ot">&lt;-</span> <span class="st">""</span></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>an13<span class="sc">$</span>size <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(lcheck2, <span class="st">"L"</span>, an13<span class="sc">$</span>size)</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>an13<span class="sc">$</span>size <span class="ot">&lt;-</span> <span class="fu">ifelse</span>(lcheck3, <span class="st">"S"</span>, an13<span class="sc">$</span>size)</span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a><span class="co"># aggregate data</span></span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>mx <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(millsap, an13)</span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a><span class="co"># join site and size class</span></span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>qdata2 <span class="ot">&lt;-</span> mx <span class="sc">%&gt;%</span> </span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unite</span>(<span class="st">"merged"</span>, site, size, <span class="at">remove =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a><span class="co"># output csv for use in gm analysis</span></span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv</span>(qdata2, <span class="st">"qdata.merged.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-RN1655" class="csl-entry" role="doc-biblioentry">
+Adams, Dean C., and Michael L. Collyer. 2015. <span>“<span class="nocase">Permutation Tests for Phylogenetic Comparative Analyses of High-Dimensional Shape Data: What you Shuffle Matters</span>.”</span> <em>Evolution</em> 69 (3): 823–29. <a href="https://doi.org/10.1111/evo.12596">https://doi.org/10.1111/evo.12596</a>.
+</div>
+<div id="ref-RN11530" class="csl-entry" role="doc-biblioentry">
+Adams, Dean C., Michael L. Collyer, Antigoni Kaliontzopoulou, and Emma Sherratt. 2017. <span>“<span class="nocase">Package geomorph: Geometric Morphometric Analyses of Landmark Data. R package version 3.0.5</span>.”</span> <a href="http://geomorphr.github.io/geomorph/">http://geomorphr.github.io/geomorph/</a>.
+</div>
+<div id="ref-RN1774" class="csl-entry" role="doc-biblioentry">
+Adams, Dean C., and Erik Otarola-Castillo. 2013. <span>“<span class="nocase">geomorph: An R Package for the Collection and Analysis of Geometric Morphometric Shape Data</span>.”</span> <em>Methods in Ecology and Evolution</em> 4 (4): 393–99. <a href="https://doi.org/10.1111/2041-210x.12035">https://doi.org/10.1111/2041-210x.12035</a>.
+</div>
+<div id="ref-RN9565" class="csl-entry" role="doc-biblioentry">
+Baken, Erica K., Michael L. Collyer, Antigoni Kaliontzopoulou, and Dean C. Adams. 2021. <span>“<span class="nocase">geomorph v4.0 and gmShiny: Enhanced analytics and a new graphical interface for a comprehensive morphometric experience</span>.”</span> Journal Article. <em>Methods in Ecology and Evolution</em>. <a href="https://doi.org/10.1111/2041-210x.13723">https://doi.org/10.1111/2041-210x.13723</a>.
+</div>
+<div id="ref-RN11138" class="csl-entry" role="doc-biblioentry">
+Bookstein, Fred L. 1986. <span>“Size and Shape Spaces for Landmark Data in Two Dimensions.”</span> Journal Article. <em>Statistical Science</em> 1 (2): 181–242.
+</div>
+<div id="ref-RN8477" class="csl-entry" role="doc-biblioentry">
+Bookstein, Fred L., Katrin Schäfer, Hermann Prossinger, Horst Seidler, Martin Fieder, Chris Stringer, Gerhard W. Weber, et al. 1999. <span>“Comparing Frontal Cranial Profiles in Archaic and Modern Homo by Morphometric Analysis.”</span> Journal Article. <em>The Anatomical Record</em> 257 (6): 217–24. https://doi.org/<a href="https://doi.org/10.1002/(SICI)1097-0185(19991215)257:6%3C217::AID-AR7%3E3.0.CO;2-W">https://doi.org/10.1002/(SICI)1097-0185(19991215)257:6%3C217::AID-AR7%3E3.0.CO;2-W</a>.
+</div>
+<div id="ref-RN11139" class="csl-entry" role="doc-biblioentry">
+Chapman, R. E. 1990. <span>“Conventional Procrustes Approaches.”</span> Book Section. In <em>Proceedings of the Michigan Morphometrics Workshop</em>, edited by F. James Rohlf and Fred L. Bookstein, 251–69. Ann Arbor: Special Publication Number 2, The University of Michigan Museum of Zoology.
+</div>
+<div id="ref-RN11775" class="csl-entry" role="doc-biblioentry">
+Collyer, Michael L., and Dean C. Adams. 2018. <span>“<span class="nocase">RRPP: An R Package for Fitting Linear Models to High-Dimensional Data using Residual Randomization</span>.”</span> <em>Methods in Ecology and Evolution</em> 9 (7): 1772–79. https://doi.org/<a href="https://doi.org/10.1111/2041-210X.13029">https://doi.org/10.1111/2041-210X.13029</a>.
+</div>
+<div id="ref-RN11141" class="csl-entry" role="doc-biblioentry">
+Dryden, I. L., and K. V. Mardia. 1993. <span>“Multivariate Shape Analysis.”</span> Journal Article. <em>Sankhya: The Indian Journal of Statistics, Series A</em> Special Volume 55, Series A, Pt. 3: 460–80.
+</div>
+<div id="ref-RN11140" class="csl-entry" role="doc-biblioentry">
+———. 1998. <em>Statistical Shape Analysis</em>. Book. Chichester: Wiley.
+</div>
+<div id="ref-RN11564" class="csl-entry" role="doc-biblioentry">
+Gower, J. C. 1975. <span>“<span>Generalized Procrustes Analysis</span>.”</span> <em>Psychometrika</em> 40 (1): 33–51. https://doi.org/<a href="https://doi.org/10.1007/BF02291478">https://doi.org/10.1007/BF02291478</a>.
+</div>
+<div id="ref-RN7502" class="csl-entry" role="doc-biblioentry">
+Gunz, P., P. Mitteroecker, and F. L. Bookstein. 2005. <span>“Semilandmarks in Three Dimensions.”</span> Book Section. In <em>Modern Morphometrics in Physical Anthropology</em>, edited by D. E. Slice, 73–98. New York: Plenum Publishers.
+</div>
+<div id="ref-RN11622" class="csl-entry" role="doc-biblioentry">
+Kendall, David G. 1981. <span>“<span class="nocase">The Statistics of Shape</span>.”</span> In <em>Interpreting Multivariate Data</em>, edited by V. Barnett, 75–80. New York: Wiley.
+</div>
+<div id="ref-RN11623" class="csl-entry" role="doc-biblioentry">
+———. 1984. <span>“<span class="nocase">Shape Manifolds, Procrustean Metrics, and Complex Projective Spaces</span>.”</span> <em>Bulletin of the London Mathematical Society</em> 16 (2): 81–121. <a href="https://doi.org/10.1112/blms/16.2.81">https://doi.org/10.1112/blms/16.2.81</a>.
+</div>
+<div id="ref-RN11142" class="csl-entry" role="doc-biblioentry">
+Kent, J. T., and K. V. Mardia. 2001. <span>“Shape, Procrustes Tangent Projections and Bilateral Symmetry.”</span> Journal Article. <em>Biometrika</em> 88 (2): 469–85.
+</div>
+<div id="ref-RN11462" class="csl-entry" role="doc-biblioentry">
+Manthey, Laura, and Stephen D. Ousley. 2020. <span>“Geometric Morphometrics.”</span> Book Section. In <em>Statistics and Probability in Forensic Anthropology</em>, edited by Zuzana Obertova, Alistair Stewart, and Cristina Cattaneo, 289–98. Academic Press. https://doi.org/<a href="https://doi.org/10.1016/B978-0-12-815764-0.00023-X">https://doi.org/10.1016/B978-0-12-815764-0.00023-X</a>.
+</div>
+<div id="ref-RN1646" class="csl-entry" role="doc-biblioentry">
+Rohlf, F. James. 1999. <span>“<span class="nocase">Shape Statistics: Procrustes Superimpositions and Tangent Spaces</span>.”</span> <em>Journal of Classification</em> 16 (2): 197–223. <a href="https://doi.org/10.1007/s003579900054">https://doi.org/10.1007/s003579900054</a>.
+</div>
+<div id="ref-RN478" class="csl-entry" role="doc-biblioentry">
+Rohlf, F. James, and Dennis Slice. 1990. <span>“<span class="nocase">Extensions of the Procrustes Method for the Optimal Superimposition of Landmarks</span>.”</span> <em>Systematic Zoology</em> 39 (1): 40–59. <a href="https://doi.org/10.2307/2992207">https://doi.org/10.2307/2992207</a>.
+</div>
+<div id="ref-RN11563" class="csl-entry" role="doc-biblioentry">
+Slice, Dennis E. 2001. <span>“<span class="nocase">Landmark Coordinates Aligned by Procrustes Analysis Do Not Lie in Kendall’s Shape Space</span>.”</span> <em>Systematic Biology</em> 50 (1): 141–49. <a href="https://doi.org/10.1080/10635150119110">https://doi.org/10.1080/10635150119110</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
