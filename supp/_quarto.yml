@@ -10,6 +10,10 @@ website:
       - sizeclass.qmd
       - gmraw.qmd
       - gmszclass.qmd
+    right:
+      - icon: github
+        href: https://github.com/seldenlab/elliptical.bifaces
+        aria-label: GitHub
 
 format:
   html:
