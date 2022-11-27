@@ -26,7 +26,7 @@ qdata <- read.csv("qdata.csv",
 
 ## Generalised Procrustes Analysis
 
-Landmark data were aligned to a global coordinate system [@RN8477;@RN7502;@RN11622;@RN11623;@RN11563], achieved through generalised Procrustes superimposition [@RN11138;@RN478;@RN1646] in R using the `geomorph` and `RRPP` packages [@RN1655;@RN11775;@RN11530;@RN1774;@RN9565]. Procrustes superimposition translates and rotates the coordinate data to allow for comparisons among objects, while also scaling each biface using unit-centroid size---the square root of the sum of squared distances from each landmark to the specimen’s centroid [@RN11139;@RN11140;@RN11564;@RN478]. The `geomorph` package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space [@RN11141;@RN11142;@RN1646;@RN11563]. 
+Landmark data were aligned to a global coordinate system [@RN8477; @RN7502; @RN11622; @RN11623; @RN11563], achieved through generalised Procrustes superimposition [@RN11138; @RN478; @RN1646] in R using the `geomorph` and `RRPP` packages [@RN1655; @RN11775; @RN11530; @RN1774; @RN9565]. Procrustes superimposition translates and rotates the coordinate data to allow for comparisons among objects, while also scaling each biface using unit-centroid size---the square root of the sum of squared distances from each landmark to the specimen's centroid [@RN11139; @RN11140; @RN11564; @RN478]. The `geomorph` package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space [@RN11141; @RN11142; @RN1646; @RN11563].
 
 ```{r outlines.szclass, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 # gpa ----
@@ -90,4 +90,3 @@ qdata2 <- mx %>%
 # output csv for use in gm analysis
 write.csv(qdata2, "qdata.merged.csv")
 ```
-
