@@ -29,7 +29,7 @@ Elliptical bifaces are prevalent at Mississipian sites throughout the American S
 
 ### Keywords {-}
 
-American Southeast, Caddo, NAGPRA, computational archaeology, archaeoinformatics, museum studies, digital humanities, non-Western art history, geometric morphometrics, STEM, STEAM, ovoid biface, Jowell knife, Jowell knives, Jowell biface, lithics, oblique parallel flaking
+American Southeast, Caddo, NAGPRA, computational archaeology, archaeoinformatics, museum studies, digital humanities, non-Western art history, geometric morphometrics, STEM, STEAM, ovoid biface, Galt biface, Jowell knife, Jowell knives, Jowell biface, Nikolas knife, lithics, oblique parallel flaking
 
 ```{r figmap, fig.cap="Location of Millsap Cache, Jowell Farm, and other Caddo sites mentioned in the text. Elliptical bifaces have been found in all but one major drainage basin in the ancestral Caddo area (dashed/white)."}
 
