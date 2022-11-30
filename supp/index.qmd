@@ -29,7 +29,7 @@ Elliptical bifaces are prevalent at Mississipian sites throughout the American S
 
 ### Keywords {-}
 
-American Southeast, Caddo, NAGPRA, computational archaeology, archaeoinformatics, museum studies, digital humanities, non-Western art history, geometric morphometrics, STEM, STEAM, ovoid biface, Galt biface, Jowell knife, Jowell knives, Jowell biface, Nikolas knife, lithics, oblique parallel flaking
+American Southeast, Caddo, NAGPRA, computational archaeology, archaeoinformatics, museum studies, digital humanities, non-Western art history, geometric morphometrics, STEM, STEAM, ovoid biface, Galt biface, Jowell knife, Jowell knives, Jowell biface, Nikolas knife, lithics, parallel-oblique flaking
 
 ```{r figmap, fig.cap="Location of Millsap Cache, Jowell Farm, and other Caddo sites mentioned in the text. Elliptical bifaces have been found in all but one major drainage basin in the ancestral Caddo area (dashed/white)."}
 
@@ -78,7 +78,13 @@ An analysis of morphological disparity was used to identify potential difference
   -   Bifaces in the _large class_ recovered from Millsap Cache and Jowell Farm do not differ in shape or size, suggesting consistent morphology in bifaces from the _large class_, supporting arguments for production-based standardization.
   -   Bifaces in the _small class_ recovered from Millsap Cache and Jowell Farm **differ significantly** in size. Thus, while shape remains consistent, size differs, suggesting---at minimum---locally divergent approaches to retouch or retouch intensity.
   -   Morphological disparity in the shape of the _small class_ is **significantly greater** at Jowell Farm, providing evidence for a more standardized approach to local retouch at Millsap Cache. This finding provides additional support for the hypothesis that greater shape diversity is associated with retouch efforts, rather than production.
-  
+
+## Parallel-oblique flaking
+
+When compared with other large finished bifaces in the region, the distinctive parallel oblique flake scar patterns on both faces of the elliptical bifaces for all, or virtually all, of their length is unique. The absence of identified preforms for this artifact type makes technological and/or attribute-based discriminations related to manufacture a challenge; however, one potential preform was recovered from mortuary contexts at Belcher Mound. The projection of ritual and/or symbolic interpretation/s that articulate with this flake scar pattern is not possible at this time. Parallel oblique flake scar patterns are known to be characteristic of several dart point types of the late Paleoindian period [@RN8584;@RN7935;@RN11182;@RN9843;@RN8143;@RN10117;@RN11181], and has even been inferred from ceramic motifs in Peru [@RN7938]. 
+
+Parallel oblique flake scar patterns are not characteristic of larger bifaces and bifacial knives in the American Southeast; thus, technological, cultural, or symbolic relationships between the elliptical bifaces and Angostura/Paleoindian dart points are not suggested here. The technological choice to use parallel oblique flaking in finishing the elliptical bifaces most likely represents, at minimum, a stylistic choice by knappers limited to this specific implement; although, that may have been a functionally-relevant choice given their shape and size. In some respects, the decision to employ parallel oblique flaking is as distinctive as the presence---although not diagnostic [@RN6170]---of the flat and expanding flake scar pattern observed on Gahagan and Copena bifaces.
+
 ```{r figillust, fig.cap="Illustrated elliptical bifaces from a, an unknown location; b, Jowell Farm; and c, Belcher Mound highlighting oblique parallel flaking used in production. The specimen from Belcher Mound is a potential preform exhibiting oblique parallel removals consistent with elliptical bifaces from other sites in the region."}
 
 knitr::include_graphics('./images/elliptical.illustration.png')
