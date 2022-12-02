@@ -11,45 +11,45 @@ Warning--missing publisher in RN7434
 Warning--can't use both author and editor fields in RN7502
 Warning--can't use both author and editor fields in RN11622
 Warning--missing school in RN8143
-You've used 64 entries,
+You've used 63 entries,
             3285 wiz_defined-function locations,
-            1148 strings with 19436 characters,
-and the built_in function-call counts, 35875 in all, are:
-= -- 2930
-> -- 1334
+            1141 strings with 19301 characters,
+and the built_in function-call counts, 35314 in all, are:
+= -- 2883
+> -- 1312
 < -- 1
-+ -- 591
-- -- 380
-* -- 2669
-:= -- 5515
-add.period$ -- 300
-call.type$ -- 64
-change.case$ -- 402
-chr.to.int$ -- 65
-cite$ -- 69
-duplicate$ -- 2796
-empty$ -- 2964
-format.name$ -- 450
-if$ -- 7335
++ -- 582
+- -- 374
+* -- 2627
+:= -- 5429
+add.period$ -- 296
+call.type$ -- 63
+change.case$ -- 396
+chr.to.int$ -- 64
+cite$ -- 68
+duplicate$ -- 2753
+empty$ -- 2920
+format.name$ -- 442
+if$ -- 7221
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 582
-newline$ -- 199
-num.names$ -- 194
-pop$ -- 1152
+missing$ -- 573
+newline$ -- 196
+num.names$ -- 191
+pop$ -- 1132
 preamble$ -- 1
-purify$ -- 393
+purify$ -- 387
 quote$ -- 0
-skip$ -- 1013
+skip$ -- 997
 stack$ -- 0
-substring$ -- 1694
-swap$ -- 1418
+substring$ -- 1665
+swap$ -- 1398
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 366
+type$ -- 360
 warning$ -- 5
-while$ -- 249
+while$ -- 245
 width$ -- 0
-write$ -- 741
+write$ -- 730
 (There were 6 warnings)
