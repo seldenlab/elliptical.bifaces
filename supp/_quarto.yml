@@ -3,6 +3,9 @@ project:
 
 website:
   title: "elliptical.bifaces"
+  image: slab.png
+  margin-header: |
+    ![](/images/slab.png)
   navbar:
     left:
       - href: index.qmd
