@@ -47,7 +47,7 @@ The earliest elliptical bifaces, associated with Middle Archaic period, recovere
 
 \begin{figure}\centering
 \includegraphics[width=0.9\linewidth]{figs/map.png}
-\caption{Location of Millsap Cache, Jowell Farm, and other sites mentioned in the text. Elliptical bifaces have been found in every major drainage basin in the ancestral Caddo area (white).}
+\caption{Location of Millsap Cache, Jowell Farm, and other sites mentioned in the text (additional information included at https://seldenlab.github.io/elliptical.bifaces/). Elliptical bifaces have been found in all but one major drainage basin in the ancestral Caddo area (white).}
 \label{fig:map}
 \end{figure}
 

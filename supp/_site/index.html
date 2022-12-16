@@ -9,7 +9,7 @@
 <meta name="author" content="Robert Z. Selden, Jr.">
 <meta name="author" content="John E. Dockall">
 <meta name="author" content="David H. Dye">
-<meta name="dcterms.date" content="2022-12-02">
+<meta name="dcterms.date" content="2022-12-16">
 
 <title>elliptical.bifaces - Size matters: Divergent morphology in elliptical bifaces from sites in the American Southeast articulates with distinct local reduction practices</title>
 <style>
@@ -265,7 +265,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 2, 2022</p>
+      <p class="date">December 16, 2022</p>
     </div>
   </div>
     
@@ -294,12 +294,26 @@ div.csl-indent {
 </div>
 </div>
 </div>
+<p>Elliptical bifaces have a deep history in eastern North America extending from the Middle Archaic to well past European contact. In many instances they have been deposited in caches, which may represent large, corporate bundles decommissioned amid polity demise or radical transformations in social practice. Stylistic changes are evident in both length and width for these bifaces, and result in great variability in shape and size. While some undoubtedly were knapped for every-day, mundane uses, others were crafted from exotic cherts and reflect non-utilitarian uses. The <em>oversize</em> or <em>exaggerated</em> forms, mimicking combat weapons, are often referred to as symbolic weaponry. Such objects are typically those “whose size, delicacy, material of manufacture, and craftsmanship are outside the bounds of any weapon that might have been actually used” <span class="citation" data-cites="RN11177">(<a href="#ref-RN11177" role="doc-biblioref">Knight Jr. 2011</a>)</span>.</p>
+<p>The earliest elliptical bifaces, associated with Middle Archaic period, recovered as Benton caches (4500—4000 BCE) in the Mid-South <span class="citation" data-cites="RN11179">(<a href="#ref-RN11179" role="doc-biblioref">McNutt 2008</a>)</span>, are clearly non-utilitarian, as they “meet the expectations of sacred markers for secular exchange” <span class="citation" data-cites="RN11178">(<a href="#ref-RN11178" role="doc-biblioref">Johnson and Brookes 1989</a>)</span>. In the western Middle Tennessee Valley, the Pickwick Burial Complex <span class="citation" data-cites="RN11180">(<a href="#ref-RN11180" role="doc-biblioref">Walthall 1980</a>)</span>, dating to the Late Archaic/Gulf Formational period (3000—300 BCE) exhibits a continuation of bipointed blades, some notched or truncated, found in ritual caches and ceremonially broken. Elliptical bifaces find their most dramatic expression as Caddoan and Mississippian exaggerated, symbolic weaponry. Mississippian Ramey knives, dating from c.&nbsp;CE 1000 to 1300 are found associated with Cahokia political dynamics. The slightly later Duck River sword-form bifaces (CE 1275-1400) continue the emphasis on high-quality knapping and long-distance circulation. Such lanceolate blades, although smaller, continue into the early seventeenth century when they serve as regalia among political and social elites in ritual performances.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/composite.figure2.jpg'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/composite.figure2.jpg" class="img-fluid figure-img" width="1317"></p>
+<p></p><figcaption class="figure-caption">Shell gorgets from sites in the American Southeast depicting elliptical bifaces.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Duck River and other sword-form bifaces are also present at Spiro Mound <span class="citation" data-cites="RN2720">(<a href="#ref-RN2720" role="doc-biblioref">Sievert and Rogers 2011</a>)</span>, with the longest measuring 55.9cm. Smaller elliptical biface forms, roughly half the size of the larger form, have also been identified at Spiro, along with several wooden implements that Early <span class="citation" data-cites="RN1052">(<a href="#ref-RN1052" role="doc-biblioref">1988</a>)</span> interpreted as memetic of elliptical bifaces. The bifaces from this latter category are the focus of this study, which is aimed at assessing whether resharpening and/or retouch may have resulted in convergent morphology at two sites in the ancestral Caddo area. A measure of morphological disparity is subsequently to assess whether biface morphology is more diverse at the larger size, which would suggest greater diversity in biface shape or size related to production activities.</p>
 </section>
 <section id="analysis-overview" class="level2">
 <h2 class="anchored" data-anchor-id="analysis-overview">Analysis overview</h2>
-<p>Prior to landmarking, elliptical bifaces were oriented with the most heavily retouched edge at top right. The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch. Landmarks and semilandmarks were applied in R 4.2.1 <span class="citation" data-cites="R">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2022</a>)</span> using the <code>StereoMorph</code> library v. 1.6.7 <span class="citation" data-cites="RN8973">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge, while others include one retouched edge at top right and another at bottom left, similar to alternately beveled bifaces.</p>
+<p>Prior to landmarking, elliptical bifaces from Millsap Cache and Jowell Farm were oriented with the most heavily retouched edge at top right. The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch. Landmarks and semilandmarks were applied in R 4.2.1 <span class="citation" data-cites="R">(<a href="#ref-R" role="doc-biblioref">R Core Development Team, 2023</a>)</span> using the <code>StereoMorph</code> library v. 1.6.7 <span class="citation" data-cites="RN8973">(<a href="#ref-RN8973" role="doc-biblioref">Olsen and Westneat 2015</a>)</span>. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge, while others include one retouched edge at top right and another at bottom left, similar to alternately beveled bifaces.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/ellipticalbifaces.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/ellipticalbifaces.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -314,7 +328,7 @@ div.csl-indent {
 <h3 class="anchored" data-anchor-id="generalised-procrustes-analysis">Generalised Procrustes Analysis</h3>
 <p>Landmark data were aligned to a global coordinate system <span class="citation" data-cites="RN8477 RN7502 RN11622 RN11623 RN11563">(<a href="#ref-RN8477" role="doc-biblioref">Bookstein et al. 1999</a>; <a href="#ref-RN7502" role="doc-biblioref">Gunz, Mitteroecker, and Bookstein 2005</a>; <a href="#ref-RN11622" role="doc-biblioref">Kendall 1981</a>, <a href="#ref-RN11623" role="doc-biblioref">1984</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>, achieved through generalised Procrustes superimposition <span class="citation" data-cites="RN11138 RN478 RN1646">(<a href="#ref-RN11138" role="doc-biblioref">Bookstein 1986</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>; <a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>)</span> in R using the <code>geomorph</code> and <code>RRPP</code> packages <span class="citation" data-cites="RN1655 RN11775 RN11530 RN1774 RN9565">(<a href="#ref-RN1655" role="doc-biblioref">Adams and Collyer 2015</a>; <a href="#ref-RN11775" role="doc-biblioref">Collyer and Adams 2018</a>; <a href="#ref-RN11530" role="doc-biblioref">Adams et al. 2017</a>; <a href="#ref-RN1774" role="doc-biblioref">Adams and Otarola-Castillo 2013</a>; <a href="#ref-RN9565" role="doc-biblioref">Baken et al. 2021</a>)</span>. Procrustes superimposition translates and rotates the coordinate data to allow for comparisons among objects, while also scaling each biface using unit-centroid size—the square root of the sum of squared distances from each landmark to the specimen’s centroid <span class="citation" data-cites="RN11139 RN11140 RN11564 RN478">(<a href="#ref-RN11139" role="doc-biblioref">Chapman 1990</a>; <a href="#ref-RN11140" role="doc-biblioref">Dryden and Mardia 1998</a>; <a href="#ref-RN11564" role="doc-biblioref">Gower 1975</a>; <a href="#ref-RN478" role="doc-biblioref">Rohlf and Slice 1990</a>)</span>. The <code>geomorph</code> package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space <span class="citation" data-cites="RN11141 RN11142 RN1646 RN11563">(<a href="#ref-RN11141" role="doc-biblioref">Dryden and Mardia 1993</a>; <a href="#ref-RN11142" role="doc-biblioref">Kent and Mardia 2001</a>; <a href="#ref-RN1646" role="doc-biblioref">Rohlf 1999</a>; <a href="#ref-RN11563" role="doc-biblioref">Slice 2001</a>)</span>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/gpa.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/gpa.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -329,7 +343,7 @@ div.csl-indent {
 <h3 class="anchored" data-anchor-id="principal-components-analysis">Principal Components Analysis</h3>
 <p>Principal components analysis <span class="citation" data-cites="RN1746">(<a href="#ref-RN1746" role="doc-biblioref">Jolliffe 2002</a>)</span> was used to visualise shape variation among the elliptical bifaces, and the scatterplot represents the dispersion of shapes in tangent space <span class="citation" data-cites="RN8633 RN5616 RN11143 RN7550">(<a href="#ref-RN8633" role="doc-biblioref">Adams, Rohlf, and Slice 2013</a>; <a href="#ref-RN5616" role="doc-biblioref">Bookstein 1991</a>; <a href="#ref-RN11143" role="doc-biblioref">O’Higgins and Jones 1998</a>; <a href="#ref-RN7550" role="doc-biblioref">Rohlf and Marcus 1993</a>)</span>. Shape ranges described by each principal axis are commonly visualized using thin-plate spline warping of a reference image <span class="citation" data-cites="RN1731 RN479">(<a href="#ref-RN1731" role="doc-biblioref">Klingenberg 2013</a>; <a href="#ref-RN479" role="doc-biblioref">Sherratt et al. 2014</a>)</span>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/pca.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/pca.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -364,7 +378,7 @@ div.csl-indent {
 <p>When compared with other large finished bifaces in the region, the distinctive parallel oblique flake scar patterns on both faces of the elliptical bifaces for all, or virtually all, of their length is unique. The absence of identified preforms for this artifact type makes technological and/or attribute-based discriminations related to manufacture a challenge; however, one potential preform was recovered from mortuary contexts at Belcher Mound. The projection of ritual and/or symbolic interpretation/s that articulate with this flake scar pattern is not possible at this time. Parallel oblique flake scar patterns are known to be characteristic of several dart point types of the late Paleoindian period <span class="citation" data-cites="RN8584 RN7935 RN11182 RN9843 RN8143 RN10117 RN11181">(<a href="#ref-RN8584" role="doc-biblioref">Bamforth and Hicks 2008</a>; <a href="#ref-RN7935" role="doc-biblioref">Bousman 1993</a>; <a href="#ref-RN11182" role="doc-biblioref">Borchert 1989</a>; <a href="#ref-RN9843" role="doc-biblioref">Haynes 1955</a>; <a href="#ref-RN8143" role="doc-biblioref">Kerr 2000</a>; <a href="#ref-RN10117" role="doc-biblioref">Land 1986</a>; <a href="#ref-RN11181" role="doc-biblioref">Weir 1979</a>)</span>, and has even been inferred from ceramic motifs in Peru <span class="citation" data-cites="RN7938">(<a href="#ref-RN7938" role="doc-biblioref">Burger, Mohor Chávez, and Chávez 2000</a>)</span>.</p>
 <p>Parallel oblique flake scar patterns are not characteristic of larger bifaces and bifacial knives in the American Southeast; thus, technological, cultural, or symbolic relationships between the elliptical bifaces and Angostura/Paleoindian dart points are not suggested here. The technological choice to use parallel oblique flaking in finishing the elliptical bifaces most likely represents, at minimum, a stylistic choice by knappers limited to this specific implement; although, that may have been a functionally-relevant choice given their shape and size. In some respects, the decision to employ parallel oblique flaking is as distinctive as the presence—although not diagnostic <span class="citation" data-cites="RN6170">(<a href="#ref-RN6170" role="doc-biblioref">Quigg et al. 2014</a>)</span>—of the flat and expanding flake scar pattern observed on Gahagan and Copena bifaces.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/elliptical.illustration.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/elliptical.illustration.png'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -379,7 +393,7 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p>The pattern that emerges is one of differential retouch <em>intensity</em>, where retouch strategies of Caddo knappers from Millsap Cache articulate with a reduction practice thought to be associated with locally abundant raw material (Kay County flint). This stands in contrast to the comparatively minimal retouch intensity of another group (Jowell Farm) where local raw materials were of poor quality and insufficient size, yielding a situation where it was necessary to import raw material from an extralocal source (Edwards chert).</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/41fk2-2.jpg'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">'./images/41fk2-2.jpg'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -406,10 +420,10 @@ div.csl-indent {
 </section>
 <section id="colophon" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="colophon">Colophon</h2>
-<p>This version of the analysis was generated on 2022-12-02 10:39:01 using the following computational environment and dependencies:</p>
+<p>This version of the analysis was generated on 2022-12-16 06:06:08 using the following computational environment and dependencies:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what R packages and versions were used?</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">"devtools"</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># what R packages and versions were used?</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">"devtools"</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>()) devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>─ Session info ───────────────────────────────────────────────────────────────
  setting  value
@@ -421,7 +435,7 @@ div.csl-indent {
  collate  English_United States.utf8
  ctype    English_United States.utf8
  tz       America/Chicago
- date     2022-12-02
+ date     2022-12-16
  pandoc   2.19.2 @ C:/Program Files/RStudio/bin/quarto/bin/tools/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -431,17 +445,17 @@ div.csl-indent {
  cli           3.4.1   2022-09-23 [1] CRAN (R 4.2.2)
  crayon        1.5.2   2022-09-29 [1] CRAN (R 4.2.2)
  devtools      2.4.5   2022-10-11 [1] CRAN (R 4.2.2)
- digest        0.6.30  2022-10-18 [1] CRAN (R 4.2.2)
+ digest        0.6.31  2022-12-11 [1] CRAN (R 4.2.2)
  ellipsis      0.3.2   2021-04-29 [1] CRAN (R 4.2.2)
- evaluate      0.18    2022-11-07 [1] CRAN (R 4.2.2)
+ evaluate      0.19    2022-12-13 [1] CRAN (R 4.2.2)
  fastmap       1.1.0   2021-01-25 [1] CRAN (R 4.2.2)
  fs            1.5.2   2021-12-08 [1] CRAN (R 4.2.2)
  glue          1.6.2   2022-02-24 [1] CRAN (R 4.2.2)
- htmltools     0.5.3   2022-07-18 [1] CRAN (R 4.2.2)
+ htmltools     0.5.4   2022-12-07 [1] CRAN (R 4.2.2)
  htmlwidgets   1.5.4   2021-09-08 [1] CRAN (R 4.2.2)
  httpuv        1.6.6   2022-09-08 [1] CRAN (R 4.2.2)
- jpeg          0.1-9   2021-07-24 [1] CRAN (R 4.2.0)
- jsonlite      1.8.3   2022-10-21 [1] CRAN (R 4.2.2)
+ jpeg          0.1-10  2022-11-29 [1] CRAN (R 4.2.2)
+ jsonlite      1.8.4   2022-12-06 [1] CRAN (R 4.2.2)
  knitr         1.41    2022-11-18 [1] CRAN (R 4.2.2)
  later         1.3.0   2021-08-18 [1] CRAN (R 4.2.2)
  lifecycle     1.0.3   2022-10-07 [1] CRAN (R 4.2.2)
@@ -451,7 +465,7 @@ div.csl-indent {
  miniUI        0.1.1.1 2018-05-18 [1] CRAN (R 4.2.2)
  pkgbuild      1.4.0   2022-11-27 [1] CRAN (R 4.2.2)
  pkgload       1.3.2   2022-11-16 [1] CRAN (R 4.2.2)
- png           0.1-7   2013-12-03 [1] CRAN (R 4.2.0)
+ png           0.1-8   2022-11-29 [1] CRAN (R 4.2.2)
  prettyunits   1.1.1   2020-01-24 [1] CRAN (R 4.2.2)
  processx      3.8.0   2022-10-26 [1] CRAN (R 4.2.2)
  profvis       0.3.7   2020-11-02 [1] CRAN (R 4.2.2)
@@ -467,9 +481,10 @@ div.csl-indent {
  sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.2.2)
  shiny         1.7.3   2022-10-25 [1] CRAN (R 4.2.2)
  stringi       1.7.8   2022-07-11 [1] CRAN (R 4.2.1)
- stringr       1.4.1   2022-08-20 [1] CRAN (R 4.2.2)
+ stringr       1.5.0   2022-12-02 [1] CRAN (R 4.2.2)
  urlchecker    1.0.1   2021-11-30 [1] CRAN (R 4.2.2)
  usethis       2.1.6   2022-05-25 [1] CRAN (R 4.2.2)
+ vctrs         0.5.1   2022-11-16 [1] CRAN (R 4.2.2)
  xfun          0.35    2022-11-16 [1] CRAN (R 4.2.2)
  xtable        1.8-4   2019-04-21 [1] CRAN (R 4.2.2)
  yaml          2.3.6   2022-10-18 [1] CRAN (R 4.2.1)
@@ -482,12 +497,12 @@ div.csl-indent {
 </div>
 <p>Current Git commit details are:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># where can I find this commit? </span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">"git2r"</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">&amp;</span> git2r<span class="sc">::</span><span class="fu">in_repository</span>(<span class="at">path =</span> <span class="st">"."</span>)) git2r<span class="sc">::</span><span class="fu">repository</span>(here<span class="sc">::</span><span class="fu">here</span>())  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># where can I find this commit? </span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="st">"git2r"</span> <span class="sc">%in%</span> <span class="fu">installed.packages</span>() <span class="sc">&amp;</span> git2r<span class="sc">::</span><span class="fu">in_repository</span>(<span class="at">path =</span> <span class="st">"."</span>)) git2r<span class="sc">::</span><span class="fu">repository</span>(here<span class="sc">::</span><span class="fu">here</span>())  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Local:    main D:/github/elliptical.bifaces
 Remote:   main @ origin (https://github.com/seldenlab/elliptical.bifaces)
-Head:     [8b9db3e] 2022-12-02: &lt;edit supp&gt;</code></pre>
+Head:     [c5b64d1] 2022-12-02: &lt;edit ms&gt;</code></pre>
 </div>
 </div>
 
@@ -554,6 +569,9 @@ Dryden, I. L., and K. V. Mardia. 1993. <span>“Multivariate Shape Analysis.”<
 <div id="ref-RN11140" class="csl-entry" role="doc-biblioentry">
 ———. 1998. <em>Statistical Shape Analysis</em>. Book. Chichester: Wiley.
 </div>
+<div id="ref-RN1052" class="csl-entry" role="doc-biblioentry">
+Early, A. M. 1988. <em>Standridge: Caddoan Settlement in a Mountain Environment</em>. Book. Vol. Research Series No. 29. Fayetteville: Arkansas Archeological Survey.
+</div>
 <div id="ref-RN7041" class="csl-entry" role="doc-biblioentry">
 Foote, M. 1993. <span>“Contributions of Individual Taxa to Overall Morphological Disparity.”</span> Journal Article. <em>Paleobiology</em> 19 (4): 403–19.
 </div>
@@ -578,6 +596,9 @@ Haynes, C. V., Jr. 1955. <span>“Evidence of Early Man in Torrance County, New 
 <div id="ref-RN21009" class="csl-entry" role="doc-biblioentry">
 Ivanovaite, Livija, Kamil Serwatka, Christian Steven Hoggard, Florian Sauer, and Felix Riede. 2020. <span>“All These Fantastic Cultures? Research History and Regionalization in the Late Palaeolithic Tanged Point Cultures of Eastern Europe.”</span> <em>European Journal of Archaeology</em> 23 (2): 162–85. <a href="https://doi.org/10.1017/eaa.2019.59">https://doi.org/10.1017/eaa.2019.59</a>.
 </div>
+<div id="ref-RN11178" class="csl-entry" role="doc-biblioentry">
+Johnson, Jay K., and Samuel O. Brookes. 1989. <span>“Benton Points, Turkey Tails, and Cache Blades: Middle Archaic Exchange in the Midsouth.”</span> Journal Article. <em>Southeastern Archaeology</em> 8 (2): 134–45.
+</div>
 <div id="ref-RN1746" class="csl-entry" role="doc-biblioentry">
 Jolliffe, Ian T. 2002. <em>Principal Component Analysis</em>. New York: Springer.
 </div>
@@ -596,6 +617,9 @@ Kerr, Anne Catherine. 2000. <span>“Systematic Analysis of Unfluted Lanceolate 
 <div id="ref-RN1731" class="csl-entry" role="doc-biblioentry">
 Klingenberg, Christian Peter. 2013. <span>“<span class="nocase">Visualizations in Geometric Morphometrics: How to Read and How to Make Graphs Showing Shape Changes</span>.”</span> <em>Hystrix</em> 24 (1): 15–24. https://doi.org/<a href="http://dx.doi.org/10.4404/hystrix-24.1-7691">http://dx.doi.org/10.4404/hystrix-24.1-7691</a>.
 </div>
+<div id="ref-RN11177" class="csl-entry" role="doc-biblioentry">
+Knight Jr., Vernon J. 2011. <span>“North America: Eastern Woodlands.”</span> Book Section. In <em>The Oxford Handbook of the Archaeology of Ritual and Religion</em>, edited by Timothy Insoll, 623–38. New York: Oxford University Press.
+</div>
 <div id="ref-RN10117" class="csl-entry" role="doc-biblioentry">
 Land, Howard D. 1986. <span>“The Gregg Ranch Site (41HY131), Hays County, Texas.”</span> Journal Article. <em>Bulletin of the Texas Archeological Society</em> 55: 73–113.
 </div>
@@ -607,6 +631,9 @@ Marwick, Ben. 2016. <span>“Computational Reproducibility in Archaeological Res
 </div>
 <div id="ref-RN21007" class="csl-entry" role="doc-biblioentry">
 Marwick, Ben, Li-Ying Wang, Ryan Robinson, and Hope Loiselle. 2019. <span>“How to Use Replication Assignments for Teaching Integrity in Empirical Archaeology.”</span> <em>Advances in Archaeological Practice</em> 8 (1): 78–86. <a href="https://doi.org/10.1017/aap.2019.38">https://doi.org/10.1017/aap.2019.38</a>.
+</div>
+<div id="ref-RN11179" class="csl-entry" role="doc-biblioentry">
+McNutt, Charles H. 2008. <span>“The Benton Phenomenon and Middle Archaic Chronology in Adjacent Portions of Tennessee, Mississippi, and Alabama.”</span> Journal Article. <em>Southeastern Archaeology</em> 27 (1): 45–60.
 </div>
 <div id="ref-RN11459" class="csl-entry" role="doc-biblioentry">
 Miller, D. Shane. 2007. <span>“Site Formation Processes in an Upland Paleoindian Site: The 2005 – 2007 Topper Firebreak Excavations.”</span> Thesis.
@@ -627,7 +654,7 @@ Peng, Roger D. 2011. <span>“Reproducible Research in Computational Science.”
 Quigg, Michael, Paul Matchen, Robert Ricklis, Shannon Gray, Charles Frederick, and Jason Barrett. 2014. <span>“Eligibility Testing at Three Prehistoric Sites at Lynch Creek, Lampasas County, Texas.”</span> Journal Article. <em>Index of Texas Archaeology: Open Access Gray Literature from the Lone Star State</em> 2014 (1): Report 5. https://doi.org/<a href="https://doi.org/10.21112/ita.2014.1.5">https://doi.org/10.21112/ita.2014.1.5</a>.
 </div>
 <div id="ref-R" class="csl-entry" role="doc-biblioentry">
-R Core Development Team,. 2022. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="http://www.R-project.org/">http://www.R-project.org/</a>.
+R Core Development Team,. 2023. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="http://www.R-project.org/">http://www.R-project.org/</a>.
 </div>
 <div id="ref-RN1646" class="csl-entry" role="doc-biblioentry">
 Rohlf, F. James. 1999. <span>“<span class="nocase">Shape Statistics: Procrustes Superimpositions and Tangent Spaces</span>.”</span> <em>Journal of Classification</em> 16 (2): 197–223. <a href="https://doi.org/10.1007/s003579900054">https://doi.org/10.1007/s003579900054</a>.
@@ -653,11 +680,17 @@ Selden Jr., Robert Z., John E. Dockall, and Harry J. Shafer. 2018. <span>“<spa
 <div id="ref-RN479" class="csl-entry" role="doc-biblioentry">
 Sherratt, Emma, David J. Gower, Christian Peter Klingenberg, and Mark Wilkinson. 2014. <span>“<span class="nocase">Evolution of Cranial Shape in Caecilians (Amphibia: Gymnophiona)</span>.”</span> <em>Evolutionary Biology</em> 41 (4): 528–45. https://doi.org/<a href="https://doi.org/10.1007/s11692-014-9287-2">https://doi.org/10.1007/s11692-014-9287-2</a>.
 </div>
+<div id="ref-RN2720" class="csl-entry" role="doc-biblioentry">
+Sievert, April K., and J. Daniel Rogers. 2011. <em>Artifacts from the Craig Mound at Spiro, Oklahoma</em>. Book. Vol. 49. Smithsonian Contributions to Anthropology. Washington, D. C.
+</div>
 <div id="ref-RN11563" class="csl-entry" role="doc-biblioentry">
 Slice, Dennis E. 2001. <span>“<span class="nocase">Landmark Coordinates Aligned by Procrustes Analysis Do Not Lie in Kendall’s Shape Space</span>.”</span> <em>Systematic Biology</em> 50 (1): 141–49. <a href="https://doi.org/10.1080/10635150119110">https://doi.org/10.1080/10635150119110</a>.
 </div>
 <div id="ref-RN7522" class="csl-entry" role="doc-biblioentry">
 Thompson, D’Arcy W. 1917. <em>On Growth and Form</em>. Book. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-RN11180" class="csl-entry" role="doc-biblioentry">
+Walthall, John A. 1980. <em>Prehistoric Indians of the Southeast: Archaeology Alabama and the Middle South</em>. Book. Tuscaloosa: University of Alabama Press.
 </div>
 <div id="ref-RN11181" class="csl-entry" role="doc-biblioentry">
 Weir, Frank A. 1979. <span>“Greenhaw: An Archaic Site in Central Texas.”</span> Journal Article. <em>Bulletin of the Texas Archeological Society</em> 50: 5–67.
