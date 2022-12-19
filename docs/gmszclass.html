@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -165,27 +165,23 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sizeclass.html">
- <span class="menu-text">Define Size classes</span></a>
+    <a class="nav-link" href="./sizeclass.html">Define Size classes</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./gmraw.html">
- <span class="menu-text">GM: Raw Material</span></a>
+    <a class="nav-link" href="./gmraw.html">GM: Raw Material</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./gmszclass.html" aria-current="page">
- <span class="menu-text">GM: Size Class</span></a>
+    <a class="nav-link active" href="./gmszclass.html" aria-current="page">GM: Size Class</a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/seldenlab/elliptical.bifaces"><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
- <span class="menu-text"></span></a>
+ </a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -198,7 +194,7 @@ div.csl-indent {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src=".\images/slab.png" class="img-fluid"></p>
+<p><img src="./images/slab.png" class="img-fluid"></p>
 </div></div>
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
@@ -228,7 +224,6 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
@@ -236,14 +231,13 @@ div.csl-indent {
 </header>
 
 <p>Two <code>size classes</code> (large/small) were used to assess whether the morphology of elliptical bifaces from Millsap Cache and Jowell Farm remains morphologically stable/consistent through reduction.</p>
-<p>This analysis follows recent formal analyses of Perdiz arrow points <span class="citation" data-cites="RN9551 RN11264">(<a href="#ref-RN9551" role="doc-biblioref">Selden Jr et al. 2021</a>; <a href="#ref-RN11264" role="doc-biblioref">Selden Jr. 2022</a>)</span> as well as another that is in press (<a href="https://github.com/seldenlab/perdiz3/blob/main/ms/perdiz3.pdf">Selden and Dockall, in press</a>), and Gahagan biface morphology across the southern Caddo area and central Texas <span class="citation" data-cites="RN11783 RN21001 RN11264">(<a href="#ref-RN11783" role="doc-biblioref">Selden Jr., Dockall, and Shafer 2018</a>; <a href="#ref-RN21001" role="doc-biblioref">Selden Jr., Dockall, and Dubied 2020</a>; <a href="#ref-RN11264" role="doc-biblioref">Selden Jr. 2022</a>)</span>, where Perdiz arrow points and Gahagan bifaces have been found to differ in shape across the same geography as Caddo bottles <span class="citation" data-cites="RN11801 RN11782 RN11716 RN8312">(<a href="#ref-RN11801" role="doc-biblioref">Selden Jr. 2018a</a>, <a href="#ref-RN11782" role="doc-biblioref">2018b</a>, <a href="#ref-RN11716" role="doc-biblioref">2019</a>, <a href="#ref-RN8312" role="doc-biblioref">2021</a>)</span>. This analysis also follows another geometric morphometric analysis in which Perdiz arrow points from the ancestral Caddo area were found to differ as a function of <em>time</em>, <em>raw material</em>, and <em>burial context</em> <span class="citation" data-cites="RN9551">(<a href="#ref-RN9551" role="doc-biblioref">Selden Jr et al. 2021</a>)</span>.</p>
 <section id="load-packages-data" class="level2">
 <h2 class="anchored" data-anchor-id="load-packages-data">Load packages + data</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load required analysis packages</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>here() starts at D:/github/elliptical.bifaces/supp</code></pre>
+<pre><code>here() starts at E:/github/elliptical.bifaces/supp</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(StereoMorph)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(geomorph)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -659,30 +653,6 @@ Rohlf, F. James, and Leslie F. Marcus. 1993. <span>“A Revolution in Morphometr
 <div id="ref-RN478" class="csl-entry" role="doc-biblioentry">
 Rohlf, F. James, and Dennis Slice. 1990. <span>“<span class="nocase">Extensions of the Procrustes Method for the Optimal Superimposition of Landmarks</span>.”</span> <em>Systematic Zoology</em> 39 (1): 40–59. <a href="https://doi.org/10.2307/2992207">https://doi.org/10.2307/2992207</a>.
 </div>
-<div id="ref-RN9551" class="csl-entry" role="doc-biblioentry">
-Selden Jr, Robert Z., John E. Dockall, C. Britt Bousman, and Timothy K. Perttula. 2021. <span>“<span class="nocase">Shape as a function of time + raw material + burial context? An exploratory analysis of Perdiz arrow points from the ancestral Caddo area of the American Southeast</span>.”</span> Journal Article. <em>Journal of Archaeological Science: Reports</em> 37: 102916. <a href="https://doi.org/10.1016/j.jasrep.2021.102916">https://doi.org/10.1016/j.jasrep.2021.102916</a>.
-</div>
-<div id="ref-RN11801" class="csl-entry" role="doc-biblioentry">
-Selden Jr., Robert Z. 2018a. <span>“A Preliminary Study of Smithport Plain Bottle Morphology in the Southern Caddo Area.”</span> <em>Bulletin of the Texas Archeological Society</em> 89: 63–89.
-</div>
-<div id="ref-RN11782" class="csl-entry" role="doc-biblioentry">
-———. 2018b. <span>“<span class="nocase">Ceramic Morphological Organisation in the Southern Caddo Area: Quiddity of Shape for Hickory Engraved Bottles</span>.”</span> <em>Journal of Archaeological Science: Reports</em> 21: 884–96. <a href="https://doi.org/10.1016/j.jasrep.2018.08.045">https://doi.org/10.1016/j.jasrep.2018.08.045</a>.
-</div>
-<div id="ref-RN11716" class="csl-entry" role="doc-biblioentry">
-———. 2019. <span>“<span class="nocase">Ceramic Morphological Organisation in the Southern Caddo Area: The Clarence H. Webb Collections</span>.”</span> <em>Journal of Cultural Heritage</em> 35: 41–55. https://doi.org/<a href="https://doi.org/10.1016/j.culher.2018.07.002">https://doi.org/10.1016/j.culher.2018.07.002</a>.
-</div>
-<div id="ref-RN8312" class="csl-entry" role="doc-biblioentry">
-———. 2021. <span>“Louisiana Limitrophe: An Iterative Morphological Exegesis of Caddo Bottle and Biface Production.”</span> Book Section. In <em>Ancestral Caddo Ceramic Traditions</em>, edited by Duncan P. McKinnon, Jeffrey S. Girard, and Timothy K. Perttula, 258–76. Baton Rouge: LSU Press.
-</div>
-<div id="ref-RN11264" class="csl-entry" role="doc-biblioentry">
-———. 2022. <span>“Morphologically Similar, but Regionally Distinct: Perdiz Arrow Points from Caddo Burial Contexts in the American Southeast.”</span> Journal Article. <em>Lithic Technology</em> (in press). <a href="https://doi.org/10.1080/01977261.2022.2095492">https://doi.org/10.1080/01977261.2022.2095492</a>.
-</div>
-<div id="ref-RN21001" class="csl-entry" role="doc-biblioentry">
-Selden Jr., Robert Z., John E. Dockall, and Morgane Dubied. 2020. <span>“A Quantitative Assessment of Intraspecific Morphological Variation in Gahagan Bifaces from the Southern Caddo Area and Central Texas.”</span> <em>Southeastern Archaeology</em> 39 (2): 125–45. <a href="https://doi.org/10.1080/0734578x.2020.1744416">https://doi.org/10.1080/0734578x.2020.1744416</a>.
-</div>
-<div id="ref-RN11783" class="csl-entry" role="doc-biblioentry">
-Selden Jr., Robert Z., John E. Dockall, and Harry J. Shafer. 2018. <span>“<span class="nocase">Lithic Morphological Organisation: Gahagan Bifaces from the Southern Caddo Area</span>.”</span> <em>Digital Applications in Archaeology and Cultural Heritage</em> 10: e00080. <a href="https://doi.org/10.1016/j.daach.2018.e00080">https://doi.org/10.1016/j.daach.2018.e00080</a>.
-</div>
 <div id="ref-RN479" class="csl-entry" role="doc-biblioentry">
 Sherratt, Emma, David J. Gower, Christian Peter Klingenberg, and Mark Wilkinson. 2014. <span>“<span class="nocase">Evolution of Cranial Shape in Caecilians (Amphibia: Gymnophiona)</span>.”</span> <em>Evolutionary Biology</em> 41 (4): 528–45. https://doi.org/<a href="https://doi.org/10.1007/s11692-014-9287-2">https://doi.org/10.1007/s11692-014-9287-2</a>.
 </div>
@@ -734,24 +704,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -787,42 +740,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

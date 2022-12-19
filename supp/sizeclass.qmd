@@ -85,7 +85,8 @@ mx <- bind_rows(millsap, an13)
 
 # join site and size class
 qdata2 <- mx %>% 
-  unite("merged", site, size, remove = FALSE)
+  unite("merged", site, size, remove = FALSE) %>% 
+  select(c('merged', 'site', 'size'))
 
 # output csv for use in gm analysis
 write.csv(qdata2, "qdata.merged.csv")
