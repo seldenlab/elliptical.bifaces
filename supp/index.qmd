@@ -45,7 +45,16 @@ The earliest elliptical bifaces, associated with Middle Archaic period, recovere
 knitr::include_graphics('./images/composite.figure2.jpg')
 ```
 
-Duck River and other sword-form bifaces are also present at Spiro Mound [@RN2720], with the longest measuring 55.9cm. Smaller elliptical biface forms, roughly half the size of the larger form, have also been identified at Spiro, along with several wooden implements that Early [-@RN1052] interpreted as memetic of elliptical bifaces. The bifaces from this latter category are the focus of this study, which is aimed at assessing whether resharpening and/or retouch may have resulted in convergent morphology at two sites in the ancestral Caddo area. A measure of morphological disparity is subsequently to assess whether biface morphology is more diverse at the larger size, which would suggest greater diversity in biface shape or size related to production activities. 
+Duck River and other sword-form bifaces are also present at Spiro Mound [@RN2720], with the longest measuring 55.9cm, or just over 22 inches. Smaller elliptical biface forms, roughly half the size of the larger form, have also been identified at Spiro, along with several wooden implements that Early [-@RN1052] interpreted as memetic of elliptical bifaces. However, there is a morphological difference in the sword-form and smaller elliptical biface forms at Spiro, where both ends are mirrored, and are either pointed _or_ rounded, and not pointed _and_ rounded. 
+
+Among the shell cup illustrations assembled by Phillips and Brown [-@RN2447] for the materials from Spiro Mound, is a depiction of smaller elliptical bifaces, which are conveyed as elements of the serpent/snake dance rather than elements of the eagle/bird dance. It is entirely possible that biface **shape** may convey a relevant---and ceremonially important---depiction related to the difference in local viper species. Differences in biface **size** may articulate with the size of specific viper species, as some (i.e. _Sistrurus miliarius streckeri_ or western pygmy rattlesnake) are physically smaller than others. Alternatively, **size** differences might also depict allometric trends associated with the development and maturation processes for various vipers.
+
+```{r figspiro, fig.cap="Shell cup from Spiro Mound depicting the serpent dance, where the difference in elliptical biface morphology is made plain. This figure was redrafted from Figure 44 in the Phillips and Brown series [-@RN2447]."}
+
+knitr::include_graphics('./images/spiro.png')
+```
+
+Using the tools of landmark geometric morphometrics, this study assesses whether resharpening and/or retouch of these important ceremonial bifaces may have resulted in convergent morphology at two sites in the ancestral Caddo area. A measure of morphological disparity is then used to assess whether biface morphology may have been more diverse at the larger size, suggestive of greater diversity in biface shape or size related to production activities.
 
 ## Analysis overview
 
