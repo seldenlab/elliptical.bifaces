@@ -25,7 +25,19 @@ github-repo: seldenlab/elliptical.bifaces
 
 # Basis of inquiry 
 
-Elliptical bifaces are prevalent at Mississipian sites throughout the American Southeast. Those from Millsap Cache and Jowell Farm comprise two of the largest samples of this ill-understood stone tool from the ancestral Caddo area. Bifaces from Millsap Cache were reportedly produced using Kay County flint, while those from Jowell Farm were manufactured using Edwards chert, providing for an empirical test of morphological differences as a function of raw material. The sample of elliptical bifaces was divided into two size classes; one conceptually reflective of production (large), and the other with local reduction practices (small). Size classes were used to assess whether modifications by Caddo knappers may have yielded similar---convergent---biface shapes in the small class. Size classes were also used to test the hypothesis that greater morphological variation would be apparent in the small class due to idiosyncratic responses related to local retouch practices. Results demonstrate that elliptical biface shape does not differ by raw material, but size does, suggesting that a shared and morphologically-consistent mental template was maintained independent of biface size. The subsequent analysis of elliptical biface morphology by size class demonstrated that size does not differ by raw material in the large class, but in the small class, it does. This finding supports the argument that elliptical biface morphology diverges through local reduction practices. As expected, greater shape diversity occurs in the small class, where Jowell Farm bifaces were found to be more morphologically diverse than those from Millsap Cache. Distinct local reduction practices are advanced as the driver of extant morphological differences found in elliptical bifaces. 
+## Background
+
+Elliptical bifaces are prevalent at Mississipian and Caddo sites throughout the American Southeast, and are depicted in motifs that adorn shell gorgets and bowls, representing two distinct dances. Morphological attributes of elliptical bifaces used in Mississipian and Caddo imagery differs in noticeable ways that are manifest in associated material culture elements, and bifaces from Caddo sites more readily articulate with the serpent dance, where the motif portrays the emergence of the Hero Twins from the Beneath World; each grasping an elliptical biface. 
+
+## Hypotheses
+
+The elliptical bifaces used in this study represent two of the largest samples cached at Caddo sites, and each was manufactured with a distinct raw material, providing for an empirical test of morphological differences as a function of raw material. If the elliptical bifaces were intended to represent local elapid and viper populations in the serpent dance, then their morphology may differ due to regional differences in biogeography. The sample of elliptical bifaces was also divided into two size classes; one conceptually reflective of production (large) or adult elapids and vipers, and the other with local reduction practices (small) or juvenile elapids and vipers.
+
+Size classes were used to assess whether modifications by Caddo knappers may have yielded similar---convergent---biface morphologies in the small class suggestive of relative standardization due to resharpening and/or retouch in one instance, and morphological divergence associated with adult elapids and vipers in the other. Size classes were also used to test two hypotheses related to morphological diversity; one where greater morphological variation would be apparent in the small size class due to idiosyncratic responses related to local retouch practices, and a second where greater morphological variation would be apparent in the large size class due to differences in constituent elapid and viper communities depicted by the bifaces. 
+
+## Results
+
+Results demonstrate that elliptical biface shape does not differ by raw material, but size does, suggesting that a shared---and morphologically-consistent---mental template was maintained independent of biface size and constituent community differences in elapids and vipers. The subsequent analysis of elliptical biface morphology by size class demonstrated that size does not differ by raw material in the large class, but in the small class, it does. These findings support the argument that elliptical biface morphology diverges through local reduction practices, while simultaneously nullifying the hypothesis that biface shape reflects the morphology of local elapid and viper communities. As expected, greater shape diversity occurs in the small size class, where the Jowell Farm bifaces were found to be more morphologically diverse than those from Millsap Cache. Thus, distinct local reduction practices are advanced as the driver of extant morphological differences expressed in elliptical bifaces.
 
 ### Keywords {-}
 
@@ -35,6 +47,8 @@ American Southeast, Caddo, NAGPRA, computational archaeology, archaeoinformatics
 
 knitr::include_graphics('./images/map.png')
 ```
+
+# Background
 
 Elliptical bifaces have a deep history in eastern North America extending from the Middle Archaic to well past European contact. In many instances they have been deposited in caches, which may represent large, corporate bundles decommissioned amid polity demise or radical transformations in social practice. Stylistic changes are evident in both length and width for these bifaces, and result in great variability in shape and size. While some undoubtedly were knapped for every-day, mundane uses, others were crafted from exotic cherts and reflect non-utilitarian uses. The _oversize_ or _exaggerated_ forms, mimicking combat weapons, are often referred to as symbolic weaponry. Such objects are typically those “whose size, delicacy, material of manufacture, and craftsmanship are outside the bounds of any weapon that might have been actually used” [@RN11177].
 
@@ -47,18 +61,25 @@ knitr::include_graphics('./images/composite.figure2.jpg')
 
 Duck River and other sword-form bifaces are also present at Spiro Mound [@RN2720], with the longest measuring 55.9cm, or just over 22 inches. Smaller elliptical biface forms, roughly half the size of the larger form, have also been identified at Spiro, along with several wooden implements that Early [-@RN1052] interpreted as memetic of elliptical bifaces. Elliptical biface forms at Spiro differ from those to the east, as both ends are mirrored, and are either pointed _or_ rounded, and not pointed _and_ rounded.
 
-Among the shell cup illustrations assembled by Phillips and Brown [-@RN2447] that characterize the material culture from Spiro Mound is a depiction of elliptical bifaces conveyed as elements of the serpent/snake dance rather than elements of the eagle/bird dance. It is plausible that in this case biface **shape** may convey a relevant---and ceremonially important---representation related to extant morphological differences expressed in local elapid and viper species. Differences in biface **size** may articulate with the size of a specific species, as some are smaller than others (i.e. _Sistrurus miliarius streckeri_ or western pygmy rattlesnake). Alternatively, **size** differences might also depict allometric trends associated with the development and maturation of distinct species, as well as sexual size dimorphism.
+Among the shell cup illustrations assembled by Phillips and Brown [-@RN2447] that characterize the material culture at Spiro Mound is a depiction of elliptical bifaces conveyed as elements of the serpent/snake dance rather than elements of the eagle/bird dance. It is plausible that in this case biface **shape** may convey a relevant---and ceremonially important---representation related to extant morphological differences expressed in local elapid and viper species. Differences in biface **size** may articulate with the size of a specific species, as some are smaller than others (i.e. _Sistrurus miliarius streckeri_ or western pygmy rattlesnake). Alternatively, **size** differences might also depict allometric trends associated with the development and maturation of distinct species, as well as sexual size dimorphism.
 
-```{r figspiro, fig.cap="Shell cup from Spiro Mound depicting the serpent dance, where the difference in elliptical biface morphology between snake dancers and eagle dancers is made plain. This figure was redrafted from Figure 44 in the Phillips and Brown series [-@RN2447]."}
+```{r figspiro, fig.cap="Shell cup from Spiro Mound depicting the serpent dance, where the difference in elliptical biface morphology between eagle dancers and snake dancers is made plain. This figure was redrafted from Figure 44 in the Phillips and Brown series [-@RN2447]."}
 
 knitr::include_graphics('./images/spiro.png')
 ```
 
-This study uses the tools of landmark geometric morphometrics to assess whether resharpening and/or retouch of these important ceremonial bifaces may have resulted in convergent morphology at two sites in the ancestral Caddo area. A measure of morphological disparity was subsequently used to assess whether biface morphology may have been more diverse at the larger size, suggestive of greater diversity in biface shape or size related to production activities. 
+## Hypotheses
 
-Results can also be used to evaluate the hypothesis that elliptical biface morphology is representative of local species of the Elapidae and Viperidae families, where greater diversity would be expected in the larger size class. If representative of local snake species, the analysis of morphological disparity would indicate a greater diversity of size in the larger size class. This is due to the fact that all species will traverse the smaller size class during maturation and development before reaching adulthood, where morphology is known to differ across species.
+1.   Elliptical bifaces found at Millsap Cache were manufactured using Kay County Chert, while those from Jowell Farm were manufactured using Edwards Chert. Differences in stone tool shape as a function of raw material have been reported for Perdiz arrow points in the region [@RN9364]; however, others have demonstrated that the attribution of morphological variability to raw material differences is an assumption that warrants regular testing, suggesting that primacy should not be assumed [@RN8442]. Thus, a comparison of between-site morphology was included to assess elliptical biface morphology as a function of raw material.
+  a)    The biogeography of elapid and viper species differs within the ancestral Caddo area, where elapid populations occur south of the Red River, excluding them from the geography surrounding Millsap Cache. If elliptical biface morphology is intended to represent local elapid and viper populations, then elliptical bifaces from these sites will differ due to differences in the constituent communities of elapids and vipers.
 
-## Analysis overview
+2.    The elliptical bifaces from Jowell Farm were discovered in an area of the ancestral Caddo region where others have assumed large bifaces to be products of external manufacture due to the absence of local production evidence and the availability of raw material/s of similar size and quality [@RN3682;@RN11783;@RN21001]. Given the potential that elliptical bifaces were produced by knappers outside of the ancestral Caddo region for at least one of the caches (Jowell Farm), it is assumed that the smaller elliptical bifaces will more readily reflect morphology imposed by Caddo knappers through resharpening and/or retouch incurred through normal use [@RN11264]. Thus, it is expected that elliptical bifaces will express convergent morphology, where morphological consistency is achieved through the idiosyncratic approaches to resharpening and/or retouch by Caddo knappers in the small size class.
+  a)   Elapid and viper species will traverse the smaller size class through normal developmental stages before reaching adulthood, where their morphology is known to differ within and among species. If elliptical biface morphology is thought to represent distinct elapid and viper populations, then the most pronounced morphological difference will occur in the large size class among the adults. Thus, if elliptical bifaces were intended to represent elapid and viper species, then the morphological pattern will be identical to H2. However, the analytical results would be read in reverse, where expected similarities occur at the smaller size class, before diverging in the large size class.
+  
+3.    A measure of morphological disparity was subsequently used to assess whether biface morphology may have been more morphologically diverse in the large size class, suggestive of greater diversity in biface shape or size related to production activities [@RN11264]. An alternative hypothesis is that the idiosyncratic responses to resharpening and/or retouch by Caddo knappers required to address damage incurred through normal use generate greater morphological diversity in the small size class [@RN11264].
+  a)    Elapid and viper species express greater morphological diversity at their larger size. Thus, if elliptical bifaces were intended to represent elapid and viper species, and biological diversity differs between sites---elapid biogeography restricted to the area of Jowell Farm---then morphological disparity will occur between sites in the large size class.
+
+# Analysis overview
 
 Prior to landmarking, elliptical bifaces from Millsap Cache and Jowell Farm were oriented with the most heavily retouched edge at top right. The landmarking protocol uses three landmarks; two horizontal tangents (top/bottom), and the third placed at the furthest extent of the retouched edge bearing the heaviest amount of retouch. Landmarks and semilandmarks were applied in R 4.2.1 [@R] using the `StereoMorph` library v. 1.6.7 [@RN8973]. Some bifaces include multiple areas of heavy retouch at the top and bottom of the same lateral edge, while others include one retouched edge at top right and another at bottom left, similar to alternately beveled bifaces.
 
@@ -69,7 +90,7 @@ knitr::include_graphics('./images/ellipticalbifaces.png')
 
 To identify which edge was most heavily retouched, we employed a modified approach to the flaking index initially developed by Miller [-@RN11459]. The modified approach uses counts of flake scars from each edge in the two most heavily worked areas, paired with a measure of edge length (inclusive of curvature - this is not a linear metric). The number of flake scars was then divided by the length of the worked edge, with the heaviest worked edge identified by the greater value.
 
-### Generalised Procrustes Analysis
+## Generalised Procrustes Analysis
 
 Landmark data were aligned to a global coordinate system [@RN8477;@RN7502;@RN11622;@RN11623;@RN11563], achieved through generalised Procrustes superimposition [@RN11138;@RN478;@RN1646] in R using the `geomorph` and `RRPP` packages [@RN1655;@RN11775;@RN11530;@RN1774;@RN9565]. Procrustes superimposition translates and rotates the coordinate data to allow for comparisons among objects, while also scaling each biface using unit-centroid size---the square root of the sum of squared distances from each landmark to the specimen’s centroid [@RN11139;@RN11140;@RN11564;@RN478]. The `geomorph` package uses a partial Procrustes superimposition that projects the aligned specimens into tangent space subsequent to alignment in preparation for the use of multivariate methods that assume linear space [@RN11141;@RN11142;@RN1646;@RN11563].
 
@@ -77,7 +98,7 @@ Landmark data were aligned to a global coordinate system [@RN8477;@RN7502;@RN116
 knitr::include_graphics('./images/gpa.png')
 ```
 
-### Principal Components Analysis
+## Principal Components Analysis
 
 Principal components analysis [@RN1746] was used to visualise shape variation among the elliptical bifaces, and the scatterplot represents the dispersion of shapes in tangent space [@RN8633;@RN5616;@RN11143;@RN7550]. Shape ranges described by each principal axis are commonly visualized using thin-plate spline warping of a reference image [@RN1731;@RN479].
 
@@ -85,7 +106,7 @@ Principal components analysis [@RN1746] was used to visualise shape variation am
 knitr::include_graphics('./images/pca.png')
 ```
 
-### Procrustes ANOVA
+## Procrustes ANOVA
 
 To assess whether `shape` differs by `size` (allometry), and whether shape and size differed by `raw material` and `size class`, Procrustes ANOVAs [@RN1749] were run that enlist effect-sizes (zscores) computed as standard deviates of the generated sampling distributions [@RN1756]. A residual randomization permutation procedure (RRPP; n = 10,000 permutations) was used for all Procrustes ANOVAs [@RN1655;@RN11775], which has higher statistical power and a greater ability to identify patterns in the data should they be present [@RN1719].
 
@@ -93,15 +114,15 @@ To assess whether `shape` differs by `size` (allometry), and whether shape and s
 
 An analysis of morphological disparity was used to identify potential differences in morphological diversity between size classes [@RN11107;@RN7041;@RN5694].
 
-## Primary findings
+# Primary findings
 
-  -   Bifaces _do not differ_ in shape, but **differ significantly** in size by raw material.
   -   Allometry (shape change with size) was not significant.
-  -   Bifaces in the _large class_ recovered from Millsap Cache and Jowell Farm do not differ in shape or size, suggesting consistent morphology in bifaces from the _large class_, supporting arguments for production-based standardization.
-  -   Bifaces in the _small class_ recovered from Millsap Cache and Jowell Farm **differ significantly** in size. Thus, while shape remains consistent, size differs, suggesting---at minimum---locally divergent approaches to retouch or retouch intensity.
-  -   Morphological disparity in the shape of the _small class_ is **significantly greater** at Jowell Farm, providing evidence for a more standardized approach to local retouch at Millsap Cache. This finding provides additional support for the hypothesis that greater shape diversity is associated with retouch efforts, rather than production.
+  -   Bifaces _do not differ_ in shape, but **differ significantly** in size by raw material.
+  -   Bifaces in the _large class_ recovered from Millsap Cache and Jowell Farm do not differ in shape or size, suggesting consistent morphology in bifaces from the _large class_, supporting arguments for relative production-based standardization.
+  -   Bifaces in the _small class_ recovered from Millsap Cache and Jowell Farm **differ significantly** in size. Thus, while shape remains consistent, size differs, suggesting---at minimum---locally divergent approaches to retouch or retouch _intensity_.
+  -   Morphological disparity in the **shape** of elliptical bifaces in the _small size class_ is **significantly greater** at Jowell Farm, providing evidence for a more standardized approach to local retouch at Millsap Cache. This finding also yields added support for the hypothesis that greater shape diversity is associated with local retouch efforts, rather than production.
 
-## Parallel-oblique flaking
+# Parallel-oblique flaking
 
 When compared with other large finished bifaces in the region, the distinctive parallel oblique flake scar patterns on both faces of the elliptical bifaces for all, or virtually all, of their length is unique. The absence of identified preforms for this artifact type makes technological and/or attribute-based discriminations related to manufacture a challenge; however, one potential preform was recovered from mortuary contexts at Belcher Mound. The projection of ritual and/or symbolic interpretation/s that articulate with this flake scar pattern is not possible at this time. Parallel oblique flake scar patterns are known to be characteristic of several dart point types of the late Paleoindian period [@RN8584;@RN7935;@RN11182;@RN9843;@RN8143;@RN10117;@RN11181], and has even been inferred from ceramic motifs in Peru [@RN7938].
 
@@ -112,7 +133,9 @@ Parallel oblique flake scar patterns are not characteristic of larger bifaces an
 knitr::include_graphics('./images/elliptical.illustration.png')
 ```
 
-## Summary
+In the case of ceremonial bifaces, the intentional use of parallel oblique flake scars may have been intended to convey motion, where flake scars on one face represent muscle constriction on one edge and muscle dilation on the other, with an inverted pattern on the opposite face. Thus, in intentionally flipping between the two faces---which might have been a component of the serpent/snake dance---dancers could convey motion with a static implement. Additionally, the parallel oblique flake scars closely mimic the parallel scales that occur beneath both elapids and vipers, which shift in similar ways to generate motion.
+
+# Summary
 
 The pattern that emerges is one of differential retouch _intensity_, where retouch strategies of Caddo knappers from Millsap Cache articulate with a reduction practice thought to be associated with locally abundant raw material (Kay County flint). This stands in contrast to the comparatively minimal retouch intensity of another group (Jowell Farm) where local raw materials were of poor quality and insufficient size, yielding a situation where it was necessary to import raw material from an extralocal source (Edwards chert).
 
@@ -123,21 +146,21 @@ knitr::include_graphics('./images/41fk2-2.jpg')
 
 Further, the comparison of morphological diversity by size class demonstrated that elliptical biface shapes in the small size class at Jowell Farm occupy a significantly greater range of morphospace than those from Millsap Cache. This pattern suggests that the comparatively minimal retouch intensity associated with Caddo knappers at Jowell Farm may have been more _targeted_---potentially due to a lack of abundant local raw material of sufficient quality and size---resulting in a broader range of biface shapes in the small size class. Conversely, these results also suggest that Caddo knappers at Millsap Cache employed a more standardized (specialized?) approach to reduction.
 
-## Acknowledgments {-}
+# Acknowledgments {-}
 
 Our thanks to the Caddo Nation of Oklahoma, the Caddo Nation Tribal Council, Tribal Chairman, and Tribal Historic Preservation Office for permission and access to NAGPRA and previously repatriated collections. Our gratitude is also extended to Lauren Bussiere at the Texas Archeological Research Laboratory for her assistance with access to the bifaces and associated records, to Sergio Ayala and the Gault School of Archaeological Research for access to the UV light, to Scott Hammerstedt and Debra K. Green at the Oklahoma Archeological Survey for their assistance with records requests, and to Marc Lavine and Susie Fishman-Armstrong at the Sam Noble Oklahoma Museum of Natural History for providing digital images from their collections. Thanks also to John Harman for access to the DStretch plugin for ImageJ, which was useful in the analysis of flake scars, and to Harry J. Shafer, Hiram F. (Pete) Gregory, Christian S. Hoggard, and David K. Thulman for their comments and constructive criticisms on the ongoing analyses of Caddo biface morphology, as well as Emma Sherratt, Kersten Bergstrom, Lauren Butaric, Dean C. Adams, and Michael L. Collyer for their constructive criticisms, general comments, and suggestions throughout the development of this research program.
 
-## Funding {-}
+# Funding {-}
 
 Components of this analytical work flow were developed and funded by a Preservation Technology and Training grant (P14AP00138) to RZS from the National Center for Preservation Technology and Training (NCPTT), and additional grants to RZS from the Caddo Nation of Oklahoma, National Forests and Grasslands in Texas (15-PA-11081300-033) and the United States Forest Service (20-PA-11081300-074). Funding to analyse the bifaces from Millsap Cache and Jowell Farm was made possible by support from the Heritage Research Center at Stephen F. Austin State University.
 
-## Data management {-}
+# Data management {-}
 
 Reproducibility---the ability to recompute results---and replicability---the chances other experimenters will achieve a consistent result---are two foundational characteristics of successful scientific research [@RN20918]. The analysis code associated with this project can be accessed through this document, is available in the GitHub repository ([https://github.com/seldenlab/elliptical.bifaces](https://github.com/seldenlab/elliptical.bifaces)), and digitally curated on the Open Science Framework ([DOI 10.17605/OSF.IO/PH25W](https://osf.io/ph25w/)). The reproducible nature of this enterprise provides a means for others to critically assess and evaluate the various analytical components [@RN20915;@RN20916;@RN20917], which is a necessary requirement for the production of reliable knowledge.
 
 Reproducibility projects in [psychology](https://osf.io/ezcuj/) and [cancer biology](https://www.cos.io/rpcb) are impacting current research practices across all domains. Examples of reproducible research are becoming more abundant in archaeology [@RN20804;@RN21009;@RN11783;@RN21001;@RN9364;@RN11264], and the next generation of archaeologists are learning those tools and methods needed to reproduce and/or replicate research results [@RN21007]. Reproducible and replicable research work flows are often employed at the highest levels of humanities-based inquiries to mitigate concern or doubt regarding proper execution, and is of particular import should the results have---explicitly or implicitly---a major impact on scientific progress [@RN21008].
 
-## Colophon {-}
+# Colophon {-}
 
 This version of the analysis was generated on `r Sys.time()` using the following computational environment and dependencies:
 
