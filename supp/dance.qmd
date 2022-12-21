@@ -1,0 +1,294 @@
+---
+title: "Literature: Dance"
+bibliography: [book.bib]
+---
+
+The dataset used in this analysis was harvested from the [Web of Science](https://clarivate.com/webofsciencegroup/solutions/web-of-science/), includes all 611 publications returned for the query **_dance AND (archaeology OR archeology OR anthropology)_**, and uses the `bibliometrix` package for analysis.
+
+```{r bibliometrix, echo=TRUE, warning=FALSE}
+# install
+#devtools::install_github("massimoaria/bibliometrix")
+
+# load
+library(here)
+library(bibliometrix)
+library(reshape2)
+library(ggplot2)
+
+# build data frame
+df <- convert2df(file = "savedrecs.bib",
+                 dbsource = "wos",
+                 format = "bibtex")
+```
+
+## Descriptive analysis
+
+```{r summary, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+results <- biblioAnalysis(df, 
+                          sep = ";")
+options(width = 100)
+s <- summary(object = results,
+             k = 10,
+             pause = FALSE)
+
+plot(x = results,
+     k = 10,
+     pause = FALSE)
+```
+
+### Attributes of the local network
+
+```{r local.attr, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# calculate citations in local network
+CR <- localCitations(df, sep = ";")
+
+# top 10 cited authors in local network
+knitr::kable((CR$Authors[1:10,]), "simple")
+
+# top 10 cited papers in local network
+knitr::kable((CR$Papers[1:10,]), "simple")
+```
+
+## Most cited
+
+### Most cited articles
+
+```{r most.cited.refs, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# most cited references in global network
+mcr <- citations(df,
+                 field = "article",
+                 sep = ";")
+
+cbind(mcr$Cited[1:10])
+```
+
+### Most cited authors
+
+```{r most.cited.auths, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# most cited authors in global network
+mcr <- citations(df,
+                 field = "author",
+                 sep = ";")
+
+cbind(mcr$Cited[1:10])
+```
+
+### Author dominance ranking
+
+```{r auth.dom, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+dom <- biblioAnalysis(df)
+dom.r <- dominance(dom)
+
+knitr::kable(dom.r, "simple")
+```
+
+### Productivity over time
+
+```{r prod, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+topAU <- authorProdOverTime(df, k = 10, graph = TRUE)
+```
+
+## Historiograph direct citation linkages
+
+The historiographic map is a chronological network map of the most relevant direct citations resulting from this bibliographic collection.
+
+```{r hdcn, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# historical citation network
+options(width = 100)
+histResults <- histNetwork(df,
+                           min.citations = 20,
+                           sep = ";")
+
+# plot historical co-citation network
+hnet <- histPlot(histResults,
+                 n = 35,
+                 size = 4,
+                 labelsize = 1)
+```
+
+### ID and DE keyword associations
+
+```{r key.assocx, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+list <- keywordAssoc(df,
+                     sep = ";",
+                     n = 10)
+
+list[[1]][1:10]
+```
+
+### Yearly occurrences of top keywords/terms
+
+#### Authors' keywords
+
+```{r key.growth, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+topKW = KeywordGrowth(df,
+                      Tag = "DE",
+                      sep = ";",
+                      top = 10,
+                      cdf = TRUE)
+
+topKW
+
+# plot results
+key.plot = melt(topKW,
+                id ='Year')
+
+ggplot(key.plot, aes(Year,
+                     value,
+                     group = variable,
+                     color = variable)) + 
+  geom_line()
+```
+
+#### Publisher's keywords
+
+```{r key.growth2x, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+topKW = KeywordGrowth(df,
+                      Tag = "ID",
+                      sep = ";",
+                      top = 10,
+                      cdf = TRUE)
+
+topKW
+
+# plot results
+key.plot = melt(topKW,
+                id ='Year')
+
+ggplot(key.plot, aes(Year,
+                     value,
+                     group = variable,
+                     color = variable)) + 
+  geom_line()
+```
+
+## Conceptual structure
+
+### Co-word analysis
+
+The co-word analysis maps the conceptual structure of a research domain using the co-occurrence of author keywords in the bibliographic collection.
+
+#### Author's keywords
+
+```{r co.word, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# using authors keywords
+cw <- conceptualStructure(df,
+                          field = "DE",
+                          method = "MCA",
+                          minDegree = 5,
+                          clust = "auto",
+                          stemming = FALSE,
+                          labelsize = 8)
+```
+
+#### Publisher's keywords
+
+```{r co.word2i, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# using publishers keywords
+cw <- conceptualStructure(df,
+                          field = "ID",
+                          method = "MCA",
+                          minDegree = 5,
+                          clust = "auto",
+                          stemming = FALSE,
+                          labelsize = 8)
+```
+
+## Thematic mapping
+
+From [@RN20996, 150-151]:
+
+* Themes in the upper-right quadrant are both well developed and important for the structuring ofa research field. They are known as the motor-themes of the specialty, given that they present strong centrality and high density. The placement of themes in this quadrant implies that they are related externally to concepts applicable to other themes that are conceptually closely related.
+* Themes in the upper-left quadrant have well developed internal ties but unimportant external ties and so are of only marginal importance for the field. These themes are very specialized and peripheral in character.
+* Themes in the lower-left quadrant are both weakly developed and marginal. The themes of this quadrant have low density and low centrality, mainly representing either emerging or disappearing themes.
+* Themes in the lower-right quadrant are important for a research field but are not developed. So, this quadrant groups transversal and general, basic themes.
+
+### Authors' keywords
+
+```{r thematic.map, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# keyword map
+map1 = thematicMap(df,
+                   field = "DE",
+                   n = 1000,
+                   minfreq = 4,
+                   ngrams = 1,
+                   stemming = FALSE,
+                   size = 0.3,
+                   n.labels = 1,
+                   community.repulsion = 0.1,
+                   cluster = "walktrap",
+                   repel = TRUE)
+# plot map
+plot(map1$map)
+```
+
+### Publisher's keywords
+
+```{r thematic.map2b, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# keyword map
+map2 = thematicMap(df,
+                   field = "ID",
+                   n = 1000,
+                   minfreq = 4,
+                   ngrams = 1,
+                   stemming = FALSE,
+                   size = 0.6,
+                   n.labels = 1,
+                   community.repulsion = 0.1,
+                   cluster = "walktrap",
+                   repel = TRUE)
+# plot map
+plot(map2$map)
+```
+
+## Social structure
+
+### Author collaboration 
+
+Scientific collaborations are plotted where nodes are authors and links are co-authorships, illustrating collaborations between authors.
+
+```{r auth.collab, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# author collaboration network
+auth.collab <- biblioNetwork(df,
+                             analysis = "collaboration",
+                             network = "authors",
+                             sep = ";")
+
+# network plot
+auth.collabnet = networkPlot(auth.collab,
+                             n = 75,
+                             Title = "Author Collaboration",
+                             type = "mds",
+                             halo = TRUE,
+                             weighted = TRUE,
+                             size = 5,
+                             edgesize = 1,
+                             labelsize = 0.5,
+                             remove.isolates = TRUE)
+```
+
+### Edu collaboration
+
+Scientific collaborations are plotted where nodes are institutions and links are co-authorships, illustrating collaborations between institutions.
+
+```{r edu.network, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
+# author collaboration network
+edu.collab <- biblioNetwork(df,
+                            analysis = "collaboration",
+                            network = "universities",
+                            sep = ";")
+
+# network plot
+edu.collabnet = networkPlot(edu.collab,
+                            n = 75,
+                            Title = "Edu Collaboration", 
+                            type = "mds",
+                            halo = TRUE,
+                            size = 15, 
+                            size.cex = T, 
+                            edgesize = 1, 
+                            labelsize = 0.5, 
+                            remove.isolates = TRUE)
+
+# end of code
+```

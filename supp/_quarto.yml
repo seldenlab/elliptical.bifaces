@@ -1,5 +1,11 @@
 project:
   type: website
+  render:
+    - index.qmd
+    - dance.qmd
+    - sizeclass.qmd
+    - gmraw.qmd
+    - gmszclass.qmd
 
 website:
   title: "supplementary materials"
@@ -10,6 +16,7 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - dance.qmd
       - sizeclass.qmd
       - gmraw.qmd
       - gmszclass.qmd
