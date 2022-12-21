@@ -17,8 +17,10 @@ website:
         text: Home
       - dance.qmd
       - sizeclass.qmd
-      - gmraw.qmd
-      - gmszclass.qmd
+      - text: Geometric Morphometrics
+        menu:
+          - gmraw.qmd
+          - gmszclass.qmd
     right:
       - icon: github
         href: https://github.com/seldenlab/elliptical.bifaces
