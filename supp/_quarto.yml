@@ -8,7 +8,6 @@ project:
     - gmszclass.qmd
 
 website:
-  title: "supplementary materials"
   margin-header: |
     ![](/images/slab.png)
   navbar:
