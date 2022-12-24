@@ -28,7 +28,7 @@ website:
 
 format:
   html:
-    theme: lux
+    theme: spacelab
     css: styles.css
     toc: true
 
